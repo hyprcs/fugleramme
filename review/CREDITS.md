@@ -1,0 +1,35 @@
+# Credits and terms
+
+These illustrations were drawn by historical artists. Nineteen come from John Gould's *The Birds of Australia*, with individual plates credited to John and Elizabeth Gould or John Gould and Henry Constantine Richter. The Common Myna source and artist are listed separately below. Exact plate links, scan providers, saved rights statements and source hashes are in `provenance.json`.
+
+No generated or repainted bird imagery is in this contribution. Codex assisted research, conventional masking and resizing tools, metadata and review. Prepared artwork is offered under the existing Classic CC BY-SA 4.0 terms; no exclusive ownership of the historical originals is claimed. Full work credits are retained in `payload/assets/artwork/classic/ATTRIBUTION.md`.
+
+- **Rainbow Lorikeet**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 48 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48401122).
+- **Rose Robin**: John Gould and Henry Constantine Richter, drawing (printed J. Gould and H. C. Richter delt.); lithographer not individually credited on this plate; John Gould, The Birds of Australia, volume 3, plate 2. Scan: Smithsonian Libraries / Biodiversity Heritage Library. [Source](https://www.biodiversitylibrary.org/page/48285795).
+- **Laughing Kookaburra**: John Gould and Henry Constantine Richter; The Birds of Australia, volume II, plate 18 (1848); C. Hullmandel, printer; digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48200560).
+- **Magpie-lark**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 2, plate 54 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48200704).
+- **Superb Fairywren**: John Gould and Elizabeth Gould; The Birds of Australia, volume 3, plate 18 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48285751).
+- **Yellow-faced Honeyeater**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 4, plate 45 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48702995).
+- **Crimson Rosella**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 23 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48401022).
+- **Brown Thornbill**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 3, plate 53 (1840-1848); BHL / Smithsonian Libraries; Project Gutenberg reference copy where noted. [Source](https://www.biodiversitylibrary.org/page/48285944).
+- **Olive-backed Oriole**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 4, plate 13 (1840-1848); BHL / Smithsonian Libraries; Project Gutenberg reference copy where noted. [Source](https://www.biodiversitylibrary.org/page/48702814).
+- **Little Wattlebird**: John Gould and Elizabeth Gould; The Birds of Australia, volume 4, plate 56 (1840-1848); BHL / Smithsonian Libraries; Project Gutenberg reference copy where noted. [Source](https://www.biodiversitylibrary.org/page/48703039).
+- **Australian Magpie**: John Gould and Henry Constantine Richter, drawing and lithography; C. Hullmandel, printer. The Birds of Australia, volume 2, plate 46 (1848). Scan: University of Kansas, Kenneth Spencer Research Library, Ellis Aves H141. [Source](https://digital.lib.ku.edu/ku-gould/14990).
+- **Sulphur-crested Cockatoo**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 1 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48400934).
+- **Galah**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 4 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48400946).
+- **Noisy Miner**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 4, plate 76 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48703119).
+- **Common Myna**: John Gerrard Keulemans, lithographer, in W. Vincent Legge, A history of the birds of Ceylon, volume2 (issued1878–1880; plate dated1880 by Commons). Plates printed by Hanhart. Scan: Smithsonian Libraries / Biodiversity Heritage Library / Internet Archive. [Source](https://archive.org/stream/historyofbirdsof02legg#page/n59/mode/1up).
+- **Australian Ibis**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 6, plate 46 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48400770).
+- **Crested Pigeon**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 70 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48401210).
+- **Red Wattlebird**: John Gould and Henry Constantine Richter; The Birds of Australia, volume 4, plate 55 (1848); digitised via University of Kansas, Kenneth Spencer Research Library, Ellis Aves H141. [Source](https://digital.lib.ku.edu/ku-gould/14110).
+- **Tawny Frogmouth**: John and Elizabeth Gould; The Birds of Australia, volume 2, plate 3 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries. [Source](https://www.biodiversitylibrary.org/page/48200500).
+- **Yellow-tailed Black-Cockatoo**: John Gould and Henry Constantine Richter; The Birds of Australia, volume5, plate11 (1848). Selected image: Project Gutenberg ebook62524, from images supplied by Internet Archive; ebook prepared by Richard Tonsing, MWS and the Online Distributed Proofreading Team. Matching Smithsonian/BHL plate used for credit and identity corroboration, not represented as the selected pixel source. [Source](https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#FUNEREUS).
+
+The mixed previews also show four unchanged existing Classic illustrations, for comparison only:
+
+- Erithacus rubecula: source key `dresser`; [plate](https://commons.wikimedia.org/wiki/File:A_history_of_the_birds_of_Europe_(Pl._644)_(6989225270).jpg).
+- Turdus merula: source key `gould`; [plate](https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIBlackbird.jpg).
+- Parus major: source key `gould`; [plate](https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14771793513).jpg).
+- Cyanistes caeruleus: source key `gould`; [plate](https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIIBlue_Tit.jpg).
+
+[Fugleramme](https://github.com/arnegiacomo/fugleramme) by Arne Giacomo Munthe-Kaas. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

@@ -1,0 +1,124 @@
+{
+  "status": "local_checkout_prepared",
+  "visual_review_status": "complete",
+  "public_actions": false,
+  "selection_hash_checks": 100,
+  "file_count": 22,
+  "upstream_commit": "11b54d2884a857702284d1e3fc2629b6c655bc79",
+  "first_ten_bytes_unchanged": true,
+  "files": [
+    {
+      "path": "assets/artwork/classic/ATTRIBUTION.md",
+      "sha256": "e0f4f541b5ab97e42f70d9d78b9df1be471811f939af444b702d1ce175f713b0",
+      "bytes": 8277
+    },
+    {
+      "path": "assets/artwork/classic/manifest.json",
+      "sha256": "03e02818d298af3bb894b0cfafd550ed026fb1e86a2a94e7f09d138ced860f7c",
+      "bytes": 187637
+    },
+    {
+      "path": "assets/artwork/classic/birds/acanthiza-pusilla.webp",
+      "sha256": "10432daa55c5cf5fb43584a2a04eb653dd3301aa91006cbbeb91be4c70a37f43",
+      "bytes": 94512
+    },
+    {
+      "path": "assets/artwork/classic/birds/acridotheres-tristis.webp",
+      "sha256": "08de75bd864c50bc09a6524557a1d491790ea375381a2f905094ef509b8044e3",
+      "bytes": 135872
+    },
+    {
+      "path": "assets/artwork/classic/birds/anthochaera-carunculata.webp",
+      "sha256": "3470af2a3eccf4b0a23a6654c8853b9fccb9cdd7dd48853607f8f7e297e6462f",
+      "bytes": 76814
+    },
+    {
+      "path": "assets/artwork/classic/birds/anthochaera-chrysoptera.webp",
+      "sha256": "b499d07996d4b5bbad555dd35270a7e37fa0af2cbcbac61bd649634c61bdfaa3",
+      "bytes": 129858
+    },
+    {
+      "path": "assets/artwork/classic/birds/cacatua-galerita.webp",
+      "sha256": "f93d9b9cf6bd0d5a6194814def8e903260e1b0ed6d0ed62b0965ed70c9b68e08",
+      "bytes": 85264
+    },
+    {
+      "path": "assets/artwork/classic/birds/caligavis-chrysops.webp",
+      "sha256": "0a4eac17543d6d857e63dd3e743503286327b5181076e5cc235ee4a3a51cf347",
+      "bytes": 130558
+    },
+    {
+      "path": "assets/artwork/classic/birds/dacelo-novaeguineae.webp",
+      "sha256": "049dce8c2a8c2a6aa74bcd7c80602ef5d9484fbc03312a23d3882838bdcdda88",
+      "bytes": 140566
+    },
+    {
+      "path": "assets/artwork/classic/birds/eolophus-roseicapilla.webp",
+      "sha256": "633eb8d6278d57321e2d4d14e545883b6650bb78d3b201c8dfdcf54983b7635c",
+      "bytes": 101586
+    },
+    {
+      "path": "assets/artwork/classic/birds/grallina-cyanoleuca.webp",
+      "sha256": "3c4a4db51a333dc738acdf44d09900e2b761a9ef10213e56859eb26d0b89596c",
+      "bytes": 89206
+    },
+    {
+      "path": "assets/artwork/classic/birds/gymnorhina-tibicen.webp",
+      "sha256": "2f151c26cdfd448a0c2e1589c07d5218f05eedf8d810f42c922470c03a85452e",
+      "bytes": 121672
+    },
+    {
+      "path": "assets/artwork/classic/birds/malurus-cyaneus.webp",
+      "sha256": "d5c6fa535d29fd0092f6310a6ac08b7f1b4718464879563a78910499ae0c76e0",
+      "bytes": 107238
+    },
+    {
+      "path": "assets/artwork/classic/birds/manorina-melanocephala.webp",
+      "sha256": "462eb3de183a2267afdef113e24ceeb5cc62ff95bf1adeae420bdb3d88c83c51",
+      "bytes": 85996
+    },
+    {
+      "path": "assets/artwork/classic/birds/ocyphaps-lophotes.webp",
+      "sha256": "067a57aa27c2e27ee42bb11186ad41e29c635375acc1faffcef7568f5046ca7f",
+      "bytes": 132194
+    },
+    {
+      "path": "assets/artwork/classic/birds/oriolus-sagittatus.webp",
+      "sha256": "9de84d0631c4ec66dcb7b84379f893d1a7e4f8b3e0e99d91283bf0b35397d278",
+      "bytes": 106502
+    },
+    {
+      "path": "assets/artwork/classic/birds/petroica-rosea.webp",
+      "sha256": "8f9410fd7c08bdf1946df978fce0b271e281bcf5315534cf43572a85795ae172",
+      "bytes": 100980
+    },
+    {
+      "path": "assets/artwork/classic/birds/platycercus-elegans.webp",
+      "sha256": "461f6264d4b1b2615cc5a233c22be9c44f196a09b3fb1712b32e6f49a412050f",
+      "bytes": 121212
+    },
+    {
+      "path": "assets/artwork/classic/birds/podargus-strigoides.webp",
+      "sha256": "8169070f75aea96ee78d677f833003867920beb6ed237757d563ea7c598c876c",
+      "bytes": 109270
+    },
+    {
+      "path": "assets/artwork/classic/birds/threskiornis-molucca.webp",
+      "sha256": "eb17710fcf9838d400f54641cc077caeef56a5db8431b6aaa38bce37cb033d18",
+      "bytes": 155206
+    },
+    {
+      "path": "assets/artwork/classic/birds/trichoglossus-moluccanus.webp",
+      "sha256": "00349640423acb3614664c5507fd849920b6c4ace07678b9f2a7775e540d15d8",
+      "bytes": 108374
+    },
+    {
+      "path": "assets/artwork/classic/birds/zanda-funerea.webp",
+      "sha256": "18fc5f1054805ef19eebdff335947e5c0450bad552a64a308cd881ee953b1e37",
+      "bytes": 155898
+    }
+  ],
+  "revision_scope": "Only Tawny Frogmouth bytes changed versus previous twenty; other19 images and two metadata files identical",
+  "previous_payload": "Historical original20 payload record retained with previous export",
+  "file_paths_relative_to": "payload/"
+}

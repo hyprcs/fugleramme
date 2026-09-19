@@ -1,0 +1,161 @@
+{
+  "approval": "passed_revised_frogmouth_and_affected_frames",
+  "assets_individually_viewed": 20,
+  "full_frames_individually_viewed": 6,
+  "first_ten_review_carried_forward_by_exact_hash": true,
+  "species": [
+    {
+      "canonical_key": "trichoglossus-moluccanus",
+      "sha256": "00349640423acb3614664c5507fd849920b6c4ace07678b9f2a7775e540d15d8",
+      "preview_sha256": "a19f8e4a755b82065bf87f25887cd764690067c6d05cfa4f313d7698a02f3103",
+      "notes": "Both heads, full overlapping tails, original colour fields and fine feather drawing remain intact. Shared feet and perch preserved. No new halo or clipping regression observed after final q90 encoding; faint existing backing seam remains cosmetic."
+    },
+    {
+      "canonical_key": "petroica-rosea",
+      "sha256": "8f9410fd7c08bdf1946df978fce0b271e281bcf5315534cf43572a85795ae172",
+      "preview_sha256": "f33523f8cf0761c72138b9a2a1c8d82cc9d5518639a7f709b6caa083a20cb5de",
+      "notes": "Rose breast and slate head retain their fine source texture; full white-patterned tail and both sets of claws remain clear. Existing narrow angular cream rim by forehead and twig remains visible but is not introduced by final encoding. No clipping or new pigment damage."
+    },
+    {
+      "canonical_key": "dacelo-novaeguineae",
+      "sha256": "049dce8c2a8c2a6aa74bcd7c80602ef5d9484fbc03312a23d3882838bdcdda88",
+      "preview_sha256": "3883d1a5d9acc0be63e5516f2a5ea6658d71f217d0ef3b1100b117eb4f4c0614",
+      "notes": "Original bill, breast linework, blue wing patches, grasping foot and full barred tail remain clear at 760px. Existing pale contour beneath bill and along belly remains. No new edge damage or visible encoding artefact found."
+    },
+    {
+      "canonical_key": "grallina-cyanoleuca",
+      "sha256": "3c4a4db51a333dc738acdf44d09900e2b761a9ef10213e56859eb26d0b89596c",
+      "preview_sha256": "6f8db5bbab7437c6dcf2bfc2ba567452544f22fe34233e4907c5e1a198611798",
+      "notes": "Pale bill and iris, dark/pale plumage boundary, both legs and toes remain clear. Entire tail and short branch fit panel. No visible new speckling, halo change or clipped feature."
+    },
+    {
+      "canonical_key": "malurus-cyaneus",
+      "sha256": "d5c6fa535d29fd0092f6310a6ac08b7f1b4718464879563a78910499ae0c76e0",
+      "preview_sha256": "37c10e70fd7b27b917ac29b21ae33e5f243f1cbac63222117ab45ac72408899a",
+      "notes": "Both spread wings, full tail, blue fields, fine feather lines and food item remain intact. Source flight pose unchanged. No clipped wing or new edge/body speckling."
+    },
+    {
+      "canonical_key": "caligavis-chrysops",
+      "sha256": "0a4eac17543d6d857e63dd3e743503286327b5181076e5cc235ee4a3a51cf347",
+      "preview_sha256": "58d434365be9f9e9eea8af8d2aa07d379fd45755f22378a606f4494e63e4ffa1",
+      "notes": "Both complete wings, tail, bill, yellow facial stripe and original gripping toes retain source detail. Pale underwing remains original pigment. No new contour or clipping defect."
+    },
+    {
+      "canonical_key": "platycercus-elegans",
+      "sha256": "461f6264d4b1b2615cc5a233c22be9c44f196a09b3fb1712b32e6f49a412050f",
+      "preview_sha256": "a18c8e389d582edb2e74e2558f2e7334e7e9074751ca981d7bc7d4d218ca1e91",
+      "notes": "Crimson head/body, pale curved bill, blue wing/cheek and long blue tail are continuous. Foot and short perch remain. No new compression blemish or crop at extremities."
+    },
+    {
+      "canonical_key": "acanthiza-pusilla",
+      "sha256": "10432daa55c5cf5fb43584a2a04eb653dd3301aa91006cbbeb91be4c70a37f43",
+      "preview_sha256": "799dfc3d0c89e21cc500520c84ba1e599522d8f93a0144982b99dd32195eddb8",
+      "notes": "Short bill, iris, mottled throat, buff belly, feet and complete tail remain clear. Tiny pre-existing contour fleck above crown retained. No new visible loss or clipping at final encoding."
+    },
+    {
+      "canonical_key": "oriolus-sagittatus",
+      "sha256": "9de84d0631c4ec66dcb7b84379f893d1a7e4f8b3e0e99d91283bf0b35397d278",
+      "preview_sha256": "259d53e2baa62dbb083bc440804d497d46b4efd272917b618a8a462d41a5a085",
+      "notes": "Red iris/bill, olive back, dark underside streaks, foot and entire tail remain intact. Tiny original support/leaf trace beneath the foot remains documented. No new rendering defect."
+    },
+    {
+      "canonical_key": "anthochaera-chrysoptera",
+      "sha256": "b499d07996d4b5bbad555dd35270a7e37fa0af2cbcbac61bd649634c61bdfaa3",
+      "preview_sha256": "d68368046ec731ef933367666f3bfb35ba1ca7a1d82db7ba4cae3de24a8d7e00",
+      "notes": "Original pale tail-tip pigment remains protected. Full bill, patterned wing/body, toe and short perch are retained; source linework remains visible. No new edge, label or clipping regression."
+    },
+    {
+      "canonical_key": "gymnorhina-tibicen",
+      "sha256": "2f151c26cdfd448a0c2e1589c07d5218f05eedf8d810f42c922470c03a85452e",
+      "preview_sha256": "77fe2cea81d3ff5db70b9870358ea31ac976da565bf8acca21a7a5c44dfa6814",
+      "notes": "Long pale bill, amber eye, dark head/back, white nape/wing and full tail are clear. Both visible legs and claws remain attached to the full short branch, including its natural ragged end. The tail has a complete source edge rather than the earlier clipped scan boundary. No conspicuous encoding damage or new edge regression observed."
+    },
+    {
+      "canonical_key": "cacatua-galerita",
+      "sha256": "f93d9b9cf6bd0d5a6194814def8e903260e1b0ed6d0ed62b0965ed70c9b68e08",
+      "preview_sha256": "8f36459d710ef20a3e5878e678e985e20ed215dc3512bd05dcf39589c3c1615a",
+      "notes": "Complete foreground bird with swept yellow crest, pale engraved feather detail, bill, eye, visible gripping foot and full tail. The companion bird was removed in the already reviewed conventional preparation. Minor paper/backing seam remains cosmetic. No new visible clipping, pigment damage or contour regression introduced by final q90 encoding."
+    },
+    {
+      "canonical_key": "eolophus-roseicapilla",
+      "sha256": "633eb8d6278d57321e2d4d14e545883b6650bb78d3b201c8dfdcf54983b7635c",
+      "preview_sha256": "e04d164c941456d007115d7e10c0010f94b7652434f98a0e74313b9500826500",
+      "notes": "Upper bird retains raised pink-white crest, pink breast, grey wing, both gripping feet and full tail. The small authentic branch fragment crossing the tail remains explicitly visible; it has not been painted out. This fragment is accepted source context, not generated anatomy. No new visible clipping, pigment damage or contour regression introduced by final q90 encoding."
+    },
+    {
+      "canonical_key": "manorina-melanocephala",
+      "sha256": "462eb3de183a2267afdef113e24ceeb5cc62ff95bf1adeae420bdb3d88c83c51",
+      "preview_sha256": "2262d658ba2a0fdd1d7aa3a7e80dc11ba01cf7ab2bd38b07667515845baf9370",
+      "notes": "Upper bird keeps full bill, eye patch, yellow wing panel, original visible foot and full tail; short perch supports the foot. Fine belly paper fringe is cosmetic. Historical Tasmanian form is explicitly disclosed; no claim of a Sydney specimen or local subspecies. No new visible clipping, pigment damage or contour regression introduced by final q90 encoding."
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "sha256": "08de75bd864c50bc09a6524557a1d491790ea375381a2f905094ef509b8044e3",
+      "preview_sha256": "1b7c98fc2a77495b41855766c73432931583062e48206ecd98b5218700d538ac",
+      "notes": "Yellow bill, eye patch and gripping foot, dark engraved head, brown wing and pale complete tail remain clear. The original curled other foot is retained and distinct from the belly. Short source perch remains coherent; historical pigment treatment remains as supplied. No clipped bill/foot/tail or new encoding artefact observed."
+    },
+    {
+      "canonical_key": "threskiornis-molucca",
+      "sha256": "eb17710fcf9838d400f54641cc077caeef56a5db8431b6aaa38bce37cb033d18",
+      "preview_sha256": "167931e3a7ee22786fc3bf7795b3ae63036acf37f905339328fed112cea5bc31",
+      "notes": "Upright foreground ibis retains long bill, bare breeding head/neck, cream wing detail, black ornamental plumes, both legs and visible toes. Original grass remains through fine breast plumes and a warm peach ground rim around complex toes. These authentic source remnants are disclosed; they are not painted over. No new visible clipping, pigment damage or contour regression introduced by final q90 encoding."
+    },
+    {
+      "canonical_key": "ocyphaps-lophotes",
+      "sha256": "067a57aa27c2e27ee42bb11186ad41e29c635375acc1faffcef7568f5046ca7f",
+      "preview_sha256": "eb6581a7a4269dcc8fd998d29893516e137cc04ade80e5afb442a061b281f81b",
+      "notes": "Thin crest, coloured wing panel, original visible gripping foot and full raised tail are intact. The striking head-down/tail-up pose is present in the original upright plate, not an accidentally unrotated scan. Short blunt perch and narrow paper fringe are cosmetic. No new visible clipping, pigment damage or contour regression introduced by final q90 encoding."
+    },
+    {
+      "canonical_key": "anthochaera-carunculata",
+      "sha256": "3470af2a3eccf4b0a23a6654c8853b9fccb9cdd7dd48853607f8f7e297e6462f",
+      "preview_sha256": "53270f5822f582823154979376793d930031bfbacd7afe5cc999b2fb3846647c",
+      "notes": "Open bill and tongue, red wattle, fine breast engraving, gripping toes and complete pale tail tips are intact. Small pale green source remnants near belly/foot and shortened original perch remain disclosed cosmetic context. No new visible clipping, pigment damage or contour regression introduced by final q90 encoding."
+    },
+    {
+      "canonical_key": "podargus-strigoides",
+      "sha256": "8169070f75aea96ee78d677f833003867920beb6ed237757d563ea7c598c876c",
+      "preview_sha256": "9650e65340f65b4d7698afb0666ca391293fb38580678c830fbe5e1d7ee24b75",
+      "notes": "Actual q90 760px preview inspected: broad support removed, the leg remains connected and each visible curved source claw tip remains intact. Original body feather markings, closed-eye pose and full tail retain their source appearance; no encoding regression or new clipped contour seen. Exact source preservation also checked independently."
+    },
+    {
+      "canonical_key": "zanda-funerea",
+      "sha256": "18fc5f1054805ef19eebdff335947e5c0450bad552a64a308cd881ee953b1e37",
+      "preview_sha256": "89d6b88491b56c70a431111b52fd5f825a7fa192eb4c9ff37509ab275dd1b4fc",
+      "notes": "Crisp dark silhouette at 760px, yellow cheek and tail panels, full tail and gripping foot; retained Banksia branch and seedhead form a coherent original support. The 836 by 1315 Gutenberg source is adequate at the reviewed display size. Do not infer sex or age. A higher-resolution matching BHL copy exists but would require a new mask/alignment and colour review; not necessary for this batch. No new visible clipping, pigment damage or contour regression introduced by final q90 encoding."
+    }
+  ],
+  "physical_panel_tested": false,
+  "revision_reviews": {
+    "new_individual_previews": 1,
+    "new_complete_frames": 4,
+    "unchanged_individual_reviews_carried_by_exact_hash": 19,
+    "unchanged_mixed_frames_carried_by_exact_hash": 2
+  },
+  "changed_frames": [
+    {
+      "path": "frames/all-twenty-paper.png",
+      "sha256": "6f9349a7072d95f7f22e74a28570d35e4e6c0aae30ce30c691e12078f9f86c0b",
+      "approved": true,
+      "notes": "Individually viewed after frogmouth re-encoding. The corrected foot is clear; complete birds and readable labels remain within the frame. No clipped claws, overlapping label glyphs or new layout defect observed. Original fine feather texture remains visible."
+    },
+    {
+      "path": "frames/all-twenty-six-colour.png",
+      "sha256": "b9d732789b6ee8273f6e11da7db3b99859f82bfe209dd9c9b829da75da916936",
+      "approved": true,
+      "notes": "Individually viewed after frogmouth re-encoding. The corrected foot is clear; complete birds and readable labels remain within the frame. No clipped claws, overlapping label glyphs or new layout defect observed. Six-colour reduction preserves the outline; physical e-paper colour remains untested."
+    },
+    {
+      "path": "frames/common-ten-paper.png",
+      "sha256": "0b6cd42973ce11287ed45a6163c439bf7281d3b8d5ee91e30c27e1458d5a2256",
+      "approved": true,
+      "notes": "Individually viewed after frogmouth re-encoding. The corrected foot is clear; complete birds and readable labels remain within the frame. No clipped claws, overlapping label glyphs or new layout defect observed. Original fine feather texture remains visible."
+    },
+    {
+      "path": "frames/common-ten-six-colour.png",
+      "sha256": "4ace41b6bb082c86d3a86cfe90ffa5cee9819f42c8c0d59d576419c38818fc14",
+      "approved": true,
+      "notes": "Individually viewed after frogmouth re-encoding. The corrected foot is clear; complete birds and readable labels remain within the frame. No clipped claws, overlapping label glyphs or new layout defect observed. Six-colour reduction preserves the outline; physical e-paper colour remains untested."
+    }
+  ]
+}

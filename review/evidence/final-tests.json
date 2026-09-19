@@ -1,0 +1,23 @@
+{
+  "status": "passed_targeted_single_image_revision_checks",
+  "checked_at": "2026-09-19T03:48:28.298173+00:00",
+  "scope": "Only frogmouth image changed from previous20; application code, names, manifest and attribution unchanged",
+  "artwork_checks": {
+    "passed": 4,
+    "exit_code": 0,
+    "log": "logs/frogmouth-artwork.log"
+  },
+  "git_diff_check": "passed",
+  "binary_patch_roundtrip_all22_hashes": "passed",
+  "changed_payload_files_since_previous20": [
+    "assets/artwork/classic/birds/podargus-strigoides.webp"
+  ],
+  "nineteen_other_images_and_two_metadata_files_unchanged": true,
+  "full_suite_rerun": false,
+  "prior_full_suite_evidence": "prior-twenty-tests.json",
+  "prior_full_suite_scope": "Historical prior20 run, before this frogmouth-only revision:369 passed/15 existing Windows failures; two nativeWindows mypy issues. These are carried context, not a new full-suite test of revised hashes.",
+  "physical_panel_tested": false,
+  "linux_runtime_tested": false,
+  "public_actions": false,
+  "log_paths_relative_to": "evidence/"
+}

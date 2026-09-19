@@ -1,0 +1,45 @@
+uv : Resolved 49 packages in 1ms
+At line:2 char:83
++ ... /uv-cache'; uv sync --locked --python '[user]/.cache/codex-run ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Resolved 49 packages in 1ms:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   Building fugleramme @ local-file:[workspace]/contribution-prep/fugleramme
+Downloading ast-serialize (1.1MiB)
+Downloading pygments (1.2MiB)
+Downloading babel (9.7MiB)
+Downloading pillow (6.9MiB)
+Downloading mypy (10.7MiB)
+Downloading numpy (11.9MiB)
+Downloading ruff (10.9MiB)
+ Downloaded ast-serialize
+ Downloaded pillow
+ Downloaded pygments
+      Built fugleramme @ local-file:[workspace]/contribution-prep/fugleramme
+ Downloaded ruff
+ Downloaded numpy
+ Downloaded babel
+ Downloaded mypy
+Prepared 20 packages in 8.59s
+Installed 20 packages in 1.45s
+ + anyio==4.14.1
+ + ast-serialize==0.8.0
+ + babel==2.18.0
+ + colorama==0.4.6
+ + fugleramme==0.22.2 (from local-file:[workspace]/contribution-prep/fugleramme)
+ + idna==3.18
+ + iniconfig==2.3.0
+ + librt==0.15.0
+ + mypy==2.3.1
+ + mypy-extensions==1.1.0
+ + numpy==2.5.1
+ + packaging==26.2
+ + pathspec==1.1.1
+ + pillow==12.3.0
+ + pluggy==1.6.0
+ + pygments==2.20.0
+ + pytest==9.1.1
+ + ruff==0.16.3
+ + typing-extensions==4.16.0
+ + watchfiles==1.2.0

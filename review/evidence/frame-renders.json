@@ -1,0 +1,240 @@
+{
+  "upstream_commit": "11b54d2884a857702284d1e3fc2629b6c655bc79",
+  "source": "Unchanged upstream renderer; final q90 WebP inputs",
+  "physical_panel_tested": false,
+  "frames": [
+    {
+      "path": "frames/all-twenty-paper.png",
+      "sha256": "6f9349a7072d95f7f22e74a28570d35e4e6c0aae30ce30c691e12078f9f86c0b",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "subjects": [
+        "Trichoglossus moluccanus",
+        "Petroica rosea",
+        "Dacelo novaeguineae",
+        "Grallina cyanoleuca",
+        "Malurus cyaneus",
+        "Caligavis chrysops",
+        "Platycercus elegans",
+        "Acanthiza pusilla",
+        "Oriolus sagittatus",
+        "Anthochaera chrysoptera",
+        "Gymnorhina tibicen",
+        "Cacatua galerita",
+        "Eolophus roseicapilla",
+        "Manorina melanocephala",
+        "Acridotheres tristis",
+        "Threskiornis molucca",
+        "Ocyphaps lophotes",
+        "Anthochaera carunculata",
+        "Podargus strigoides",
+        "Zanda funerea"
+      ],
+      "render": "unchanged upstream render_collage",
+      "textured": true
+    },
+    {
+      "path": "frames/all-twenty-panel-input.png",
+      "sha256": "06b4f7400ba09047ad91d8f4644d03d83b952ea9f3461d7f420ffe6e48e8ebde",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "subjects": [
+        "Trichoglossus moluccanus",
+        "Petroica rosea",
+        "Dacelo novaeguineae",
+        "Grallina cyanoleuca",
+        "Malurus cyaneus",
+        "Caligavis chrysops",
+        "Platycercus elegans",
+        "Acanthiza pusilla",
+        "Oriolus sagittatus",
+        "Anthochaera chrysoptera",
+        "Gymnorhina tibicen",
+        "Cacatua galerita",
+        "Eolophus roseicapilla",
+        "Manorina melanocephala",
+        "Acridotheres tristis",
+        "Threskiornis molucca",
+        "Ocyphaps lophotes",
+        "Anthochaera carunculata",
+        "Podargus strigoides",
+        "Zanda funerea"
+      ],
+      "render": "unchanged upstream render_collage",
+      "textured": false
+    },
+    {
+      "path": "frames/all-twenty-six-colour.png",
+      "sha256": "b9d732789b6ee8273f6e11da7db3b99859f82bfe209dd9c9b829da75da916936",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "subjects": [
+        "Trichoglossus moluccanus",
+        "Petroica rosea",
+        "Dacelo novaeguineae",
+        "Grallina cyanoleuca",
+        "Malurus cyaneus",
+        "Caligavis chrysops",
+        "Platycercus elegans",
+        "Acanthiza pusilla",
+        "Oriolus sagittatus",
+        "Anthochaera chrysoptera",
+        "Gymnorhina tibicen",
+        "Cacatua galerita",
+        "Eolophus roseicapilla",
+        "Manorina melanocephala",
+        "Acridotheres tristis",
+        "Threskiornis molucca",
+        "Ocyphaps lophotes",
+        "Anthochaera carunculata",
+        "Podargus strigoides",
+        "Zanda funerea"
+      ],
+      "render": "unchanged upstream render_collage and dither",
+      "palette_colours": 6,
+      "physical_panel_tested": false
+    },
+    {
+      "path": "frames/common-ten-paper.png",
+      "sha256": "0b6cd42973ce11287ed45a6163c439bf7281d3b8d5ee91e30c27e1458d5a2256",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "subjects": [
+        "Gymnorhina tibicen",
+        "Cacatua galerita",
+        "Eolophus roseicapilla",
+        "Manorina melanocephala",
+        "Acridotheres tristis",
+        "Threskiornis molucca",
+        "Ocyphaps lophotes",
+        "Anthochaera carunculata",
+        "Podargus strigoides",
+        "Zanda funerea"
+      ],
+      "render": "unchanged upstream render_collage",
+      "textured": true
+    },
+    {
+      "path": "frames/common-ten-panel-input.png",
+      "sha256": "d727082ee2efb1afa33e74754894e62d72cce958af9a4285dd9cdb7a6b92aefa",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "subjects": [
+        "Gymnorhina tibicen",
+        "Cacatua galerita",
+        "Eolophus roseicapilla",
+        "Manorina melanocephala",
+        "Acridotheres tristis",
+        "Threskiornis molucca",
+        "Ocyphaps lophotes",
+        "Anthochaera carunculata",
+        "Podargus strigoides",
+        "Zanda funerea"
+      ],
+      "render": "unchanged upstream render_collage",
+      "textured": false
+    },
+    {
+      "path": "frames/common-ten-six-colour.png",
+      "sha256": "4ace41b6bb082c86d3a86cfe90ffa5cee9819f42c8c0d59d576419c38818fc14",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "subjects": [
+        "Gymnorhina tibicen",
+        "Cacatua galerita",
+        "Eolophus roseicapilla",
+        "Manorina melanocephala",
+        "Acridotheres tristis",
+        "Threskiornis molucca",
+        "Ocyphaps lophotes",
+        "Anthochaera carunculata",
+        "Podargus strigoides",
+        "Zanda funerea"
+      ],
+      "render": "unchanged upstream render_collage and dither",
+      "palette_colours": 6,
+      "physical_panel_tested": false
+    },
+    {
+      "path": "frames/mixed-classic-paper.png",
+      "sha256": "735cb9772858a239470d168e7725a241d9dae17cf5356d65ba2c48650faa28c9",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "subjects": [
+        "Trichoglossus moluccanus",
+        "Dacelo novaeguineae",
+        "Gymnorhina tibicen",
+        "Cacatua galerita",
+        "Acridotheres tristis",
+        "Threskiornis molucca",
+        "Erithacus rubecula",
+        "Turdus merula",
+        "Parus major",
+        "Cyanistes caeruleus"
+      ],
+      "render": "unchanged upstream render_collage",
+      "textured": true
+    },
+    {
+      "path": "frames/mixed-classic-panel-input.png",
+      "sha256": "7132124eff4dbf1777d691cf4c507f0f39404a8de725a3b7a55df013fac4de89",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "subjects": [
+        "Trichoglossus moluccanus",
+        "Dacelo novaeguineae",
+        "Gymnorhina tibicen",
+        "Cacatua galerita",
+        "Acridotheres tristis",
+        "Threskiornis molucca",
+        "Erithacus rubecula",
+        "Turdus merula",
+        "Parus major",
+        "Cyanistes caeruleus"
+      ],
+      "render": "unchanged upstream render_collage",
+      "textured": false
+    },
+    {
+      "path": "frames/mixed-classic-six-colour.png",
+      "sha256": "a6e87c581b6d97738df86e088c48b0fa91fa1c67857fee2d6a8c685fba55d692",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "subjects": [
+        "Trichoglossus moluccanus",
+        "Dacelo novaeguineae",
+        "Gymnorhina tibicen",
+        "Cacatua galerita",
+        "Acridotheres tristis",
+        "Threskiornis molucca",
+        "Erithacus rubecula",
+        "Turdus merula",
+        "Parus major",
+        "Cyanistes caeruleus"
+      ],
+      "render": "unchanged upstream render_collage and dither",
+      "palette_colours": 6,
+      "physical_panel_tested": false
+    }
+  ],
+  "revision_scope": "Only frogmouth input changed; six affected files rerendered, three mixed-classic frames reused by exact hash",
+  "frame_paths_relative_to": "review pack root"
+}

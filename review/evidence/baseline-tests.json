@@ -1,0 +1,87 @@
+{
+  "checked_at": "2026-09-19T02:17:26.658089+00:00",
+  "scope": "Unchanged upstream baseline before artwork packaging",
+  "repository": "contribution-prep/fugleramme",
+  "head": "11b54d2884a857702284d1e3fc2629b6c655bc79",
+  "platform": "Windows",
+  "python": "3.12.14",
+  "tracked_files_changed": false,
+  "locked_sync": {
+    "exit_code": 0,
+    "log": "logs/baseline-sync-network.log",
+    "note": "Initial sandbox network attempt failed; authorized network dependency download succeeded. Lock file unchanged."
+  },
+  "ruff_format": {
+    "exit_code": 0,
+    "files": 86,
+    "log": "logs/baseline-ruff-format.log"
+  },
+  "ruff_check": {
+    "exit_code": 0,
+    "log": "logs/baseline-ruff-check.log"
+  },
+  "mypy_native": {
+    "exit_code": 1,
+    "source_files": 36,
+    "log": "logs/baseline-mypy.log",
+    "errors": [
+      "src/fugleramme/service.py:110: Module has no attribute register [attr-defined]",
+      "src/fugleramme/service.py:110: Module has no attribute SIGUSR1 [attr-defined]"
+    ]
+  },
+  "mypy_linux_target": {
+    "exit_code": 0,
+    "source_files": 36,
+    "log": "logs/baseline-mypy-linux-target.log",
+    "note": "Supplementary static type checking for declared Linux CI target; this is not Linux runtime execution."
+  },
+  "pytest": {
+    "exit_code": 1,
+    "passed": 369,
+    "failed": 15,
+    "total": 384,
+    "duration_seconds": 149.28,
+    "log": "logs/baseline-pytest.log",
+    "failures": [
+      "tests/test_languages.py::test_a_date_with_no_language_is_numeric[sci]",
+      "tests/test_languages.py::test_a_date_with_no_language_is_numeric[]",
+      "tests/test_languages.py::test_a_date_with_no_language_is_numeric[zz]",
+      "tests/test_languages.py::test_a_missing_babel_falls_back_rather_than_crashing",
+      "tests/test_modes.py::test_every_mode_draws_something[latest]",
+      "tests/test_modes.py::test_every_mode_draws_something[arrival]",
+      "tests/test_modes.py::test_the_margin_reaches_the_plate_modes[latest]",
+      "tests/test_modes.py::test_the_margin_reaches_the_plate_modes[arrival]",
+      "tests/test_modes.py::test_a_render_is_cached_until_its_key_moves",
+      "tests/test_server.py::test_the_preview_reads_an_unsaved_form_without_saving_it",
+      "tests/test_service.py::test_the_loop_holds_its_last_page_when_the_detector_goes_away",
+      "tests/test_service.py::test_the_loop_names_the_species_it_has_no_artwork_for",
+      "tests/test_service.py::test_the_refresh_floor_paces_the_birds_but_never_a_saved_setting",
+      "tests/test_service.py::test_signal_runs_the_shutdown_handler[2]",
+      "tests/test_service.py::test_signal_runs_the_shutdown_handler[15]"
+    ],
+    "failure_causes": {
+      "Windows unsupported strftime %-d": 9,
+      "HTTP preview handler hits the same strftime failure": 1,
+      "Windows faulthandler.register unavailable": 5
+    }
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "log_availability": "Separate log not retained; result recorded in the original unchanged-baseline report."
+  },
+  "git_status": {
+    "clean": true,
+    "log_availability": "Separate log not retained; result recorded in the original unchanged-baseline report."
+  },
+  "shellcheck": {
+    "status": "not_run",
+    "reason": "No shellcheck executable available on this Windows host; no shell scripts changed."
+  },
+  "limitations": [
+    "No Linux runtime, Docker or installed WSL environment available.",
+    "No upstream application-code fixes or test skips were applied.",
+    "No commit, push, correspondence or public action occurred."
+  ],
+  "log_paths_relative_to": "evidence/",
+  "repository_file_paths_relative_to": "payload/"
+}

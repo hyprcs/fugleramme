@@ -1,0 +1,75 @@
+
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+  <mods:titleInfo>
+    <mods:title>Australian Magpie</mods:title>
+    <mods:partName>plate</mods:partName>
+    <mods:partNumber>46</mods:partNumber>
+  </mods:titleInfo>
+  <mods:abstract>Plate depicting: Gymnorhina tibicen (Latham, 1802) -- Australian Magpie. Alternate name, as printed: Piping crow-shrike</mods:abstract>
+  <mods:subject xlink:href="http://www.wikidata.org/entity/Q1140949">
+    <mods:topic authority="itis" authorityURI="https://itis.gov/" valueURI="https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&amp;search_value=560338">Gymnorhina tibicen</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic authority="fast" valueURI="http://id.worldcat.org/fast/1048358">Ornithology</mods:topic>
+  </mods:subject>
+  <mods:subject>
+    <mods:topic authority="fast" valueURI="http://id.worldcat.org/fast/1048351">Ornithological illustration</mods:topic>
+  </mods:subject>
+  <mods:typeOfResource>still image</mods:typeOfResource>
+  <mods:physicalDescription>
+    <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+    <mods:form authorityURI="http://vocab.getty.edu/aat" type="material" valueURI="http://vocab.getty.edu/aat/300041379">lithograph</mods:form>
+    <mods:internetMediaType>image/tiff</mods:internetMediaType>
+  </mods:physicalDescription>
+  <mods:genre authority="tgm" valueURI="http://www.loc.gov/pictures/item/tgm007312/">Ornithological illustration</mods:genre>
+  <mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">This work is free of known copyright restrictions.</mods:accessCondition>
+  <mods:relatedItem type="host">
+    <mods:originInfo eventType="publication">
+      <mods:publisher>Gould, John, 1804-1881</mods:publisher>
+      <mods:publisher>R. and J.E. Taylor</mods:publisher>
+      <mods:place>
+        <mods:placeTerm>England--London</mods:placeTerm>
+      </mods:place>
+      <mods:edition>1</mods:edition>
+      <mods:dateIssued>1848</mods:dateIssued>
+    </mods:originInfo>
+    <mods:titleInfo>
+      <mods:title>Birds of Australia</mods:title>
+    </mods:titleInfo>
+    <mods:part>
+      <mods:detail type="volume">
+        <mods:number>2</mods:number>
+      </mods:detail>
+    </mods:part>
+    <mods:location>
+      <mods:physicalLocation type="text">University of Kansas. Kenneth Spencer Research Library</mods:physicalLocation>
+      <mods:physicalLocation authority="marcorg">kus</mods:physicalLocation>
+      <mods:physicalLocation authority="fast" valueURI="http://id.worldcat.org/fast/530405">University of Kansas</mods:physicalLocation>
+    </mods:location>
+    <mods:identifier type="local">ksrl_sc_gould_au_1_2</mods:identifier>
+    <mods:identifier displayLabel="Call number">Ellis Aves H141</mods:identifier>
+    <mods:identifier type="oclc">ocm07752160</mods:identifier>
+    <mods:language>
+      <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+    </mods:language>
+    <mods:genre authority="fast" valueURI="http://id.worldcat.org/fast/1423873">Illustrated works</mods:genre>
+    <mods:subject>
+      <mods:topic authority="fast" valueURI="http://id.worldcat.org/fast/1048358">Ornithology</mods:topic>
+    </mods:subject>
+  </mods:relatedItem>
+  <mods:identifier displayLabel="filename" invalid="yes" type="local">ksrl_sc_gould_au_1_2_0192.tif</mods:identifier>
+  <mods:identifier type="pid">ku-gould:14990</mods:identifier>
+  <mods:identifier type="uri">https://digital.lib.ku.edu/ku-gould/14990</mods:identifier>
+  <mods:recordInfo>
+    <mods:recordContentSource authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n82079265.html">University of Kansas</mods:recordContentSource>
+    <mods:recordIdentifier>ku-gould_14990_MODS</mods:recordIdentifier>
+    <mods:recordOrigin>Descriptive metadata from local MARC records and a local database for biological subjects. MODS generated, with additional values/elements added, by KU Libraries Digital Initiatives.</mods:recordOrigin>
+    <mods:recordCreationDate encoding="w3cdtf">2017-11-14</mods:recordCreationDate>
+    <mods:languageOfCataloging>
+      <mods:languageTerm type="text">English</mods:languageTerm>
+      <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+    </mods:languageOfCataloging>
+    <mods:recordChangeDate encoding="w3cdtf">2019-03-27</mods:recordChangeDate>
+  </mods:recordInfo>
+</mods:mods>

@@ -1,0 +1,740 @@
+........................................................................ [ 18%]
+........................................................................ [ 37%]
+.....................................FFFF...........FF............FF...F [ 56%]
+........................................................................ [ 75%]
+.F......F..FF.FF........................................................ [ 93%]
+........................                                                 [100%]
+================================== FAILURES ===================================
+________________ test_a_date_with_no_language_is_numeric[sci] _________________
+
+code = 'sci'
+
+    @pytest.mark.parametrize("code", [SCIENTIFIC, NONE, "zz"])
+    def test_a_date_with_no_language_is_numeric(code):
+        """A language the frame cannot spell must not take the plate down with it."""
+        namer = Namer(code, NONE, {}, ())
+>       assert namer.date(DATE) == "16.08.2026"
+               ^^^^^^^^^^^^^^^^
+
+tests\test_languages.py:248: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\fugleramme\languages.py:316: in date
+    return _written(self.primary, when, clock=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+code = 'sci'
+when = datetime.datetime(2026, 8, 16, 7, 42, tzinfo=datetime.timezone(datetime.timedelta(seconds=36000), 'AUS Eastern Standard Time'))
+clock = False
+
+    def _written(code: str, when: datetime, clock: bool) -> str:
+        """A date the way the language writes it - more than the month's name, since
+        Hungarian and Latvian put the year first and Spanish joins with "de"."""
+        local = when.astimezone()
+>       written = _spelled(code, local, clock) or local.strftime(
+            "%-d.%m %H:%M" if clock else "%-d.%m.%Y"
+        )
+E       ValueError: Invalid format string
+
+src\fugleramme\languages.py:267: ValueError
+__________________ test_a_date_with_no_language_is_numeric[] __________________
+
+code = ''
+
+    @pytest.mark.parametrize("code", [SCIENTIFIC, NONE, "zz"])
+    def test_a_date_with_no_language_is_numeric(code):
+        """A language the frame cannot spell must not take the plate down with it."""
+        namer = Namer(code, NONE, {}, ())
+>       assert namer.date(DATE) == "16.08.2026"
+               ^^^^^^^^^^^^^^^^
+
+tests\test_languages.py:248: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\fugleramme\languages.py:316: in date
+    return _written(self.primary, when, clock=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+code = ''
+when = datetime.datetime(2026, 8, 16, 7, 42, tzinfo=datetime.timezone(datetime.timedelta(seconds=36000), 'AUS Eastern Standard Time'))
+clock = False
+
+    def _written(code: str, when: datetime, clock: bool) -> str:
+        """A date the way the language writes it - more than the month's name, since
+        Hungarian and Latvian put the year first and Spanish joins with "de"."""
+        local = when.astimezone()
+>       written = _spelled(code, local, clock) or local.strftime(
+            "%-d.%m %H:%M" if clock else "%-d.%m.%Y"
+        )
+E       ValueError: Invalid format string
+
+src\fugleramme\languages.py:267: ValueError
+_________________ test_a_date_with_no_language_is_numeric[zz] _________________
+
+code = 'zz'
+
+    @pytest.mark.parametrize("code", [SCIENTIFIC, NONE, "zz"])
+    def test_a_date_with_no_language_is_numeric(code):
+        """A language the frame cannot spell must not take the plate down with it."""
+        namer = Namer(code, NONE, {}, ())
+>       assert namer.date(DATE) == "16.08.2026"
+               ^^^^^^^^^^^^^^^^
+
+tests\test_languages.py:248: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\fugleramme\languages.py:316: in date
+    return _written(self.primary, when, clock=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+code = 'zz'
+when = datetime.datetime(2026, 8, 16, 7, 42, tzinfo=datetime.timezone(datetime.timedelta(seconds=36000), 'AUS Eastern Standard Time'))
+clock = False
+
+    def _written(code: str, when: datetime, clock: bool) -> str:
+        """A date the way the language writes it - more than the month's name, since
+        Hungarian and Latvian put the year first and Spanish joins with "de"."""
+        local = when.astimezone()
+>       written = _spelled(code, local, clock) or local.strftime(
+            "%-d.%m %H:%M" if clock else "%-d.%m.%Y"
+        )
+E       ValueError: Invalid format string
+
+src\fugleramme\languages.py:267: ValueError
+------------------------------ Captured log call ------------------------------
+WARNING  fugleramme.languages:languages.py:259 No date format for zz; using numeric
+____________ test_a_missing_babel_falls_back_rather_than_crashing _____________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000198D28DD6A0>
+
+    def test_a_missing_babel_falls_back_rather_than_crashing(monkeypatch):
+        """The self-update checks out before it syncs, so the new code can run for a
+        moment without its new dependency."""
+        monkeypatch.setattr(languages, "format_date", None)
+        monkeypatch.setattr(languages, "format_skeleton", None)
+>       assert Namer("nb", NONE, {}, ()).date(DATE) == "16.08.2026"
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_languages.py:257: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\fugleramme\languages.py:316: in date
+    return _written(self.primary, when, clock=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+code = 'nb'
+when = datetime.datetime(2026, 8, 16, 7, 42, tzinfo=datetime.timezone(datetime.timedelta(seconds=36000), 'AUS Eastern Standard Time'))
+clock = False
+
+    def _written(code: str, when: datetime, clock: bool) -> str:
+        """A date the way the language writes it - more than the month's name, since
+        Hungarian and Latvian put the year first and Spanish joins with "de"."""
+        local = when.astimezone()
+>       written = _spelled(code, local, clock) or local.strftime(
+            "%-d.%m %H:%M" if clock else "%-d.%m.%Y"
+        )
+E       ValueError: Invalid format string
+
+src\fugleramme\languages.py:267: ValueError
+___________________ test_every_mode_draws_something[latest] ___________________
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_every_mode_draws_somethin1')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_every_mode_draws_somethin1')
+source = <function source.<locals>.start at 0x00000198D29DADE0>, mode = 'latest'
+
+    @pytest.mark.parametrize("mode", list(modes.MODES))
+    def test_every_mode_draws_something(tmp_path, images, source, mode):
+        detections = source(rows=[_row(2, TIT, 2), _row(1, BLACKBIRD, 1)])
+>       page = modes.render(_ctx(detections, images, tmp_path, mode))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_modes.py:78: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\fugleramme\modes.py:298: in render
+    return mode_of(ctx.mode).render(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\modes.py:206: in _latest_page
+    return _plate(ctx, name, ctx.namer.moment(since))
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\languages.py:320: in moment
+    return _written(self.primary, when, clock=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+code = 'sci'
+when = datetime.datetime(2026, 9, 19, 10, 13, 52, tzinfo=datetime.timezone(datetime.timedelta(seconds=36000)))
+clock = True
+
+    def _written(code: str, when: datetime, clock: bool) -> str:
+        """A date the way the language writes it - more than the month's name, since
+        Hungarian and Latvian put the year first and Spanish joins with "de"."""
+        local = when.astimezone()
+>       written = _spelled(code, local, clock) or local.strftime(
+            "%-d.%m %H:%M" if clock else "%-d.%m.%Y"
+        )
+E       ValueError: Invalid format string
+
+src\fugleramme\languages.py:267: ValueError
+---------------------------- Captured stderr call -----------------------------
+127.0.0.1 - - [19/Sep/2026 12:15:47] "GET /api/v2/analytics/species/summary HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2026 12:15:47] "GET /api/v2/detections/recent?limit=500 HTTP/1.1" 200 -
+__________________ test_every_mode_draws_something[arrival] ___________________
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_every_mode_draws_somethin2')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_every_mode_draws_somethin2')
+source = <function source.<locals>.start at 0x00000198D2A34EA0>
+mode = 'arrival'
+
+    @pytest.mark.parametrize("mode", list(modes.MODES))
+    def test_every_mode_draws_something(tmp_path, images, source, mode):
+        detections = source(rows=[_row(2, TIT, 2), _row(1, BLACKBIRD, 1)])
+>       page = modes.render(_ctx(detections, images, tmp_path, mode))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_modes.py:78: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\fugleramme\modes.py:298: in render
+    return mode_of(ctx.mode).render(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\modes.py:231: in _arrival_page
+    return _plate(ctx, species.scientific_name, ctx.namer.date(species.first_seen))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\languages.py:316: in date
+    return _written(self.primary, when, clock=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+code = 'sci'
+when = datetime.datetime(2026, 9, 19, 11, 13, 52, tzinfo=datetime.timezone(datetime.timedelta(seconds=36000)))
+clock = False
+
+    def _written(code: str, when: datetime, clock: bool) -> str:
+        """A date the way the language writes it - more than the month's name, since
+        Hungarian and Latvian put the year first and Spanish joins with "de"."""
+        local = when.astimezone()
+>       written = _spelled(code, local, clock) or local.strftime(
+            "%-d.%m %H:%M" if clock else "%-d.%m.%Y"
+        )
+E       ValueError: Invalid format string
+
+src\fugleramme\languages.py:267: ValueError
+---------------------------- Captured stderr call -----------------------------
+127.0.0.1 - - [19/Sep/2026 12:15:47] "GET /api/v2/analytics/species/summary HTTP/1.1" 200 -
+_______________ test_the_margin_reaches_the_plate_modes[latest] _______________
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_margin_reaches_the_pl0')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_margin_reaches_the_pl0')
+source = <function source.<locals>.start at 0x00000198D2A367A0>, mode = 'latest'
+
+    @pytest.mark.parametrize("mode", ["latest", "arrival"])
+    def test_the_margin_reaches_the_plate_modes(tmp_path, images, source, mode):
+        detections = source(rows=[_row(1, BLACKBIRD, 1)])
+>       tight = modes.render(_ctx(detections, images, tmp_path, mode, margin=0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_modes.py:194: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\fugleramme\modes.py:298: in render
+    return mode_of(ctx.mode).render(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\modes.py:206: in _latest_page
+    return _plate(ctx, name, ctx.namer.moment(since))
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\languages.py:320: in moment
+    return _written(self.primary, when, clock=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+code = 'sci'
+when = datetime.datetime(2026, 9, 19, 11, 13, 52, tzinfo=datetime.timezone(datetime.timedelta(seconds=36000)))
+clock = True
+
+    def _written(code: str, when: datetime, clock: bool) -> str:
+        """A date the way the language writes it - more than the month's name, since
+        Hungarian and Latvian put the year first and Spanish joins with "de"."""
+        local = when.astimezone()
+>       written = _spelled(code, local, clock) or local.strftime(
+            "%-d.%m %H:%M" if clock else "%-d.%m.%Y"
+        )
+E       ValueError: Invalid format string
+
+src\fugleramme\languages.py:267: ValueError
+---------------------------- Captured stderr call -----------------------------
+127.0.0.1 - - [19/Sep/2026 12:15:48] "GET /api/v2/analytics/species/summary HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2026 12:15:48] "GET /api/v2/detections/recent?limit=500 HTTP/1.1" 200 -
+______________ test_the_margin_reaches_the_plate_modes[arrival] _______________
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_margin_reaches_the_pl1')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_margin_reaches_the_pl1')
+source = <function source.<locals>.start at 0x00000198D2A37C40>
+mode = 'arrival'
+
+    @pytest.mark.parametrize("mode", ["latest", "arrival"])
+    def test_the_margin_reaches_the_plate_modes(tmp_path, images, source, mode):
+        detections = source(rows=[_row(1, BLACKBIRD, 1)])
+>       tight = modes.render(_ctx(detections, images, tmp_path, mode, margin=0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_modes.py:194: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\fugleramme\modes.py:298: in render
+    return mode_of(ctx.mode).render(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\modes.py:231: in _arrival_page
+    return _plate(ctx, species.scientific_name, ctx.namer.date(species.first_seen))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\languages.py:316: in date
+    return _written(self.primary, when, clock=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+code = 'sci'
+when = datetime.datetime(2026, 9, 19, 11, 13, 52, tzinfo=datetime.timezone(datetime.timedelta(seconds=36000)))
+clock = False
+
+    def _written(code: str, when: datetime, clock: bool) -> str:
+        """A date the way the language writes it - more than the month's name, since
+        Hungarian and Latvian put the year first and Spanish joins with "de"."""
+        local = when.astimezone()
+>       written = _spelled(code, local, clock) or local.strftime(
+            "%-d.%m %H:%M" if clock else "%-d.%m.%Y"
+        )
+E       ValueError: Invalid format string
+
+src\fugleramme\languages.py:267: ValueError
+---------------------------- Captured stderr call -----------------------------
+127.0.0.1 - - [19/Sep/2026 12:15:48] "GET /api/v2/analytics/species/summary HTTP/1.1" 200 -
+_________________ test_a_render_is_cached_until_its_key_moves _________________
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_a_render_is_cached_until_0')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_a_render_is_cached_until_0')
+source = <function source.<locals>.start at 0x00000198D2A34540>
+
+    def test_a_render_is_cached_until_its_key_moves(tmp_path, images, source):
+        detections = source(rows=[_row(1, BLACKBIRD, 1)])
+        ctx = _ctx(detections, images, tmp_path, "latest")
+>       assert modes.png_bytes(ctx) is modes.png_bytes(ctx)
+               ^^^^^^^^^^^^^^^^^^^^
+
+tests\test_modes.py:227: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\fugleramme\modes.py:320: in png_bytes
+    render(ctx).save(buffer, format="PNG")
+    ^^^^^^^^^^^
+src\fugleramme\modes.py:298: in render
+    return mode_of(ctx.mode).render(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\modes.py:206: in _latest_page
+    return _plate(ctx, name, ctx.namer.moment(since))
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+src\fugleramme\languages.py:320: in moment
+    return _written(self.primary, when, clock=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+code = 'sci'
+when = datetime.datetime(2026, 9, 19, 11, 13, 52, tzinfo=datetime.timezone(datetime.timedelta(seconds=36000)))
+clock = True
+
+    def _written(code: str, when: datetime, clock: bool) -> str:
+        """A date the way the language writes it - more than the month's name, since
+        Hungarian and Latvian put the year first and Spanish joins with "de"."""
+        local = when.astimezone()
+>       written = _spelled(code, local, clock) or local.strftime(
+            "%-d.%m %H:%M" if clock else "%-d.%m.%Y"
+        )
+E       ValueError: Invalid format string
+
+src\fugleramme\languages.py:267: ValueError
+---------------------------- Captured stderr call -----------------------------
+127.0.0.1 - - [19/Sep/2026 12:15:49] "GET /api/v2/analytics/species/summary HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2026 12:15:49] "GET /api/v2/detections/recent?limit=500 HTTP/1.1" 200 -
+__________ test_the_preview_reads_an_unsaved_form_without_saving_it ___________
+
+frame = 'http://127.0.0.1:7816'
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_preview_reads_an_unsa0')
+
+    def test_the_preview_reads_an_unsaved_form_without_saving_it(frame, tmp_path):
+        saved = json.loads(_fetch(frame + "/species")[2])
+        edited = json.loads(_fetch(frame + "/species?mode=latest")[2])
+    
+        assert saved["count"] > 1  # the collage: every species in the window
+        assert edited["count"] == 1  # the latest bird alone
+    
+>       _fetch(frame + "/preview.png?mode=latest&rotation=90")
+
+tests\test_server.py:147: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\test_server.py:64: in _fetch
+    with urllib.request.urlopen(request, timeout=10) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py:215: in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py:515: in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py:532: in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py:492: in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py:1373: in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py:1348: in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py:1478: in getresponse
+    response.begin()
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py:343: in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <http.client.HTTPResponse object at 0x00000198D2B2D0C0>
+
+    def _read_status(self):
+        line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+        if len(line) > _MAXLINE:
+            raise LineTooLong("status line")
+        if self.debuglevel > 0:
+            print("reply:", repr(line))
+        if not line:
+            # Presumably, the server closed the connection before
+            # sending a valid response.
+>           raise RemoteDisconnected("Remote end closed connection without"
+                                     " response")
+E           http.client.RemoteDisconnected: Remote end closed connection without response
+
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py:312: RemoteDisconnected
+---------------------------- Captured stderr call -----------------------------
+127.0.0.1 - - [19/Sep/2026 12:15:58] "GET /api/v2/analytics/species/summary?start_date=2026-09-18&end_date=2026-09-19 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2026 12:15:58] "GET /api/v2/analytics/species/summary HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2026 12:15:58] "GET /api/v2/detections/recent?limit=500 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 7822)
+Traceback (most recent call last):
+  File "[user]\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "[user]\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "[user]\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "[user]\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\server.py", line 440, in handle
+    self.handle_one_request()
+  File "[user]\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\server.py", line 428, in handle_one_request
+    method()
+  File "[workspace]\contribution-prep\fugleramme\src\fugleramme\web\server.py", line 235, in do_GET
+    self.ROUTES[route](self)
+  File "[workspace]\contribution-prep\fugleramme\src\fugleramme\web\server.py", line 167, in _preview_png
+    self._send_cached(modes.png_bytes(self._context(self._edited())), "image/png")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "[workspace]\contribution-prep\fugleramme\src\fugleramme\modes.py", line 320, in png_bytes
+    render(ctx).save(buffer, format="PNG")
+    ^^^^^^^^^^^
+  File "[workspace]\contribution-prep\fugleramme\src\fugleramme\modes.py", line 298, in render
+    return mode_of(ctx.mode).render(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "[workspace]\contribution-prep\fugleramme\src\fugleramme\modes.py", line 206, in _latest_page
+    return _plate(ctx, name, ctx.namer.moment(since))
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "[workspace]\contribution-prep\fugleramme\src\fugleramme\languages.py", line 320, in moment
+    return _written(self.primary, when, clock=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "[workspace]\contribution-prep\fugleramme\src\fugleramme\languages.py", line 267, in _written
+    written = _spelled(code, local, clock) or local.strftime(
+                                              ^^^^^^^^^^^^^^^
+ValueError: Invalid format string
+----------------------------------------
+________ test_the_loop_holds_its_last_page_when_the_detector_goes_away ________
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_loop_holds_its_last_p0')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_loop_holds_its_last_p0/images')
+detector = <function detector.<locals>.start at 0x00000198D2B7B560>
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000198D2493380>
+caplog = <_pytest.logging.LogCaptureFixture object at 0x00000198D1DBC0B0>
+
+    def test_the_loop_holds_its_last_page_when_the_detector_goes_away(
+        tmp_path, images, detector, monkeypatch, caplog
+    ):
+        url, httpd = detector(count=40, seed=0)
+        monkeypatch.setattr(api, "_TTL", 0)  # no cached answers to hide the outage behind
+        config = Config(
+            images_dir=images,
+            detector_url=url,
+            output_path=tmp_path / "frame.png",
+            host="127.0.0.1",
+            port=0,
+            config_path=tmp_path / "settings.json",
+        )
+        ticks: list[bytes] = []
+    
+        def sleep(_seconds):
+            ticks.append(config.output_path.read_bytes())
+            if len(ticks) == 1:
+                httpd.shutdown()  # BirdNET-Go goes down between two ticks
+                httpd.server_close()
+            if len(ticks) == 3:
+                raise _Stop
+    
+        with (
+            patch.object(service.updates, "available", return_value=None),
+            patch.object(service.modes, "render", side_effect=modes.render) as render,
+            patch.object(service.time, "sleep", sleep),
+            pytest.raises(_Stop),
+        ):
+>           service.run(config)
+
+tests\test_service.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+config = Config(images_dir=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_loop_holds_its_last_p...=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_loop_holds_its_last_p0/settings.json'))
+
+    def run(config: Config) -> None:
+        logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+        # `kill -USR1 <pid>` dumps every thread's stack to the journal - for when it wedges.
+>       faulthandler.register(signal.SIGUSR1, all_threads=True)
+        ^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'faulthandler' has no attribute 'register'
+
+src\fugleramme\service.py:110: AttributeError
+____________ test_the_loop_names_the_species_it_has_no_artwork_for ____________
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_loop_names_the_specie0')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_loop_names_the_specie0/images')
+detector = <function detector.<locals>.start at 0x00000198D2B78400>
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000198D2A42DE0>
+caplog = <_pytest.logging.LogCaptureFixture object at 0x00000198D2BAB6B0>
+
+    def test_the_loop_names_the_species_it_has_no_artwork_for(
+        tmp_path, images, detector, monkeypatch, caplog
+    ):
+        """The admin marks a missing plate only while you are looking at it; the
+        journal keeps it, one line per change rather than per poll."""
+        caplog.set_level(logging.INFO, logger="fugleramme.service")
+        url, _httpd = detector(count=40, seed=0)
+        monkeypatch.setattr(api, "_TTL", 0)
+        config = Config(
+            images_dir=images,
+            detector_url=url,
+            output_path=tmp_path / "frame.png",
+            host="127.0.0.1",
+            port=0,
+            config_path=tmp_path / "settings.json",
+        )
+        ticks = 0
+    
+        def sleep(_seconds):
+            nonlocal ticks
+            ticks += 1
+            if ticks == 3:
+                raise _Stop
+    
+        with (
+            patch.object(service.updates, "available", return_value=None),
+            patch.object(service.time, "sleep", sleep),
+            pytest.raises(_Stop),
+        ):
+>           service.run(config)
+
+tests\test_service.py:137: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+config = Config(images_dir=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_loop_names_the_specie...=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_loop_names_the_specie0/settings.json'))
+
+    def run(config: Config) -> None:
+        logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+        # `kill -USR1 <pid>` dumps every thread's stack to the journal - for when it wedges.
+>       faulthandler.register(signal.SIGUSR1, all_threads=True)
+        ^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'faulthandler' has no attribute 'register'
+
+src\fugleramme\service.py:110: AttributeError
+______ test_the_refresh_floor_paces_the_birds_but_never_a_saved_setting _______
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_refresh_floor_paces_t0')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_refresh_floor_paces_t0/images')
+detector = <function detector.<locals>.start at 0x00000198D2B79300>
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000198D2B89760>
+
+    def test_the_refresh_floor_paces_the_birds_but_never_a_saved_setting(
+        tmp_path, images, detector, monkeypatch
+    ):
+        """The panel holds its page until the floor lets go (#64), but a saved setting
+        is not birds and must reach the glass on the next tick regardless."""
+        url, _httpd = detector(count=4, seed=0)
+        config = Config(
+            images_dir=images,
+            detector_url=url,
+            output_path=tmp_path / "frame.png",
+            host="127.0.0.1",
+            port=0,
+            config_path=tmp_path / "settings.json",
+        )
+        store = SettingsStore(config.config_path, Settings(detector_url=url))
+        store.update(refresh_minutes=10, show_names=True)
+        # The page's species, tick by tick: two birds trading places at the cutoff.
+        pages = iter([("a",), ("b",), ("b",), ("b",)])
+        collage = modes.MODES["collage"]
+        monkeypatch.setitem(modes.MODES, "collage", replace(collage, key=lambda _ctx: next(pages)))
+        ticks = 0
+    
+        def sleep(_seconds):
+            nonlocal ticks
+            ticks += 1
+            if ticks == 2:
+                store.update(show_names=False)
+            if ticks == 3:
+                raise _Stop
+    
+        with (
+            patch.object(service.updates, "available", return_value=None),
+            patch.object(service.modes, "render", side_effect=modes.render) as render,
+            patch.object(service.time, "sleep", sleep),
+            pytest.raises(_Stop),
+        ):
+>           service.run(config)
+
+tests\test_service.py:181: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+config = Config(images_dir=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_refresh_floor_paces_t...=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_the_refresh_floor_paces_t0/settings.json'))
+
+    def run(config: Config) -> None:
+        logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+        # `kill -USR1 <pid>` dumps every thread's stack to the journal - for when it wedges.
+>       faulthandler.register(signal.SIGUSR1, all_threads=True)
+        ^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'faulthandler' has no attribute 'register'
+
+src\fugleramme\service.py:110: AttributeError
+__________________ test_signal_runs_the_shutdown_handler[2] ___________________
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_signal_runs_the_shutdown_0')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_signal_runs_the_shutdown_0/images')
+detector = <function detector.<locals>.start at 0x00000198D1DA9EE0>
+signal_code = <Signals.SIGINT: 2>
+
+    @pytest.mark.parametrize("signal_code", [signal.SIGINT, signal.SIGTERM])
+    def test_signal_runs_the_shutdown_handler(tmp_path, images, detector, signal_code):
+        """Signal is registered and triggers the shutdown routine."""
+        url, _ = detector(count=40, seed=0)
+        config = Config(
+            images_dir=images,
+            detector_url=url,
+            output_path=tmp_path / "frame.png",
+            host="127.0.0.1",
+            port=0,
+            config_path=tmp_path / "settings.json",
+        )
+    
+        class MockServer:
+            shutdown_calls = 0
+            server_close_calls = 0
+    
+            def shutdown(self):
+                self.shutdown_calls += 1
+    
+            def server_close(self):
+                self.server_close_calls += 1
+    
+        mock_server = MockServer()
+    
+        def sleep(_seconds):
+            signal.raise_signal(signal_code)
+    
+        with (
+            patch.object(service.updates, "available", return_value=None),
+            patch.object(service.time, "sleep", sleep),
+            patch.object(service, "serve", return_value=mock_server),
+            pytest.raises(SystemExit, match="0"),
+        ):
+>           service.run(config)
+
+tests\test_service.py:227: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+config = Config(images_dir=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_signal_runs_the_shutdown_...=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_signal_runs_the_shutdown_0/settings.json'))
+
+    def run(config: Config) -> None:
+        logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+        # `kill -USR1 <pid>` dumps every thread's stack to the journal - for when it wedges.
+>       faulthandler.register(signal.SIGUSR1, all_threads=True)
+        ^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'faulthandler' has no attribute 'register'
+
+src\fugleramme\service.py:110: AttributeError
+__________________ test_signal_runs_the_shutdown_handler[15] __________________
+
+tmp_path = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_signal_runs_the_shutdown_1')
+images = WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_signal_runs_the_shutdown_1/images')
+detector = <function detector.<locals>.start at 0x00000198D1DAA2A0>
+signal_code = <Signals.SIGTERM: 15>
+
+    @pytest.mark.parametrize("signal_code", [signal.SIGINT, signal.SIGTERM])
+    def test_signal_runs_the_shutdown_handler(tmp_path, images, detector, signal_code):
+        """Signal is registered and triggers the shutdown routine."""
+        url, _ = detector(count=40, seed=0)
+        config = Config(
+            images_dir=images,
+            detector_url=url,
+            output_path=tmp_path / "frame.png",
+            host="127.0.0.1",
+            port=0,
+            config_path=tmp_path / "settings.json",
+        )
+    
+        class MockServer:
+            shutdown_calls = 0
+            server_close_calls = 0
+    
+            def shutdown(self):
+                self.shutdown_calls += 1
+    
+            def server_close(self):
+                self.server_close_calls += 1
+    
+        mock_server = MockServer()
+    
+        def sleep(_seconds):
+            signal.raise_signal(signal_code)
+    
+        with (
+            patch.object(service.updates, "available", return_value=None),
+            patch.object(service.time, "sleep", sleep),
+            patch.object(service, "serve", return_value=mock_server),
+            pytest.raises(SystemExit, match="0"),
+        ):
+>           service.run(config)
+
+tests\test_service.py:227: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+config = Config(images_dir=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_signal_runs_the_shutdown_...=WindowsPath('[user]/AppData/Local/Temp/pytest-of-will/pytest-0/test_signal_runs_the_shutdown_1/settings.json'))
+
+    def run(config: Config) -> None:
+        logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+        # `kill -USR1 <pid>` dumps every thread's stack to the journal - for when it wedges.
+>       faulthandler.register(signal.SIGUSR1, all_threads=True)
+        ^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'faulthandler' has no attribute 'register'
+
+src\fugleramme\service.py:110: AttributeError
+=========================== short test summary info ===========================
+FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[sci]
+FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[] - V...
+FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[zz]
+FAILED tests/test_languages.py::test_a_missing_babel_falls_back_rather_than_crashing
+FAILED tests/test_modes.py::test_every_mode_draws_something[latest] - ValueEr...
+FAILED tests/test_modes.py::test_every_mode_draws_something[arrival] - ValueE...
+FAILED tests/test_modes.py::test_the_margin_reaches_the_plate_modes[latest]
+FAILED tests/test_modes.py::test_the_margin_reaches_the_plate_modes[arrival]
+FAILED tests/test_modes.py::test_a_render_is_cached_until_its_key_moves - Val...
+FAILED tests/test_server.py::test_the_preview_reads_an_unsaved_form_without_saving_it
+FAILED tests/test_service.py::test_the_loop_holds_its_last_page_when_the_detector_goes_away
+FAILED tests/test_service.py::test_the_loop_names_the_species_it_has_no_artwork_for
+FAILED tests/test_service.py::test_the_refresh_floor_paces_the_birds_but_never_a_saved_setting
+FAILED tests/test_service.py::test_signal_runs_the_shutdown_handler[2] - Attr...
+FAILED tests/test_service.py::test_signal_runs_the_shutdown_handler[15] - Att...
+15 failed, 369 passed in 149.28s (0:02:29)
