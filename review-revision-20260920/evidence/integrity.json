@@ -1,0 +1,1919 @@
+{
+  "audited_at_utc": "2026-09-20T03:06:49.019389+00:00",
+  "auditor": "revision_cutouts_a",
+  "scope": "Read-only verification of final PR124 twenty-bird revision records and pixels; candidates were not modified by this audit.",
+  "immutable_provenance_path": "[local project]\\exports\\fugleramme-australian-historical-20-review-20260919-frogmouth-v2\\provenance.json",
+  "immutable_provenance_sha256": "130004c11a93a5b2abd019b549898785c88bb30c9650dbb1f0fa1df1a2ff04b2",
+  "scope_checks": {
+    "exactly_twenty_records": true,
+    "no_duplicate_species": true,
+    "same_species_as_immutable_submitted_twenty": true,
+    "immutable_provenance_file_unchanged_during_audit": true
+  },
+  "passed": true,
+  "species_count": 20,
+  "species_passed": 20,
+  "limitations": [
+    "Integrity verification does not certify visual quality, taxonomy, or physical panel appearance.",
+    "Native source RGB masters are compared exactly; renderer input can separately include documented background-only paper normalization and underlay.",
+    "Geometry checks verify coordinate validity and dimensions; independent visual review determines whether the box encloses the bird."
+  ],
+  "species": [
+    {
+      "canonical_key": "acanthiza-pusilla",
+      "group": "group-a",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\acanthiza-pusilla-record.json",
+      "record_sha256": "8e73fd28757aac2d1f29936a51b181dbbd716f1ddd22f05eeb2af8460e5d7e08",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\next-manual-acanthiza-pusilla-bhl48285944.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\acanthiza-pusilla-source-mask.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\acanthiza-pusilla-source-master.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\acanthiza-pusilla.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\acanthiza-pusilla.png"
+      },
+      "current_sha256": {
+        "source": "447859a23c7faceac197d4c0f1fbb820f5acf6b585001a0ac623828205431aea",
+        "mask": "b3c8fe846a3aca429f050a2fcc8f424c215e1688dcc9b30ad248b4fc325b0b1c",
+        "master": "b48bcaa7e641299cf80ef6e8906e1fc4719c67cafeaaa24c75fcec83ffd4c51c",
+        "candidate": "c23aa658f70763b4908e9ccccbefed275b8b94a07359cf77cd1139311eb01a18",
+        "final_png": "345ba607d2ed4ab912ec99dbbae3ed924e0fe186e27a255b51872ef8a1c5aeec"
+      },
+      "declared_sha256": {
+        "source": "447859a23c7faceac197d4c0f1fbb820f5acf6b585001a0ac623828205431aea",
+        "mask": "b3c8fe846a3aca429f050a2fcc8f424c215e1688dcc9b30ad248b4fc325b0b1c",
+        "master": "b48bcaa7e641299cf80ef6e8906e1fc4719c67cafeaaa24c75fcec83ffd4c51c",
+        "candidate": "c23aa658f70763b4908e9ccccbefed275b8b94a07359cf77cd1139311eb01a18"
+      },
+      "immutable_submitted_source_sha256": "447859a23c7faceac197d4c0f1fbb820f5acf6b585001a0ac623828205431aea",
+      "source_dimensions": [
+        3611,
+        5709
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3611,
+          5709
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3611,
+        5709
+      ],
+      "candidate_dimensions": [
+        1043,
+        720
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1043,
+        720
+      ],
+      "geometry": {
+        "box": [
+          0.011505,
+          0.018056,
+          0.988495,
+          0.865278
+        ],
+        "cut": [
+          1043,
+          720
+        ]
+      },
+      "visual_status_from_record": "source_restoration_checked_pending_independent_parent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "anthochaera-carunculata",
+      "group": "group-a",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata-record.json",
+      "record_sha256": "59f706ff1bfcb8448ebd38dcb2fa7cab73d869b9add86e58c4fc557d2a29429c",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-taxonomy\\ai-replacements-a\\red-ku14110-original.tif",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata-source-mask.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata-source-master.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata.png"
+      },
+      "current_sha256": {
+        "source": "b8402f1f067443254c8f0637098c97dcd651b6c1a0ba35d58bbda75a95e74937",
+        "mask": "d9446e015869d9e34acaee51b28cd903a985f68a4e5be8dc18cb07148d1d0bca",
+        "master": "908715a3ffbffead55241aa64910a29c9acebcc33b44cd4ee2635df8e59c6ac1",
+        "candidate": "bd7ff3e0e12a715319d0f30aae7931a77318e2f3f3cfe336be3f6039842db05c",
+        "final_png": "df1dec99cce13fe96c0c15a8d8b5606614f26862430f5992f083917ced0638b4"
+      },
+      "declared_sha256": {
+        "source": "b8402f1f067443254c8f0637098c97dcd651b6c1a0ba35d58bbda75a95e74937",
+        "mask": "d9446e015869d9e34acaee51b28cd903a985f68a4e5be8dc18cb07148d1d0bca",
+        "master": "908715a3ffbffead55241aa64910a29c9acebcc33b44cd4ee2635df8e59c6ac1",
+        "candidate": "bd7ff3e0e12a715319d0f30aae7931a77318e2f3f3cfe336be3f6039842db05c"
+      },
+      "immutable_submitted_source_sha256": "b8402f1f067443254c8f0637098c97dcd651b6c1a0ba35d58bbda75a95e74937",
+      "source_dimensions": [
+        4872,
+        6496
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          4872,
+          6496
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        4872,
+        6496
+      ],
+      "candidate_dimensions": [
+        1200,
+        580
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1200,
+        580
+      ],
+      "geometry": {
+        "box": [
+          0.008987,
+          0.021928,
+          0.992738,
+          0.97909
+        ],
+        "cut": [
+          1200,
+          580
+        ]
+      },
+      "visual_status_from_record": "source_restoration_checked_pending_independent_parent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "caligavis-chrysops",
+      "group": "group-a",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops-record.json",
+      "record_sha256": "8f9f2d2e17b82c44a88f574ce4644253875b196eff6160cdde4448339714dece",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-taxonomy\\next20-curation\\gould-v4-p45-full.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops-source-mask.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops-source-master.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops.png"
+      },
+      "current_sha256": {
+        "source": "c6d1a5cfaebe159991df0e37f36ae6062b07d20ccbc9d3b76a0546f842ed6f6d",
+        "mask": "8c2599d41a8f69b661a4327ca1e8dec48d9035490b46191a218b16171de42706",
+        "master": "99028fd33378e0043a786b01c9f6bd9253f85c3a364c2ac2994a08782ac44278",
+        "candidate": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+        "final_png": "7c184a30de345cdc5c6edd6dc5489b1bed2fe5ae767aca9ce89a2f2f105032b0"
+      },
+      "declared_sha256": {
+        "source": "c6d1a5cfaebe159991df0e37f36ae6062b07d20ccbc9d3b76a0546f842ed6f6d",
+        "mask": "8c2599d41a8f69b661a4327ca1e8dec48d9035490b46191a218b16171de42706",
+        "master": "99028fd33378e0043a786b01c9f6bd9253f85c3a364c2ac2994a08782ac44278",
+        "candidate": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe"
+      },
+      "immutable_submitted_source_sha256": "c6d1a5cfaebe159991df0e37f36ae6062b07d20ccbc9d3b76a0546f842ed6f6d",
+      "source_dimensions": [
+        3601,
+        5709
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3601,
+          5709
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3601,
+        5709
+      ],
+      "candidate_dimensions": [
+        1200,
+        988
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1200,
+        988
+      ],
+      "geometry": {
+        "box": [
+          0.010356,
+          0.011908,
+          0.989379,
+          0.964016
+        ],
+        "cut": [
+          1200,
+          988
+        ]
+      },
+      "visual_status_from_record": "candidate_individually_checked_pending_root_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "manorina-melanocephala",
+      "group": "group-a",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala-record.json",
+      "record_sha256": "9bae48ab0980c31d6f5674721af47448d5e477e6c22e00e06a95dd3f8963f005",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\next-manual-manorina-melanocephala-bhl48703119.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala-source-mask.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala-source-master.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala.png"
+      },
+      "current_sha256": {
+        "source": "e891488a8e0e467d491ffa8807844301b0f23ae0464e28000c8eb5fa481cdbd6",
+        "mask": "27db9e3ef4016f5b761c5e0913ce267292e311e5b93ab765787c92f1445569ae",
+        "master": "490432fc6c8ba78154ffcdb9741ae865a567ad82988a30d1998ed0745d8baebd",
+        "candidate": "9efa0106c9950b25d4d3a478d7422664fd45b526ac8ce8f09580017162d96321",
+        "final_png": "536d605a25a3b466176e6c399f5bc16f4d5e24fb52c1fa2f5946f87816c0a9e6"
+      },
+      "declared_sha256": {
+        "source": "e891488a8e0e467d491ffa8807844301b0f23ae0464e28000c8eb5fa481cdbd6",
+        "mask": "27db9e3ef4016f5b761c5e0913ce267292e311e5b93ab765787c92f1445569ae",
+        "master": "490432fc6c8ba78154ffcdb9741ae865a567ad82988a30d1998ed0745d8baebd",
+        "candidate": "9efa0106c9950b25d4d3a478d7422664fd45b526ac8ce8f09580017162d96321"
+      },
+      "immutable_submitted_source_sha256": "e891488a8e0e467d491ffa8807844301b0f23ae0464e28000c8eb5fa481cdbd6",
+      "source_dimensions": [
+        3566,
+        5709
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3566,
+          5709
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3566,
+        5709
+      ],
+      "candidate_dimensions": [
+        1200,
+        492
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1200,
+        492
+      ],
+      "geometry": {
+        "box": [
+          0.008638,
+          0.02989,
+          0.990427,
+          0.898488
+        ],
+        "cut": [
+          1200,
+          492
+        ]
+      },
+      "visual_status_from_record": "fresh_edge_repair_individually_checked_pending_parent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "oriolus-sagittatus",
+      "group": "group-a",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\oriolus-sagittatus-record.json",
+      "record_sha256": "f6871c6caccb97715d1e01dce5fbd82a5a5af44088f7ebe5ac37d08dddb549e4",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\next-manual-oriolus-sagittatus-bhl48702814.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\oriolus-sagittatus-source-mask.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\oriolus-sagittatus-source-master.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\oriolus-sagittatus.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\oriolus-sagittatus.png"
+      },
+      "current_sha256": {
+        "source": "b43c6bb7cbe07af030d0f5a1744dfa01cc934508dcd0f89b65ba62e44cbbe553",
+        "mask": "106920391ed72edddc7894db3d589516bcc19f5b6dff8ea844ba173b84ad9d25",
+        "master": "1d5bca41156eb465842193b96c5496215434dade833722b91c695f3da032c875",
+        "candidate": "4ef80cdb2f429019cdec467e56c29b4963fe4a8c666244dedd1fc704bcffabdd",
+        "final_png": "ed75b3579fee7464e6517715199589b9e2d9398d34c570700475b799dd0bef20"
+      },
+      "declared_sha256": {
+        "source": "b43c6bb7cbe07af030d0f5a1744dfa01cc934508dcd0f89b65ba62e44cbbe553",
+        "mask": "106920391ed72edddc7894db3d589516bcc19f5b6dff8ea844ba173b84ad9d25",
+        "master": "1d5bca41156eb465842193b96c5496215434dade833722b91c695f3da032c875",
+        "candidate": "4ef80cdb2f429019cdec467e56c29b4963fe4a8c666244dedd1fc704bcffabdd"
+      },
+      "immutable_submitted_source_sha256": "b43c6bb7cbe07af030d0f5a1744dfa01cc934508dcd0f89b65ba62e44cbbe553",
+      "source_dimensions": [
+        3704,
+        5709
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3704,
+          5709
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3704,
+        5709
+      ],
+      "candidate_dimensions": [
+        1200,
+        726
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1200,
+        726
+      ],
+      "geometry": {
+        "box": [
+          0.009796,
+          0.018237,
+          0.989388,
+          0.980593
+        ],
+        "cut": [
+          1200,
+          726
+        ]
+      },
+      "visual_status_from_record": "source_restoration_checked_pending_independent_parent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "threskiornis-molucca",
+      "group": "group-a",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca-record.json",
+      "record_sha256": "e2ce2c68a3c17e9e347c7a8e2600e91e1ba7a5d4791aaccb746cc111a8829de4",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-taxonomy\\manual-curation\\gould-v6-p46.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca-source-mask.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca-source-master.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca.png"
+      },
+      "current_sha256": {
+        "source": "1b00697df21aec1d4df0b2d67f111090372f129399e429c4ec706e37cb722aa2",
+        "mask": "1b2615ec8edf106c56ed9c277efca3c62e15f435ad9556c4a7c7ae42f96683e3",
+        "master": "912a999288bfd63fc7bd357cae2b08077797104938a4e9ebd53966b093dc1c52",
+        "candidate": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+        "final_png": "1eebc495983728eca3c0853c323147f13e5d0851086f7e11df7ccbdf019698db"
+      },
+      "declared_sha256": {
+        "source": "1b00697df21aec1d4df0b2d67f111090372f129399e429c4ec706e37cb722aa2",
+        "mask": "1b2615ec8edf106c56ed9c277efca3c62e15f435ad9556c4a7c7ae42f96683e3",
+        "master": "912a999288bfd63fc7bd357cae2b08077797104938a4e9ebd53966b093dc1c52",
+        "candidate": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222"
+      },
+      "immutable_submitted_source_sha256": "1b00697df21aec1d4df0b2d67f111090372f129399e429c4ec706e37cb722aa2",
+      "source_dimensions": [
+        3660,
+        5754
+      ],
+      "source_transform": {
+        "rotation_clockwise": 90,
+        "oriented_dimensions": [
+          5754,
+          3660
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        5754,
+        3660
+      ],
+      "candidate_dimensions": [
+        1200,
+        1079
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1200,
+        1079
+      ],
+      "geometry": {
+        "box": [
+          0.161992,
+          0.012043,
+          0.988496,
+          0.951286
+        ],
+        "cut": [
+          1200,
+          1079
+        ]
+      },
+      "visual_status_from_record": "candidate_individually_checked_pending_root_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "group": "group-b",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\record.json",
+      "record_sha256": "6bb8b66774435069fc98db3264ecc8b264943dc1ffbb58a3a82ccc5f412d5e1e",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\contribution-20-20260919\\myna\\legge-full-page-n59.jpg",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\master-source-rgb.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\acridotheres-tristis.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\prepared.png"
+      },
+      "current_sha256": {
+        "source": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+        "mask": "70fbf6f90140072453f58c491f8bca16dcc8c3c5cdf7d8a2228f5ccb24ccce68",
+        "master": "43506fcac5d1f49d382054f9fb75fc0dbeed8007d371a44947c7fb84c034228f",
+        "candidate": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+        "final_png": "4fbad42040bfc3b78a9f3c54816fc281fe76b3d7ec08ca7559caff2350eeffe7"
+      },
+      "declared_sha256": {
+        "source": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+        "mask": "70fbf6f90140072453f58c491f8bca16dcc8c3c5cdf7d8a2228f5ccb24ccce68",
+        "master": "43506fcac5d1f49d382054f9fb75fc0dbeed8007d371a44947c7fb84c034228f",
+        "candidate": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b"
+      },
+      "immutable_submitted_source_sha256": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+      "source_dimensions": [
+        2642,
+        3648
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          2642,
+          3648
+        ],
+        "source_crop": [
+          1387,
+          1418,
+          2558,
+          3246
+        ]
+      },
+      "master_dimensions": [
+        1171,
+        1828
+      ],
+      "candidate_dimensions": [
+        743,
+        1148
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        743,
+        1148
+      ],
+      "geometry": {
+        "box": [
+          0.019715,
+          0.009779,
+          0.982055,
+          0.98772
+        ],
+        "cut": [
+          743,
+          1148
+        ]
+      },
+      "visual_status_from_record": "individually_checked_complete_original_paper_mask_overlay_dark_checker_and_stock_frame1600_pending_root_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "anthochaera-chrysoptera",
+      "group": "group-b",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\anthochaera-chrysoptera\\record.json",
+      "record_sha256": "4429ec39216591a3d7891d3adde209dfee44ce9254ec90a019f0040b0bf5cd17",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\next-manual-anthochaera-chrysoptera-bhl48703039.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\anthochaera-chrysoptera\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\anthochaera-chrysoptera\\master-source-rgb.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\anthochaera-chrysoptera\\anthochaera-chrysoptera.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\anthochaera-chrysoptera\\prepared.png"
+      },
+      "current_sha256": {
+        "source": "aa2eb3711c497be444ece2e88c7c48bcbd92001bd7d9360e984d701b891b315b",
+        "mask": "ab4f43cbf13558b18bd156c8fde551ba4ed7e4d788053382da3155a6490aff38",
+        "master": "e66e7e654e50da63431f54e2b1d61e70c1d35490b5ab6bceb91680da0678dc28",
+        "candidate": "62d38e2266db29f1e4a49013afbad11f3d57e0ca4cbf1d76930a7704dc8f1187",
+        "final_png": "6956c4ea85a3bb5e0286ef41476003f04d8132785b99374b2d1e4ecda2d1acb9"
+      },
+      "declared_sha256": {
+        "source": "aa2eb3711c497be444ece2e88c7c48bcbd92001bd7d9360e984d701b891b315b",
+        "mask": "ab4f43cbf13558b18bd156c8fde551ba4ed7e4d788053382da3155a6490aff38",
+        "master": "e66e7e654e50da63431f54e2b1d61e70c1d35490b5ab6bceb91680da0678dc28",
+        "candidate": "62d38e2266db29f1e4a49013afbad11f3d57e0ca4cbf1d76930a7704dc8f1187"
+      },
+      "immutable_submitted_source_sha256": "aa2eb3711c497be444ece2e88c7c48bcbd92001bd7d9360e984d701b891b315b",
+      "source_dimensions": [
+        3601,
+        5709
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3601,
+          5709
+        ],
+        "source_crop": [
+          763,
+          159,
+          3388,
+          1802
+        ]
+      },
+      "master_dimensions": [
+        2625,
+        1643
+      ],
+      "candidate_dimensions": [
+        1144,
+        726
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1144,
+        726
+      ],
+      "geometry": {
+        "box": [
+          0.01286,
+          0.018318,
+          0.821365,
+          0.885997
+        ],
+        "cut": [
+          1144,
+          726
+        ]
+      },
+      "visual_status_from_record": "source_native_and_actual_1800_repair_review_complete_pending_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "dacelo-novaeguineae",
+      "group": "group-b",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\record.json",
+      "record_sha256": "a73167ec3b33ba71ebfcd2fcfde1c132086c7edddf92420fb47170c229d4fe57",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\gould-v2-plate18-bhl48200560-source.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\master-source-rgb.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\dacelo-novaeguineae.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\prepared.png"
+      },
+      "current_sha256": {
+        "source": "54f7fbaa89ec5b823392de09ddeb2f271bd4473a9b14007e4b3e579711a1ac63",
+        "mask": "7537086233bc5d812ff6a89ffc1a03a9b1a81898d64fe64a194ef42b5bf3e189",
+        "master": "d254e9b7e601deb260f83791a107e83b99ab0959115e095659ee35733efa17eb",
+        "candidate": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+        "final_png": "e1238a3bc97547471515d060033a42583825c77472c18b939984aeb54d64abe5"
+      },
+      "declared_sha256": {
+        "source": "54f7fbaa89ec5b823392de09ddeb2f271bd4473a9b14007e4b3e579711a1ac63",
+        "mask": "7537086233bc5d812ff6a89ffc1a03a9b1a81898d64fe64a194ef42b5bf3e189",
+        "master": "d254e9b7e601deb260f83791a107e83b99ab0959115e095659ee35733efa17eb",
+        "candidate": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45"
+      },
+      "immutable_submitted_source_sha256": "54f7fbaa89ec5b823392de09ddeb2f271bd4473a9b14007e4b3e579711a1ac63",
+      "source_dimensions": [
+        3729,
+        5771
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3729,
+          5771
+        ],
+        "source_crop": [
+          27,
+          1489,
+          3326,
+          4690
+        ]
+      },
+      "master_dimensions": [
+        3299,
+        3201
+      ],
+      "candidate_dimensions": [
+        1145,
+        1115
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1145,
+        1115
+      ],
+      "geometry": {
+        "box": [
+          0.010447,
+          0.013348,
+          0.990064,
+          0.987531
+        ],
+        "cut": [
+          1145,
+          1115
+        ]
+      },
+      "visual_status_from_record": "source_branch_foot_claw_and_paper_stock_details_checked_pending_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "grallina-cyanoleuca",
+      "group": "group-b",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\grallina-cyanoleuca\\record.json",
+      "record_sha256": "1b3cd9854abbecce25344e4b66342ffae02003b501877b50ecf7483d2e8fb1ec",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\root-grallina-cyanoleuca-bhl48200704.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\grallina-cyanoleuca\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\grallina-cyanoleuca\\master-source-rgb.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\grallina-cyanoleuca\\grallina-cyanoleuca.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\grallina-cyanoleuca\\prepared.png"
+      },
+      "current_sha256": {
+        "source": "72f419e09dc676cb6a991f68c1e76ab0798a50d145fd94ecc59739fe3c40fc11",
+        "mask": "4e1c22dedf26e045783bd70f2f03a9f8e73d6007b79070b25d9d2d2d31f036c4",
+        "master": "34c9bd1614bd1a45edddd50509dc49998e327c5541782585d15d1647714f6069",
+        "candidate": "d950e2d679e986435f41b0b1dae6912b1704538354f2a2fe76d48d70dce95454",
+        "final_png": "855fc2dae979c0cfd37926bbd90c2fd2173476d3ee08f2f9a291d76f995483df"
+      },
+      "declared_sha256": {
+        "source": "72f419e09dc676cb6a991f68c1e76ab0798a50d145fd94ecc59739fe3c40fc11",
+        "mask": "4e1c22dedf26e045783bd70f2f03a9f8e73d6007b79070b25d9d2d2d31f036c4",
+        "master": "34c9bd1614bd1a45edddd50509dc49998e327c5541782585d15d1647714f6069",
+        "candidate": "d950e2d679e986435f41b0b1dae6912b1704538354f2a2fe76d48d70dce95454"
+      },
+      "immutable_submitted_source_sha256": "72f419e09dc676cb6a991f68c1e76ab0798a50d145fd94ecc59739fe3c40fc11",
+      "source_dimensions": [
+        3625,
+        5771
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3625,
+          5771
+        ],
+        "source_crop": [
+          798,
+          759,
+          3309,
+          2663
+        ]
+      },
+      "master_dimensions": [
+        2511,
+        1904
+      ],
+      "candidate_dimensions": [
+        1145,
+        876
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1145,
+        876
+      ],
+      "geometry": {
+        "box": [
+          0.012236,
+          0.017127,
+          0.989429,
+          0.916012
+        ],
+        "cut": [
+          1145,
+          876
+        ]
+      },
+      "visual_status_from_record": "source_native_and_actual_1800_repair_review_complete_pending_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "ocyphaps-lophotes",
+      "group": "group-b",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\ocyphaps-lophotes\\record.json",
+      "record_sha256": "ced7667bcb88723f55321951ec0a7c01dfb5c553b45beb063684b140b61ffe7a",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\partition1-ocyphaps-lophotes-bhl48401210.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\ocyphaps-lophotes\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\ocyphaps-lophotes\\master-source-rgb.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\ocyphaps-lophotes\\ocyphaps-lophotes.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\ocyphaps-lophotes\\prepared.png"
+      },
+      "current_sha256": {
+        "source": "6d70228b08b54aaf2b9b10766acc8f69548ea764c03fce58be23df9197d91893",
+        "mask": "d7a79f32b7f47e235a503bfca452e283ce8b0ce9fbcb9928cc46791b73c895df",
+        "master": "e52c52a66df742b035e6311682cce1ad2a7c888460db5f9b404bff27ff6e7d55",
+        "candidate": "9c94e29995922ae290c6b477d68ec531287ca708f5935b5f9805c0f5a0393685",
+        "final_png": "f2b70a301a7aa81cb0f7d8ae9a6e516a047b447372e64a5b95913b3bbe4e9279"
+      },
+      "declared_sha256": {
+        "source": "6d70228b08b54aaf2b9b10766acc8f69548ea764c03fce58be23df9197d91893",
+        "mask": "d7a79f32b7f47e235a503bfca452e283ce8b0ce9fbcb9928cc46791b73c895df",
+        "master": "e52c52a66df742b035e6311682cce1ad2a7c888460db5f9b404bff27ff6e7d55",
+        "candidate": "9c94e29995922ae290c6b477d68ec531287ca708f5935b5f9805c0f5a0393685"
+      },
+      "immutable_submitted_source_sha256": "6d70228b08b54aaf2b9b10766acc8f69548ea764c03fce58be23df9197d91893",
+      "source_dimensions": [
+        3655,
+        5750
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3655,
+          5750
+        ],
+        "source_crop": [
+          793,
+          392,
+          2143,
+          2764
+        ]
+      },
+      "master_dimensions": [
+        1350,
+        2372
+      ],
+      "candidate_dimensions": [
+        664,
+        1148
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        664,
+        1148
+      ],
+      "geometry": {
+        "box": [
+          0.141748,
+          0.013321,
+          0.983279,
+          0.986799
+        ],
+        "cut": [
+          664,
+          1148
+        ]
+      },
+      "visual_status_from_record": "source_native_and_actual_1800_repair_review_complete_pending_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "petroica-rosea",
+      "group": "group-b",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\petroica-rosea\\record.json",
+      "record_sha256": "886d805aea0aa1ef8142ead1107925d577d7d04b6c4d40b73c44b61ce9287cf1",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-taxonomy\\completion3-c\\petroica-rosea-original.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\petroica-rosea\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\petroica-rosea\\master-source-rgb.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\petroica-rosea\\petroica-rosea.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\petroica-rosea\\prepared.png"
+      },
+      "current_sha256": {
+        "source": "b17584ec9c34727ede4b617adc3d190bf89bf3e6a683cc751cae34dc73560f2d",
+        "mask": "cb68ae72fd429bc13cf13e29a53e2362928d5d016ac1de235a805542ef87bbe0",
+        "master": "85e4f9e20e13a8aa012875efc9b81de3415298f0023bb8b4cc81427dc6ac52a1",
+        "candidate": "ab8b3250a942c08861f25957a414b2ea9a51a354c7b3c99d38eb10696d995610",
+        "final_png": "931719115db415597ea7dcb4b94802f9926bbe5a2025f54a061cb32c02955705"
+      },
+      "declared_sha256": {
+        "source": "b17584ec9c34727ede4b617adc3d190bf89bf3e6a683cc751cae34dc73560f2d",
+        "mask": "cb68ae72fd429bc13cf13e29a53e2362928d5d016ac1de235a805542ef87bbe0",
+        "master": "85e4f9e20e13a8aa012875efc9b81de3415298f0023bb8b4cc81427dc6ac52a1",
+        "candidate": "ab8b3250a942c08861f25957a414b2ea9a51a354c7b3c99d38eb10696d995610"
+      },
+      "immutable_submitted_source_sha256": "b17584ec9c34727ede4b617adc3d190bf89bf3e6a683cc751cae34dc73560f2d",
+      "source_dimensions": [
+        3654,
+        5709
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3654,
+          5709
+        ],
+        "source_crop": [
+          1507,
+          2943,
+          1965,
+          4000
+        ]
+      },
+      "master_dimensions": [
+        458,
+        1057
+      ],
+      "candidate_dimensions": [
+        479,
+        1080
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        479,
+        1080
+      ],
+      "geometry": {
+        "box": [
+          0.017637,
+          0.006311,
+          0.978814,
+          0.994244
+        ],
+        "cut": [
+          479,
+          1080
+        ]
+      },
+      "visual_status_from_record": "source_native_and_actual_1800_repair_review_complete_pending_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "gymnorhina-tibicen",
+      "group": "group-c",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\gymnorhina-tibicen\\record.json",
+      "record_sha256": "cc5c25bb66903a40ed6001c34a78f20679096483d8e722caecda0fbb7cd6aa31",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\contribution-20-20260919\\magpie\\ku14990-original.tif",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\gymnorhina-tibicen\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\gymnorhina-tibicen\\master-source.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\gymnorhina-tibicen\\gymnorhina-tibicen.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\gymnorhina-tibicen\\prepared-final.png"
+      },
+      "current_sha256": {
+        "source": "6859b61312ea6d9ccdb3fe0f5daa357938cf875f3b0737e9809246fc7be78832",
+        "mask": "41a02fcb043a13c0d70e514fa27721397e6233c47f0446dae4ffc37cab3b5181",
+        "master": "bf55b54763f90a7d4ec08cd4c60be3e7f019e6cf5172407a2cb01f5e85bbfa36",
+        "candidate": "d6b40e19350fce3e44a02f1cc18a700ea82f25df0d785e644f1ca6317dfab0a9",
+        "final_png": "326ec86d70bb9691d0a445a9527007359d0cbfbabc7c26dd22f949c7543b2cf5"
+      },
+      "declared_sha256": {
+        "source": "6859b61312ea6d9ccdb3fe0f5daa357938cf875f3b0737e9809246fc7be78832",
+        "mask": "41a02fcb043a13c0d70e514fa27721397e6233c47f0446dae4ffc37cab3b5181",
+        "master": "bf55b54763f90a7d4ec08cd4c60be3e7f019e6cf5172407a2cb01f5e85bbfa36",
+        "candidate": "d6b40e19350fce3e44a02f1cc18a700ea82f25df0d785e644f1ca6317dfab0a9"
+      },
+      "immutable_submitted_source_sha256": "6859b61312ea6d9ccdb3fe0f5daa357938cf875f3b0737e9809246fc7be78832",
+      "source_dimensions": [
+        4188,
+        6033
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          4188,
+          6033
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        4188,
+        6033
+      ],
+      "candidate_dimensions": [
+        1200,
+        1186
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1200,
+        1186
+      ],
+      "geometry": {
+        "box": [
+          0.060576,
+          0.01327,
+          0.985249,
+          0.96097
+        ],
+        "cut": [
+          1200,
+          1186
+        ]
+      },
+      "visual_status_from_record": "fresh_edge_repair_individually_checked_pending_parent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "malurus-cyaneus",
+      "group": "group-c",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\malurus-cyaneus\\record.json",
+      "record_sha256": "bf0bded438b761ee8ddf065c87f1a616195671a75db55a78bec89f6879c1bb00",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\root-malurus-cyaneus-bhl48285751.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\malurus-cyaneus\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\malurus-cyaneus\\master-source.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\malurus-cyaneus\\malurus-cyaneus.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\malurus-cyaneus\\prepared-final.png"
+      },
+      "current_sha256": {
+        "source": "4c7c78a99b74877963a2b26b4545c1368d4e8bc9680980c7e699b9b2ab13a89e",
+        "mask": "6b0a002b24c53c9c2d562b0dc4339b2aad8ca0e8242995bc67f6151e62cf6ba4",
+        "master": "e63e9eaff2be62a4802512c56081a2555e7a5c40c472bd0d847b3a92e8f4427d",
+        "candidate": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb",
+        "final_png": "2b54b963da88df33ac96b5a8fdd01b0abb337cbcb448dbfe97c1e8e2da198fdb"
+      },
+      "declared_sha256": {
+        "source": "4c7c78a99b74877963a2b26b4545c1368d4e8bc9680980c7e699b9b2ab13a89e",
+        "mask": "6b0a002b24c53c9c2d562b0dc4339b2aad8ca0e8242995bc67f6151e62cf6ba4",
+        "master": "e63e9eaff2be62a4802512c56081a2555e7a5c40c472bd0d847b3a92e8f4427d",
+        "candidate": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb"
+      },
+      "immutable_submitted_source_sha256": "4c7c78a99b74877963a2b26b4545c1368d4e8bc9680980c7e699b9b2ab13a89e",
+      "source_dimensions": [
+        3611,
+        5709
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3611,
+          5709
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3611,
+        5709
+      ],
+      "candidate_dimensions": [
+        1164,
+        684
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1164,
+        684
+      ],
+      "geometry": {
+        "box": [
+          0.018333,
+          0.021287,
+          0.968333,
+          0.974958
+        ],
+        "cut": [
+          1164,
+          684
+        ]
+      },
+      "visual_status_from_record": "ready_for_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "platycercus-elegans",
+      "group": "group-c",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\platycercus-elegans\\record.json",
+      "record_sha256": "12e86d40c2a35a46274a3a2721612ef2a80ada9b2101849181521651d724a793",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\root-gould-v5-p23-bhl48401022.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\platycercus-elegans\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\platycercus-elegans\\master-source.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\platycercus-elegans\\platycercus-elegans.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\platycercus-elegans\\prepared-final.png"
+      },
+      "current_sha256": {
+        "source": "752e392871647ee0b1f73210d16de0f18cd8c149758bf01221ecd1dd1f96974d",
+        "mask": "26b7e16ca2bd75c4b846b9c85a289d18a7a51eb6c2573e7395e9cde68bbd79bf",
+        "master": "59f9075047fc4b01df09f4316ac9d6123ba4e8ff04091a126f97d82361a66ce4",
+        "candidate": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f",
+        "final_png": "40080747cab14c0ed28c6bebcdba8295d9fd67044d6e10300b961e8a5b14b91a"
+      },
+      "declared_sha256": {
+        "source": "752e392871647ee0b1f73210d16de0f18cd8c149758bf01221ecd1dd1f96974d",
+        "mask": "26b7e16ca2bd75c4b846b9c85a289d18a7a51eb6c2573e7395e9cde68bbd79bf",
+        "master": "59f9075047fc4b01df09f4316ac9d6123ba4e8ff04091a126f97d82361a66ce4",
+        "candidate": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f"
+      },
+      "immutable_submitted_source_sha256": "752e392871647ee0b1f73210d16de0f18cd8c149758bf01221ecd1dd1f96974d",
+      "source_dimensions": [
+        3614,
+        5750
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3614,
+          5750
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3614,
+        5750
+      ],
+      "candidate_dimensions": [
+        1200,
+        1124
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        1200,
+        1124
+      ],
+      "geometry": {
+        "box": [
+          0.013736,
+          0.015541,
+          0.983804,
+          0.983842
+        ],
+        "cut": [
+          1200,
+          1124
+        ]
+      },
+      "visual_status_from_record": "ready_for_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "podargus-strigoides",
+      "group": "group-c",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\podargus-strigoides\\record.json",
+      "record_sha256": "aaf083e66dc1e5d1d95b85b475a8138efb9c7eb5f4f9cb50aa6eab8c63be83ca",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\references\\historical-partition0\\gould-v2-p3-bhl48200500.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\podargus-strigoides\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\podargus-strigoides\\master-source.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\podargus-strigoides\\podargus-strigoides.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\podargus-strigoides\\prepared-final.png"
+      },
+      "current_sha256": {
+        "source": "66fced7885248aa8c09aa4a3f47316fef86426bbd4d232d064a9ba1b112c6c04",
+        "mask": "a977d302c2d16bb34d565c059e6b4841551b75d3fc1bdf0e4099dc2f8a5a7d21",
+        "master": "86a8757bd82652d73ab19e5b4d51351d1c5647e6487333e9a12a792f53778529",
+        "candidate": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e",
+        "final_png": "1e27999d90f4dea77bd8daea98d034e4e79f1b5101d7b4642f126eef69a48117"
+      },
+      "declared_sha256": {
+        "source": "66fced7885248aa8c09aa4a3f47316fef86426bbd4d232d064a9ba1b112c6c04",
+        "mask": "a977d302c2d16bb34d565c059e6b4841551b75d3fc1bdf0e4099dc2f8a5a7d21",
+        "master": "86a8757bd82652d73ab19e5b4d51351d1c5647e6487333e9a12a792f53778529",
+        "candidate": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e"
+      },
+      "immutable_submitted_source_sha256": "66fced7885248aa8c09aa4a3f47316fef86426bbd4d232d064a9ba1b112c6c04",
+      "source_dimensions": [
+        3653,
+        5771
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3653,
+          5771
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3653,
+        5771
+      ],
+      "candidate_dimensions": [
+        692,
+        1200
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        692,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.028165,
+          0.015426,
+          0.97192,
+          0.983759
+        ],
+        "cut": [
+          692,
+          1200
+        ]
+      },
+      "visual_status_from_record": "ready_for_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "trichoglossus-moluccanus",
+      "group": "group-c",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\trichoglossus-moluccanus\\record.json",
+      "record_sha256": "8c0b9047c4db3032a9dcbcfff09bfd10fa1125c12ce565f9fad6a46243d85cf3",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\root-gould-v5-p48-bhl48401122.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\trichoglossus-moluccanus\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\trichoglossus-moluccanus\\master-source.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\trichoglossus-moluccanus\\trichoglossus-moluccanus.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\trichoglossus-moluccanus\\prepared-final.png"
+      },
+      "current_sha256": {
+        "source": "ce7f53aaa69af930f0814d6f82d692f9e400ce2e1729aa31bf2a76a7c43e95ff",
+        "mask": "75e8bb31e0239d4ac588da63e74f0f40b73a049ab980a615d7ca931369a43f98",
+        "master": "c42185be6e729e3e569220a5dd2df4041f732c941b4891b7b667fdd375f3a437",
+        "candidate": "3c75f9e3583af42e883861aef93e6968459867c9b5828dba856a2b1fc781f69c",
+        "final_png": "d8fe1e19cfd125285a5a065412b6f45254f58838f02673c94f5730b798c75abb"
+      },
+      "declared_sha256": {
+        "source": "ce7f53aaa69af930f0814d6f82d692f9e400ce2e1729aa31bf2a76a7c43e95ff",
+        "mask": "75e8bb31e0239d4ac588da63e74f0f40b73a049ab980a615d7ca931369a43f98",
+        "master": "c42185be6e729e3e569220a5dd2df4041f732c941b4891b7b667fdd375f3a437",
+        "candidate": "3c75f9e3583af42e883861aef93e6968459867c9b5828dba856a2b1fc781f69c"
+      },
+      "immutable_submitted_source_sha256": "ce7f53aaa69af930f0814d6f82d692f9e400ce2e1729aa31bf2a76a7c43e95ff",
+      "source_dimensions": [
+        3609,
+        5750
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3609,
+          5750
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3609,
+        5750
+      ],
+      "candidate_dimensions": [
+        656,
+        1200
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        656,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.120041,
+          0.015288,
+          0.647293,
+          0.984712
+        ],
+        "cut": [
+          656,
+          1200
+        ]
+      },
+      "visual_status_from_record": "repaired_pending_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "zanda-funerea",
+      "group": "group-c",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\zanda-funerea\\record.json",
+      "record_sha256": "cad53ccd1453c7863209da1248dfa54b4169bb590761552cace0cf2b9953cd4f",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-taxonomy\\next20-curation\\gould-v5-p11.jpg",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\zanda-funerea\\mask-source.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\zanda-funerea\\master-source.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\zanda-funerea\\zanda-funerea.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\zanda-funerea\\prepared-final.png"
+      },
+      "current_sha256": {
+        "source": "6d117e07904b65886c6f5aa025dcc1fee394f4544487a772bc4dc9951f8c5411",
+        "mask": "5609b9e734da0f10fa48d06edf9db11839e3cb67e57e0ea5403b5de4492caabe",
+        "master": "6e52bb278665e9e4393c0019f5884297ae02309cc776afa55fc5b78dafc84294",
+        "candidate": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5",
+        "final_png": "24e819df6e0a5ae9ab982c7cd56a85452a76965845d80e08b54a088ef1062157"
+      },
+      "declared_sha256": {
+        "source": "6d117e07904b65886c6f5aa025dcc1fee394f4544487a772bc4dc9951f8c5411",
+        "mask": "5609b9e734da0f10fa48d06edf9db11839e3cb67e57e0ea5403b5de4492caabe",
+        "master": "6e52bb278665e9e4393c0019f5884297ae02309cc776afa55fc5b78dafc84294",
+        "candidate": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5"
+      },
+      "immutable_submitted_source_sha256": "6d117e07904b65886c6f5aa025dcc1fee394f4544487a772bc4dc9951f8c5411",
+      "source_dimensions": [
+        836,
+        1315
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          836,
+          1315
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        836,
+        1315
+      ],
+      "candidate_dimensions": [
+        764,
+        1200
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        764,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.021936,
+          0.064386,
+          0.947946,
+          0.986829
+        ],
+        "cut": [
+          764,
+          1200
+        ]
+      },
+      "visual_status_from_record": "ready_for_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "cacatua-galerita",
+      "group": "root",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\record.json",
+      "record_sha256": "635ae5e7d17c548d5b61fa43fd0174ac55022b98d2625a160a417b120dab18cb",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\references\\gould-cacatua-galerita-bhl.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\source-mask.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\source-master.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\cacatua-galerita.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\prepared.png"
+      },
+      "current_sha256": {
+        "source": "acbb171a1a989f32b57336497d48ea97a665beb1246c1edb817be369d8f374d1",
+        "mask": "32799d3a8dcfe95eade69be596a38fef031edf4375f08122bd62a9ab28e0863c",
+        "master": "873e2b1bfd0e92b231ed084fc5cffce792eed2f5a53c7673f6449c911d3ac2c6",
+        "candidate": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+        "final_png": "8f0e0600001a4602fd86ce878a6c6252a434bc6db0301049641d810f138cba36"
+      },
+      "declared_sha256": {
+        "source": "acbb171a1a989f32b57336497d48ea97a665beb1246c1edb817be369d8f374d1",
+        "mask": "32799d3a8dcfe95eade69be596a38fef031edf4375f08122bd62a9ab28e0863c",
+        "master": "873e2b1bfd0e92b231ed084fc5cffce792eed2f5a53c7673f6449c911d3ac2c6",
+        "candidate": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153"
+      },
+      "immutable_submitted_source_sha256": "acbb171a1a989f32b57336497d48ea97a665beb1246c1edb817be369d8f374d1",
+      "source_dimensions": [
+        3602,
+        5679
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3602,
+          5679
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3602,
+        5679
+      ],
+      "candidate_dimensions": [
+        783,
+        1200
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        783,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.245461,
+          0.10378,
+          0.913305,
+          0.854388
+        ],
+        "cut": [
+          783,
+          1200
+        ]
+      },
+      "visual_status_from_record": "individually_checked_complete_original_checker_dark_and_stock_frame1800_pending_root_integration",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "eolophus-roseicapilla",
+      "group": "root",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\record.json",
+      "record_sha256": "0cc1d22f8b420a206f2b38f1499ba48438657a8b3f632fbcee9d0b653d60ee0e",
+      "paths": {
+        "source": "[local project]\\artwork-sydney\\research\\historical-sources\\root-gould-v5-p4-bhl48400946.webp",
+        "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\source-mask.png",
+        "master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\source-master.png",
+        "candidate": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\eolophus-roseicapilla.webp",
+        "final_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\prepared.png"
+      },
+      "current_sha256": {
+        "source": "950cbafce0891980a41baa4b7ba6ea2c110ea3abf54d5929fb00a167f5c0e95a",
+        "mask": "1f7e80e7a6b06be215fc7a44dd30aabffe5677544f95fbd92c5226e813779e2f",
+        "master": "4f27aeae6c87e520c8d4bf5495983484aade82d0a0ab8ae999093ea9b09b266b",
+        "candidate": "9865f4ca7029539cc12c23a20ede207b44a301635a73ec2705a78946c3b4cd69",
+        "final_png": "b7d58254dc3ab9563e948a6f60b878cc64ef6e677425fde668095a268221c1b3"
+      },
+      "declared_sha256": {
+        "source": "950cbafce0891980a41baa4b7ba6ea2c110ea3abf54d5929fb00a167f5c0e95a",
+        "mask": "1f7e80e7a6b06be215fc7a44dd30aabffe5677544f95fbd92c5226e813779e2f",
+        "master": "4f27aeae6c87e520c8d4bf5495983484aade82d0a0ab8ae999093ea9b09b266b",
+        "candidate": "9865f4ca7029539cc12c23a20ede207b44a301635a73ec2705a78946c3b4cd69"
+      },
+      "immutable_submitted_source_sha256": "950cbafce0891980a41baa4b7ba6ea2c110ea3abf54d5929fb00a167f5c0e95a",
+      "source_dimensions": [
+        3681,
+        5679
+      ],
+      "source_transform": {
+        "rotation_clockwise": 0,
+        "oriented_dimensions": [
+          3681,
+          5679
+        ],
+        "source_crop": null
+      },
+      "master_dimensions": [
+        3681,
+        5679
+      ],
+      "candidate_dimensions": [
+        803,
+        1200
+      ],
+      "candidate_alpha_bbox": [
+        0,
+        0,
+        803,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.391683,
+          0.020832,
+          0.980794,
+          0.611286
+        ],
+        "cut": [
+          803,
+          1200
+        ]
+      },
+      "visual_status_from_record": "galah_paper_refinement_pending_independent_review",
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "record_stable_through_complete_audit": true,
+        "source_stable_through_complete_audit": true,
+        "mask_stable_through_complete_audit": true,
+        "master_stable_through_complete_audit": true,
+        "candidate_stable_through_complete_audit": true,
+        "final_png_stable_through_complete_audit": true
+      },
+      "passed": true
+    }
+  ]
+}

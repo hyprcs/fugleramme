@@ -1,0 +1,279 @@
+{
+  "result": "eleven_confirmed_repairs_checked_two_uncertainties_deferred",
+  "date": "2026-09-20",
+  "confirmed_repairs": [
+    {
+      "canonical_key": "acanthiza-pusilla",
+      "candidate_sha256": "c23aa658f70763b4908e9ccccbefed275b8b94a07359cf77cd1139311eb01a18",
+      "targeted_result": "pass",
+      "notes": "Original curled rear toe and twig contact restored; no detached hook remains.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "acanthiza-pusilla/01.png",
+        "acanthiza-pusilla/02.png"
+      ]
+    },
+    {
+      "canonical_key": "anthochaera-carunculata",
+      "candidate_sha256": "bd7ff3e0e12a715319d0f30aae7931a77318e2f3f3cfe336be3f6039842db05c",
+      "targeted_result": "pass",
+      "notes": "Original inner claw and pale tail-feather tips restored, preserving drawn outlines.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "anthochaera-carunculata/01.png",
+        "anthochaera-carunculata/02.png",
+        "anthochaera-carunculata/03.png"
+      ]
+    },
+    {
+      "canonical_key": "oriolus-sagittatus",
+      "candidate_sha256": "4ef80cdb2f429019cdec467e56c29b4963fe4a8c666244dedd1fc704bcffabdd",
+      "targeted_result": "pass",
+      "notes": "Both smaller hooked original claw strokes restored beside the twig.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "oriolus-sagittatus/01.png",
+        "oriolus-sagittatus/02.png"
+      ]
+    },
+    {
+      "canonical_key": "gymnorhina-tibicen",
+      "candidate_sha256": "d6b40e19350fce3e44a02f1cc18a700ea82f25df0d785e644f1ca6317dfab0a9",
+      "targeted_result": "pass",
+      "notes": "Foreground toe white notch replaced with exact original toe pixels; gap closed in paper render.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "gymnorhina-tibicen/01.png",
+        "gymnorhina-tibicen/02.png",
+        "gymnorhina-tibicen/03.png"
+      ]
+    },
+    {
+      "canonical_key": "manorina-melanocephala",
+      "candidate_sha256": "9efa0106c9950b25d4d3a478d7422664fd45b526ac8ce8f09580017162d96321",
+      "targeted_result": "pass",
+      "notes": "Original wood reconnected beneath forward claw, retaining source contact and rounded perch end.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "manorina-melanocephala/01.png",
+        "manorina-melanocephala/02.png",
+        "manorina-melanocephala/03.png"
+      ]
+    },
+    {
+      "canonical_key": "petroica-rosea",
+      "candidate_sha256": "ab8b3250a942c08861f25957a414b2ea9a51a354c7b3c99d38eb10696d995610",
+      "targeted_result": "pass",
+      "notes": "Missing original claw below the perch restored; matches source and remains connected.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "petroica-rosea/01.jpg"
+      ]
+    },
+    {
+      "canonical_key": "ocyphaps-lophotes",
+      "candidate_sha256": "9c94e29995922ae290c6b477d68ec531287ca708f5935b5f9805c0f5a0393685",
+      "targeted_result": "pass",
+      "notes": "Chest plumage restored from source; perch wood restored with a rounded source-only endpoint.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "ocyphaps-lophotes/01.jpg",
+        "ocyphaps-lophotes/02.jpg"
+      ]
+    },
+    {
+      "canonical_key": "anthochaera-chrysoptera",
+      "candidate_sha256": "62d38e2266db29f1e4a49013afbad11f3d57e0ca4cbf1d76930a7704dc8f1187",
+      "targeted_result": "pass",
+      "notes": "Retained paper triangle removed; lower wing, leg and supporting branch preserved.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "anthochaera-chrysoptera/01.jpg"
+      ]
+    },
+    {
+      "canonical_key": "grallina-cyanoleuca",
+      "candidate_sha256": "d950e2d679e986435f41b0b1dae6912b1704538354f2a2fe76d48d70dce95454",
+      "targeted_result": "pass",
+      "notes": "Background trunk wedge removed while belly and leg junction remain source faithful.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "grallina-cyanoleuca/01.jpg"
+      ]
+    },
+    {
+      "canonical_key": "trichoglossus-moluccanus",
+      "candidate_sha256": "3c75f9e3583af42e883861aef93e6968459867c9b5828dba856a2b1fc781f69c",
+      "targeted_result": "pass",
+      "notes": "Residual leaf tip removed; source toes and supporting bark preserved. Independently checked by fresh_edge_audit_b.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "trichoglossus-moluccanus/01.jpg"
+      ]
+    },
+    {
+      "canonical_key": "eolophus-roseicapilla",
+      "candidate_sha256": "9865f4ca7029539cc12c23a20ede207b44a301635a73ec2705a78946c3b4cd69",
+      "targeted_result": "pass",
+      "notes": "Broad gray paper wedge removed up to original lower feather and heel strokes; both original twig tips remain continuous. Original source master and alpha preserved.",
+      "source_and_closeup_inspected": true,
+      "full_1800_stock_render_inspected": true,
+      "evidence": [
+        "eolophus-roseicapilla/01.jpg",
+        "eolophus-roseicapilla/02.jpg"
+      ]
+    }
+  ],
+  "evidence_paths_relative_to": "exports/fugleramme-pr124-revision-20260920/confirmed-repairs",
+  "final_collage_review": {
+    "reviewer": "root",
+    "frames": [
+      {
+        "path": "frames/all-twenty-paper.png",
+        "sha256": "64d0fa8c026b42ac2dda1d80715907deebd3d95bfc6aa06339047546872ee201",
+        "visual_review": "No new issue from the scoped repairs observed in assembled stock-renderer collage."
+      },
+      {
+        "path": "frames/mixed-classic-paper.png",
+        "sha256": "54d30ba35ac29d9c4979a1bd874bf95dcafc64a30c97e29979d0a323c892b69f",
+        "visual_review": "No new issue from the scoped repairs observed in assembled stock-renderer collage."
+      }
+    ],
+    "physical_panel_tested": false
+  },
+  "candidate_hashes": {
+    "trichoglossus-moluccanus": "3c75f9e3583af42e883861aef93e6968459867c9b5828dba856a2b1fc781f69c",
+    "petroica-rosea": "ab8b3250a942c08861f25957a414b2ea9a51a354c7b3c99d38eb10696d995610",
+    "dacelo-novaeguineae": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+    "grallina-cyanoleuca": "d950e2d679e986435f41b0b1dae6912b1704538354f2a2fe76d48d70dce95454",
+    "malurus-cyaneus": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb",
+    "caligavis-chrysops": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+    "platycercus-elegans": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f",
+    "acanthiza-pusilla": "c23aa658f70763b4908e9ccccbefed275b8b94a07359cf77cd1139311eb01a18",
+    "oriolus-sagittatus": "4ef80cdb2f429019cdec467e56c29b4963fe4a8c666244dedd1fc704bcffabdd",
+    "anthochaera-chrysoptera": "62d38e2266db29f1e4a49013afbad11f3d57e0ca4cbf1d76930a7704dc8f1187",
+    "gymnorhina-tibicen": "d6b40e19350fce3e44a02f1cc18a700ea82f25df0d785e644f1ca6317dfab0a9",
+    "cacatua-galerita": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+    "eolophus-roseicapilla": "9865f4ca7029539cc12c23a20ede207b44a301635a73ec2705a78946c3b4cd69",
+    "manorina-melanocephala": "9efa0106c9950b25d4d3a478d7422664fd45b526ac8ce8f09580017162d96321",
+    "acridotheres-tristis": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+    "threskiornis-molucca": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+    "ocyphaps-lophotes": "9c94e29995922ae290c6b477d68ec531287ca708f5935b5f9805c0f5a0393685",
+    "anthochaera-carunculata": "bd7ff3e0e12a715319d0f30aae7931a77318e2f3f3cfe336be3f6039842db05c",
+    "podargus-strigoides": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e",
+    "zanda-funerea": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5"
+  },
+  "before_candidate_hashes": {
+    "acanthiza-pusilla": "1079cdb12466fb3a11224393b78ddf8be8e0e22f7640833fa1ef9bcbd67b7b43",
+    "acridotheres-tristis": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+    "anthochaera-carunculata": "f86ad389fd3f75cefb0fee647699cf8c4fead357cb1d2c31f712a2ae7f8a5311",
+    "anthochaera-chrysoptera": "5ecb78770980b9e913217b110497c6d7d9a526dbe6488e2fc6117c1d70ef521b",
+    "cacatua-galerita": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+    "caligavis-chrysops": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+    "dacelo-novaeguineae": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+    "eolophus-roseicapilla": "491dbe8e3a9eeab0dda2fc71eda63f8bacf79dd7b9bdfeb1f639fbd31143e659",
+    "grallina-cyanoleuca": "e77093afdcaede01ba0984f519c86851f8593e6ce4b856c01f5aa6a3cb867d1c",
+    "gymnorhina-tibicen": "c59ccce49a07e2968df968565b02d91ef5aa216ca443a930efff8c24bc0b8a2d",
+    "malurus-cyaneus": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb",
+    "manorina-melanocephala": "67f72ff8b42ad416173773c3c68ee6ebb2c58d31acfb76c5f5405246b06420f3",
+    "ocyphaps-lophotes": "2e1f04ec2d5a5c656f40a8f2769e2d7e166db1d1ec793db0e37afb12963ce7ea",
+    "oriolus-sagittatus": "54bb6508ed982c4724ed5a977394a3e30eda6d42a6ca434474d824453b5c948a",
+    "petroica-rosea": "4a9bf0fbb900b111b083c9398ed40e3c4ac87381b968143234ac2ff70a7e2165",
+    "platycercus-elegans": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f",
+    "podargus-strigoides": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e",
+    "threskiornis-molucca": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+    "trichoglossus-moluccanus": "b094299b73c1962d6ac3b24a3cf2452a52f458354cff5e4b26219f6c3eef704d",
+    "zanda-funerea": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5"
+  },
+  "changed_species": [
+    "acanthiza-pusilla",
+    "anthochaera-carunculata",
+    "anthochaera-chrysoptera",
+    "eolophus-roseicapilla",
+    "grallina-cyanoleuca",
+    "gymnorhina-tibicen",
+    "manorina-melanocephala",
+    "ocyphaps-lophotes",
+    "oriolus-sagittatus",
+    "petroica-rosea",
+    "trichoglossus-moluccanus"
+  ],
+  "unchanged_species": [
+    "acridotheres-tristis",
+    "cacatua-galerita",
+    "caligavis-chrysops",
+    "dacelo-novaeguineae",
+    "malurus-cyaneus",
+    "platycercus-elegans",
+    "podargus-strigoides",
+    "threskiornis-molucca",
+    "zanda-funerea"
+  ],
+  "deferred_unchanged": [
+    {
+      "canonical_key": "caligavis-chrysops",
+      "common_name": "Yellow-faced Honeyeater",
+      "status": "deferred_by_user_unchanged",
+      "finding": "Trace the small dark pointed detail behind the twig to determine the full rear claw boundary. It appears to be original foot detail omitted by the mask, but needs closer source adjudication before correction.",
+      "candidate_sha256": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+      "evidence": [
+        "a/caligavis-chrysops-feet-source-mask.png",
+        "a/caligavis-chrysops-feet-final-render.png"
+      ]
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "common_name": "Common Myna",
+      "status": "deferred_by_user_unchanged",
+      "finding": "Identify the tan, veined shape between wing and tail. It resembles a background leaf, but keep it intact until that identification is secure.",
+      "candidate_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+      "evidence": [
+        "b/acridotheres-tristis-wing-gap-tail.jpg"
+      ]
+    }
+  ],
+  "checks": {
+    "eleven_and_only_eleven_candidates_changed": true,
+    "nine_other_candidates_unchanged": true,
+    "all_twenty_source_and_alpha_integrity_pass": true,
+    "targeted_tests": {
+      "checked_at_utc": "2026-09-20T03:06:07.218448+00:00",
+      "exit_code": 0,
+      "tests": [
+        "tests/test_add_bird.py",
+        "tests/test_sizes.py",
+        "tests/test_artwork_names.py"
+      ],
+      "command": [
+        "[local project]\\contribution-prep\\fugleramme\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_add_bird.py",
+        "tests/test_sizes.py",
+        "tests/test_artwork_names.py"
+      ],
+      "working_directory": "[local project]\\contribution-prep\\fugleramme",
+      "summary": "21 passed in 3.80s",
+      "output": ".....................                                                    [100%]\n21 passed in 3.80s\n",
+      "count_passed": 21,
+      "full_suite_rerun": false
+    }
+  },
+  "publication_authorized": false,
+  "published": false,
+  "physical_panel_tested": false,
+  "scope": "Targeted visual acceptance of the eleven confirmed repairs; not an all-clear for the two deferred details or permission to publish."
+}

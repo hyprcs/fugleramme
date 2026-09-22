@@ -1,0 +1,1134 @@
+{
+  "checked_at_utc": "2026-09-22T00:00:45.606821+00:00",
+  "scope": "Independent prepublication read-only verification of the twenty previously reviewed candidates, source/master/alpha integrity, crop-bound geometry and export/local clone agreement. Only this verification JSON was written.",
+  "passed": true,
+  "species_count": 20,
+  "species_passed": 20,
+  "checks": {
+    "exactly_twenty_authoritative_records": true,
+    "no_duplicate_species": true,
+    "same_reviewed_and_original_species": true,
+    "all_twenty_species_checks_pass": true,
+    "exactly_twenty_export_webps": true,
+    "eleven_repaired_candidates_correct": true,
+    "nine_unchanged_candidates_correct": true,
+    "export_repair_report_matches_record": true,
+    "ten_recorded_frame_hashes_match": true,
+    "watched_files_unchanged_during_audit": true
+  },
+  "review_reference": {
+    "path": "artwork-sydney/research/pr124-revision-20260920/final-visual-review.json",
+    "sha256": "611f7220d583f2053a4fcd9ef35118960d5f9880bba9f8720f2aef43b418d290",
+    "result": "eleven_confirmed_repairs_checked_two_uncertainties_deferred"
+  },
+  "immutable_source_reference_sha256": "130004c11a93a5b2abd019b549898785c88bb30c9650dbb1f0fa1df1a2ff04b2",
+  "provenance_sha256": "81fc9f3a81a82dfb672f9e82e349132840739519ba155b47e58c70b9182947ac",
+  "deferred_unchanged": [
+    {
+      "canonical_key": "caligavis-chrysops",
+      "status": "deferred_by_user_unchanged",
+      "candidate_sha256": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe"
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "status": "deferred_by_user_unchanged",
+      "candidate_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b"
+    }
+  ],
+  "limits": [
+    "No new visual-quality, anatomy or physical-display claims. Exact candidate bytes are unchanged since the accepted scoped review.",
+    "Two previously deferred details remain deferred and unchanged.",
+    "No full test suite or Linux CI run in this check; git integration, current tests and publication are handled separately.",
+    "Native source RGB masters match scans exactly; documented final background-only paper preparation is separate."
+  ],
+  "drifted_during_audit": [],
+  "frames": {
+    "frames/all-twenty-paper.png": true,
+    "frames/all-twenty-panel-input.png": true,
+    "frames/all-twenty-six-colour.png": true,
+    "frames/common-ten-paper.png": true,
+    "frames/common-ten-panel-input.png": true,
+    "frames/common-ten-six-colour.png": true,
+    "frames/mixed-classic-paper.png": true,
+    "frames/mixed-classic-panel-input.png": true,
+    "frames/mixed-classic-six-colour.png": true,
+    "frames/television-4k-paper.png": true
+  },
+  "species": [
+    {
+      "canonical_key": "acanthiza-pusilla",
+      "candidate_sha256": "c23aa658f70763b4908e9ccccbefed275b8b94a07359cf77cd1139311eb01a18",
+      "source_sha256": "447859a23c7faceac197d4c0f1fbb820f5acf6b585001a0ac623828205431aea",
+      "mask_sha256": "b3c8fe846a3aca429f050a2fcc8f424c215e1688dcc9b30ad248b4fc325b0b1c",
+      "master_sha256": "b48bcaa7e641299cf80ef6e8906e1fc4719c67cafeaaa24c75fcec83ffd4c51c",
+      "final_png_sha256": "345ba607d2ed4ab912ec99dbbae3ed924e0fe186e27a255b51872ef8a1c5aeec",
+      "dimensions": [
+        1043,
+        720
+      ],
+      "geometry": {
+        "box": [
+          0.011505,
+          0.018056,
+          0.988495,
+          0.865278
+        ],
+        "cut": [
+          1043,
+          720
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "anthochaera-carunculata",
+      "candidate_sha256": "bd7ff3e0e12a715319d0f30aae7931a77318e2f3f3cfe336be3f6039842db05c",
+      "source_sha256": "b8402f1f067443254c8f0637098c97dcd651b6c1a0ba35d58bbda75a95e74937",
+      "mask_sha256": "d9446e015869d9e34acaee51b28cd903a985f68a4e5be8dc18cb07148d1d0bca",
+      "master_sha256": "908715a3ffbffead55241aa64910a29c9acebcc33b44cd4ee2635df8e59c6ac1",
+      "final_png_sha256": "df1dec99cce13fe96c0c15a8d8b5606614f26862430f5992f083917ced0638b4",
+      "dimensions": [
+        1200,
+        580
+      ],
+      "geometry": {
+        "box": [
+          0.008987,
+          0.021928,
+          0.992738,
+          0.97909
+        ],
+        "cut": [
+          1200,
+          580
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "caligavis-chrysops",
+      "candidate_sha256": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+      "source_sha256": "c6d1a5cfaebe159991df0e37f36ae6062b07d20ccbc9d3b76a0546f842ed6f6d",
+      "mask_sha256": "8c2599d41a8f69b661a4327ca1e8dec48d9035490b46191a218b16171de42706",
+      "master_sha256": "99028fd33378e0043a786b01c9f6bd9253f85c3a364c2ac2994a08782ac44278",
+      "final_png_sha256": "7c184a30de345cdc5c6edd6dc5489b1bed2fe5ae767aca9ce89a2f2f105032b0",
+      "dimensions": [
+        1200,
+        988
+      ],
+      "geometry": {
+        "box": [
+          0.010356,
+          0.011908,
+          0.989379,
+          0.964016
+        ],
+        "cut": [
+          1200,
+          988
+        ]
+      },
+      "changed_in_last_repair_batch": false,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true,
+        "unchanged_geometry_matches_pre_repair_baseline": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "manorina-melanocephala",
+      "candidate_sha256": "9efa0106c9950b25d4d3a478d7422664fd45b526ac8ce8f09580017162d96321",
+      "source_sha256": "e891488a8e0e467d491ffa8807844301b0f23ae0464e28000c8eb5fa481cdbd6",
+      "mask_sha256": "27db9e3ef4016f5b761c5e0913ce267292e311e5b93ab765787c92f1445569ae",
+      "master_sha256": "490432fc6c8ba78154ffcdb9741ae865a567ad82988a30d1998ed0745d8baebd",
+      "final_png_sha256": "536d605a25a3b466176e6c399f5bc16f4d5e24fb52c1fa2f5946f87816c0a9e6",
+      "dimensions": [
+        1200,
+        492
+      ],
+      "geometry": {
+        "box": [
+          0.008638,
+          0.02989,
+          0.990427,
+          0.898488
+        ],
+        "cut": [
+          1200,
+          492
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "oriolus-sagittatus",
+      "candidate_sha256": "4ef80cdb2f429019cdec467e56c29b4963fe4a8c666244dedd1fc704bcffabdd",
+      "source_sha256": "b43c6bb7cbe07af030d0f5a1744dfa01cc934508dcd0f89b65ba62e44cbbe553",
+      "mask_sha256": "106920391ed72edddc7894db3d589516bcc19f5b6dff8ea844ba173b84ad9d25",
+      "master_sha256": "1d5bca41156eb465842193b96c5496215434dade833722b91c695f3da032c875",
+      "final_png_sha256": "ed75b3579fee7464e6517715199589b9e2d9398d34c570700475b799dd0bef20",
+      "dimensions": [
+        1200,
+        726
+      ],
+      "geometry": {
+        "box": [
+          0.009796,
+          0.018237,
+          0.989388,
+          0.980593
+        ],
+        "cut": [
+          1200,
+          726
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "threskiornis-molucca",
+      "candidate_sha256": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+      "source_sha256": "1b00697df21aec1d4df0b2d67f111090372f129399e429c4ec706e37cb722aa2",
+      "mask_sha256": "1b2615ec8edf106c56ed9c277efca3c62e15f435ad9556c4a7c7ae42f96683e3",
+      "master_sha256": "912a999288bfd63fc7bd357cae2b08077797104938a4e9ebd53966b093dc1c52",
+      "final_png_sha256": "1eebc495983728eca3c0853c323147f13e5d0851086f7e11df7ccbdf019698db",
+      "dimensions": [
+        1200,
+        1079
+      ],
+      "geometry": {
+        "box": [
+          0.161992,
+          0.012043,
+          0.988496,
+          0.951286
+        ],
+        "cut": [
+          1200,
+          1079
+        ]
+      },
+      "changed_in_last_repair_batch": false,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true,
+        "unchanged_geometry_matches_pre_repair_baseline": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "candidate_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+      "source_sha256": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+      "mask_sha256": "70fbf6f90140072453f58c491f8bca16dcc8c3c5cdf7d8a2228f5ccb24ccce68",
+      "master_sha256": "43506fcac5d1f49d382054f9fb75fc0dbeed8007d371a44947c7fb84c034228f",
+      "final_png_sha256": "4fbad42040bfc3b78a9f3c54816fc281fe76b3d7ec08ca7559caff2350eeffe7",
+      "dimensions": [
+        743,
+        1148
+      ],
+      "geometry": {
+        "box": [
+          0.019715,
+          0.009779,
+          0.982055,
+          0.98772
+        ],
+        "cut": [
+          743,
+          1148
+        ]
+      },
+      "changed_in_last_repair_batch": false,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true,
+        "unchanged_geometry_matches_pre_repair_baseline": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "anthochaera-chrysoptera",
+      "candidate_sha256": "62d38e2266db29f1e4a49013afbad11f3d57e0ca4cbf1d76930a7704dc8f1187",
+      "source_sha256": "aa2eb3711c497be444ece2e88c7c48bcbd92001bd7d9360e984d701b891b315b",
+      "mask_sha256": "ab4f43cbf13558b18bd156c8fde551ba4ed7e4d788053382da3155a6490aff38",
+      "master_sha256": "e66e7e654e50da63431f54e2b1d61e70c1d35490b5ab6bceb91680da0678dc28",
+      "final_png_sha256": "6956c4ea85a3bb5e0286ef41476003f04d8132785b99374b2d1e4ecda2d1acb9",
+      "dimensions": [
+        1144,
+        726
+      ],
+      "geometry": {
+        "box": [
+          0.01286,
+          0.018318,
+          0.821365,
+          0.885997
+        ],
+        "cut": [
+          1144,
+          726
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "dacelo-novaeguineae",
+      "candidate_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+      "source_sha256": "54f7fbaa89ec5b823392de09ddeb2f271bd4473a9b14007e4b3e579711a1ac63",
+      "mask_sha256": "7537086233bc5d812ff6a89ffc1a03a9b1a81898d64fe64a194ef42b5bf3e189",
+      "master_sha256": "d254e9b7e601deb260f83791a107e83b99ab0959115e095659ee35733efa17eb",
+      "final_png_sha256": "e1238a3bc97547471515d060033a42583825c77472c18b939984aeb54d64abe5",
+      "dimensions": [
+        1145,
+        1115
+      ],
+      "geometry": {
+        "box": [
+          0.010447,
+          0.013348,
+          0.990064,
+          0.987531
+        ],
+        "cut": [
+          1145,
+          1115
+        ]
+      },
+      "changed_in_last_repair_batch": false,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true,
+        "unchanged_geometry_matches_pre_repair_baseline": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "grallina-cyanoleuca",
+      "candidate_sha256": "d950e2d679e986435f41b0b1dae6912b1704538354f2a2fe76d48d70dce95454",
+      "source_sha256": "72f419e09dc676cb6a991f68c1e76ab0798a50d145fd94ecc59739fe3c40fc11",
+      "mask_sha256": "4e1c22dedf26e045783bd70f2f03a9f8e73d6007b79070b25d9d2d2d31f036c4",
+      "master_sha256": "34c9bd1614bd1a45edddd50509dc49998e327c5541782585d15d1647714f6069",
+      "final_png_sha256": "855fc2dae979c0cfd37926bbd90c2fd2173476d3ee08f2f9a291d76f995483df",
+      "dimensions": [
+        1145,
+        876
+      ],
+      "geometry": {
+        "box": [
+          0.012236,
+          0.017127,
+          0.989429,
+          0.916012
+        ],
+        "cut": [
+          1145,
+          876
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "ocyphaps-lophotes",
+      "candidate_sha256": "9c94e29995922ae290c6b477d68ec531287ca708f5935b5f9805c0f5a0393685",
+      "source_sha256": "6d70228b08b54aaf2b9b10766acc8f69548ea764c03fce58be23df9197d91893",
+      "mask_sha256": "d7a79f32b7f47e235a503bfca452e283ce8b0ce9fbcb9928cc46791b73c895df",
+      "master_sha256": "e52c52a66df742b035e6311682cce1ad2a7c888460db5f9b404bff27ff6e7d55",
+      "final_png_sha256": "f2b70a301a7aa81cb0f7d8ae9a6e516a047b447372e64a5b95913b3bbe4e9279",
+      "dimensions": [
+        664,
+        1148
+      ],
+      "geometry": {
+        "box": [
+          0.141748,
+          0.013321,
+          0.983279,
+          0.986799
+        ],
+        "cut": [
+          664,
+          1148
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "petroica-rosea",
+      "candidate_sha256": "ab8b3250a942c08861f25957a414b2ea9a51a354c7b3c99d38eb10696d995610",
+      "source_sha256": "b17584ec9c34727ede4b617adc3d190bf89bf3e6a683cc751cae34dc73560f2d",
+      "mask_sha256": "cb68ae72fd429bc13cf13e29a53e2362928d5d016ac1de235a805542ef87bbe0",
+      "master_sha256": "85e4f9e20e13a8aa012875efc9b81de3415298f0023bb8b4cc81427dc6ac52a1",
+      "final_png_sha256": "931719115db415597ea7dcb4b94802f9926bbe5a2025f54a061cb32c02955705",
+      "dimensions": [
+        479,
+        1080
+      ],
+      "geometry": {
+        "box": [
+          0.017637,
+          0.006311,
+          0.978814,
+          0.994244
+        ],
+        "cut": [
+          479,
+          1080
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "source_crop_matches_full_source_mask_bbox": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "gymnorhina-tibicen",
+      "candidate_sha256": "d6b40e19350fce3e44a02f1cc18a700ea82f25df0d785e644f1ca6317dfab0a9",
+      "source_sha256": "6859b61312ea6d9ccdb3fe0f5daa357938cf875f3b0737e9809246fc7be78832",
+      "mask_sha256": "41a02fcb043a13c0d70e514fa27721397e6233c47f0446dae4ffc37cab3b5181",
+      "master_sha256": "bf55b54763f90a7d4ec08cd4c60be3e7f019e6cf5172407a2cb01f5e85bbfa36",
+      "final_png_sha256": "326ec86d70bb9691d0a445a9527007359d0cbfbabc7c26dd22f949c7543b2cf5",
+      "dimensions": [
+        1200,
+        1186
+      ],
+      "geometry": {
+        "box": [
+          0.060576,
+          0.01327,
+          0.985249,
+          0.96097
+        ],
+        "cut": [
+          1200,
+          1186
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "malurus-cyaneus",
+      "candidate_sha256": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb",
+      "source_sha256": "4c7c78a99b74877963a2b26b4545c1368d4e8bc9680980c7e699b9b2ab13a89e",
+      "mask_sha256": "6b0a002b24c53c9c2d562b0dc4339b2aad8ca0e8242995bc67f6151e62cf6ba4",
+      "master_sha256": "e63e9eaff2be62a4802512c56081a2555e7a5c40c472bd0d847b3a92e8f4427d",
+      "final_png_sha256": "2b54b963da88df33ac96b5a8fdd01b0abb337cbcb448dbfe97c1e8e2da198fdb",
+      "dimensions": [
+        1164,
+        684
+      ],
+      "geometry": {
+        "box": [
+          0.018333,
+          0.021287,
+          0.968333,
+          0.974958
+        ],
+        "cut": [
+          1164,
+          684
+        ]
+      },
+      "changed_in_last_repair_batch": false,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true,
+        "unchanged_geometry_matches_pre_repair_baseline": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "platycercus-elegans",
+      "candidate_sha256": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f",
+      "source_sha256": "752e392871647ee0b1f73210d16de0f18cd8c149758bf01221ecd1dd1f96974d",
+      "mask_sha256": "26b7e16ca2bd75c4b846b9c85a289d18a7a51eb6c2573e7395e9cde68bbd79bf",
+      "master_sha256": "59f9075047fc4b01df09f4316ac9d6123ba4e8ff04091a126f97d82361a66ce4",
+      "final_png_sha256": "40080747cab14c0ed28c6bebcdba8295d9fd67044d6e10300b961e8a5b14b91a",
+      "dimensions": [
+        1200,
+        1124
+      ],
+      "geometry": {
+        "box": [
+          0.013736,
+          0.015541,
+          0.983804,
+          0.983842
+        ],
+        "cut": [
+          1200,
+          1124
+        ]
+      },
+      "changed_in_last_repair_batch": false,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true,
+        "unchanged_geometry_matches_pre_repair_baseline": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "podargus-strigoides",
+      "candidate_sha256": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e",
+      "source_sha256": "66fced7885248aa8c09aa4a3f47316fef86426bbd4d232d064a9ba1b112c6c04",
+      "mask_sha256": "a977d302c2d16bb34d565c059e6b4841551b75d3fc1bdf0e4099dc2f8a5a7d21",
+      "master_sha256": "86a8757bd82652d73ab19e5b4d51351d1c5647e6487333e9a12a792f53778529",
+      "final_png_sha256": "1e27999d90f4dea77bd8daea98d034e4e79f1b5101d7b4642f126eef69a48117",
+      "dimensions": [
+        692,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.028165,
+          0.015426,
+          0.97192,
+          0.983759
+        ],
+        "cut": [
+          692,
+          1200
+        ]
+      },
+      "changed_in_last_repair_batch": false,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true,
+        "unchanged_geometry_matches_pre_repair_baseline": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "trichoglossus-moluccanus",
+      "candidate_sha256": "3c75f9e3583af42e883861aef93e6968459867c9b5828dba856a2b1fc781f69c",
+      "source_sha256": "ce7f53aaa69af930f0814d6f82d692f9e400ce2e1729aa31bf2a76a7c43e95ff",
+      "mask_sha256": "75e8bb31e0239d4ac588da63e74f0f40b73a049ab980a615d7ca931369a43f98",
+      "master_sha256": "c42185be6e729e3e569220a5dd2df4041f732c941b4891b7b667fdd375f3a437",
+      "final_png_sha256": "d8fe1e19cfd125285a5a065412b6f45254f58838f02673c94f5730b798c75abb",
+      "dimensions": [
+        656,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.120041,
+          0.015288,
+          0.647293,
+          0.984712
+        ],
+        "cut": [
+          656,
+          1200
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "zanda-funerea",
+      "candidate_sha256": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5",
+      "source_sha256": "6d117e07904b65886c6f5aa025dcc1fee394f4544487a772bc4dc9951f8c5411",
+      "mask_sha256": "5609b9e734da0f10fa48d06edf9db11839e3cb67e57e0ea5403b5de4492caabe",
+      "master_sha256": "6e52bb278665e9e4393c0019f5884297ae02309cc776afa55fc5b78dafc84294",
+      "final_png_sha256": "24e819df6e0a5ae9ab982c7cd56a85452a76965845d80e08b54a088ef1062157",
+      "dimensions": [
+        764,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.021936,
+          0.064386,
+          0.947946,
+          0.986829
+        ],
+        "cut": [
+          764,
+          1200
+        ]
+      },
+      "changed_in_last_repair_batch": false,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true,
+        "unchanged_geometry_matches_pre_repair_baseline": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "cacatua-galerita",
+      "candidate_sha256": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+      "source_sha256": "acbb171a1a989f32b57336497d48ea97a665beb1246c1edb817be369d8f374d1",
+      "mask_sha256": "32799d3a8dcfe95eade69be596a38fef031edf4375f08122bd62a9ab28e0863c",
+      "master_sha256": "873e2b1bfd0e92b231ed084fc5cffce792eed2f5a53c7673f6449c911d3ac2c6",
+      "final_png_sha256": "8f0e0600001a4602fd86ce878a6c6252a434bc6db0301049641d810f138cba36",
+      "dimensions": [
+        783,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.245461,
+          0.10378,
+          0.913305,
+          0.854388
+        ],
+        "cut": [
+          783,
+          1200
+        ]
+      },
+      "changed_in_last_repair_batch": false,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true,
+        "unchanged_geometry_matches_pre_repair_baseline": true
+      },
+      "passed": true
+    },
+    {
+      "canonical_key": "eolophus-roseicapilla",
+      "candidate_sha256": "9865f4ca7029539cc12c23a20ede207b44a301635a73ec2705a78946c3b4cd69",
+      "source_sha256": "950cbafce0891980a41baa4b7ba6ea2c110ea3abf54d5929fb00a167f5c0e95a",
+      "mask_sha256": "1f7e80e7a6b06be215fc7a44dd30aabffe5677544f95fbd92c5226e813779e2f",
+      "master_sha256": "4f27aeae6c87e520c8d4bf5495983484aade82d0a0ab8ae999093ea9b09b266b",
+      "final_png_sha256": "b7d58254dc3ab9563e948a6f60b878cc64ef6e677425fde668095a268221c1b3",
+      "dimensions": [
+        803,
+        1200
+      ],
+      "geometry": {
+        "box": [
+          0.391683,
+          0.020832,
+          0.980794,
+          0.611286
+        ],
+        "cut": [
+          803,
+          1200
+        ]
+      },
+      "changed_in_last_repair_batch": true,
+      "checks": {
+        "source_hash_matches_record": true,
+        "mask_hash_matches_record": true,
+        "master_hash_matches_record": true,
+        "candidate_hash_matches_record": true,
+        "source_hash_matches_immutable_submitted_twenty": true,
+        "mask_matches_oriented_source_dimensions": true,
+        "master_dimensions_match_recorded_source_transform": true,
+        "source_master_rgb_exact_including_transparent_pixels": true,
+        "source_master_alpha_equals_recorded_mask": true,
+        "final_png_dimensions_equal_webp": true,
+        "final_png_alpha_exactly_equals_webp": true,
+        "longest_dimension_at_most_1200": true,
+        "webp_alpha_trimmed": true,
+        "candidate_has_nontrivial_alpha": true,
+        "geometry_cut_equals_actual_dimensions": true,
+        "geometry_finite_ordered_in_unit_square": true,
+        "no_generative_editing_recorded": true,
+        "record_stable_during_individual_audit": true,
+        "reviewed_candidate_unchanged": true,
+        "prior_integrity_snapshot_matches": true,
+        "export_matches_candidate_and_provenance": true,
+        "clone_matches_candidate": true,
+        "collected_record_current": true,
+        "geometry_record_export_clone_provenance_agree": true,
+        "manifest_export_clone_agree": true
+      },
+      "passed": true
+    }
+  ]
+}

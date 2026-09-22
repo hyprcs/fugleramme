@@ -1,0 +1,21 @@
+{
+  "status": "public_domain_historical_work",
+  "rights_statement": "The Commons record identifies this plate as public domain (PD-old-100). It dates it1880 and credits John Gerrard Keulemans (1842\u20131912). The institutional catalog independently names Keulemans as lithographer, Hanhart as printer of plates, publication1878\u20131880, and Smithsonian Libraries as holding library. The selected pixels come directly from the same Smithsonian/Internet Archive scan, not the Commons colour-adjusted derivative.",
+  "rights_page_url": "https://commons.wikimedia.org/wiki/File:GraculaPtilogenysLegge.jpg",
+  "rights_page": {
+    "path": "evidence/source-rights/54f0e14a45-legge-commons.html",
+    "sha256": "54f0e14a45e308918fa9ba111737a9b877c7b64a0199725f65303905c1a17ea5",
+    "original_archive_sha256": "54f0e14a45e308918fa9ba111737a9b877c7b64a0199725f65303905c1a17ea5"
+  },
+  "institutional_catalog_url": "https://archive.org/metadata/historyofbirdsof02legg",
+  "institutional_catalog": {
+    "path": "evidence/source-rights/19503c2d7e-legge-ia-metadata.json",
+    "sha256": "19503c2d7eee8d15500b9b7ff5a629d31434840e2d21bfad9b3e2450d438e979",
+    "original_archive_sha256": "19503c2d7eee8d15500b9b7ff5a629d31434840e2d21bfad9b3e2450d438e979"
+  },
+  "publication": "London: published by the author; issued1878\u20131880; Commons dates this plate1880.",
+  "us_basis": "Historical work published before1931; original creator deceased1912.",
+  "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "metadata_limit": "The direct IA metadata did not expose a possible-copyright-status field. BHL title HTML returned403; no claim of a freshly retrieved BHL rights statement.",
+  "local_evidence_paths_relative_to": "review pack root"
+}

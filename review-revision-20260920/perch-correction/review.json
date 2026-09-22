@@ -1,0 +1,8 @@
+{
+  "old_sha256": "bdd7471badc377b9c80d40642a24e170e109738c9e07ab7949876943b00bd722",
+  "new_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+  "independent_result": "pass",
+  "change": "Tightened the source-alpha boundary along the upper branch to remove retained scan paper; original bark and gripping foot/claws preserved.",
+  "generative_pixel_editing": false,
+  "published": false
+}

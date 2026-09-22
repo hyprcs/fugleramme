@@ -1,0 +1,229 @@
+{
+  "date": "2026-09-20",
+  "result": "hold_for_correction_and_source_verification",
+  "scope": "Fresh source-referenced review of all twenty current PR124 revision candidates after the Kookaburra paper-ribbon correction.",
+  "counts": {
+    "birds_checked": 20,
+    "confirmed_correction_birds": 11,
+    "uncertain_birds": 2,
+    "no_additional_defect_observed": 7
+  },
+  "candidate_assets_modified": false,
+  "published": false,
+  "physical_panel_tested": false,
+  "prior_all_clear_superseded": true,
+  "method": "Independent source, mask/cutout and actual enlarged paper-render comparisons. Existing matching paper backing, genuine feathers and intentional source scenery are not automatically defects. No previous approval was treated as evidence of visual correctness.",
+  "observations": [
+    {
+      "canonical_key": "acanthiza-pusilla",
+      "common_name": "Brown Thornbill",
+      "status": "must-fix",
+      "finding": "Restore the original rear toe/claw detail. The current mask removes part of the grip and leaves a detached curved hook.",
+      "candidate_sha256": "1079cdb12466fb3a11224393b78ddf8be8e0e22f7640833fa1ef9bcbd67b7b43",
+      "evidence": [
+        "a/acanthiza-pusilla-feet-source-mask.png",
+        "a/acanthiza-pusilla-feet-final-render.png"
+      ]
+    },
+    {
+      "canonical_key": "anthochaera-carunculata",
+      "common_name": "Red Wattlebird",
+      "status": "must-fix",
+      "finding": "Restore the smaller original inner claw and the pale drawn tail-feather tips. The current mask removes the claw and cuts several genuine feather tips into angular steps.",
+      "candidate_sha256": "f86ad389fd3f75cefb0fee647699cf8c4fead357cb1d2c31f712a2ae7f8a5311",
+      "evidence": [
+        "a/anthochaera-carunculata-feet-source-mask.png",
+        "a/anthochaera-carunculata-tail-source-mask.png",
+        "a/anthochaera-carunculata-feet-final-render.png",
+        "a/anthochaera-carunculata-tail-final-render.png"
+      ]
+    },
+    {
+      "canonical_key": "oriolus-sagittatus",
+      "common_name": "Olive-backed Oriole",
+      "status": "must-fix",
+      "finding": "Restore the smaller original hooked claw strokes beside the twig. These were removed with the surrounding leaf/background.",
+      "candidate_sha256": "54bb6508ed982c4724ed5a977394a3e30eda6d42a6ca434474d824453b5c948a",
+      "evidence": [
+        "a/oriolus-sagittatus-feet-source-mask.png",
+        "a/oriolus-sagittatus-feet-final-render.png"
+      ]
+    },
+    {
+      "canonical_key": "gymnorhina-tibicen",
+      "common_name": "Australian Magpie",
+      "status": "must-fix",
+      "finding": "Close the accidental angular cut through the foreground toe using the original source. The white notch is visible in the paper render.",
+      "candidate_sha256": "c59ccce49a07e2968df968565b02d91ef5aa216ca443a930efff8c24bc0b8a2d",
+      "evidence": [
+        "a/gymnorhina-tibicen-feet-source-mask.png",
+        "a/gymnorhina-tibicen-feet-final-render.png"
+      ]
+    },
+    {
+      "canonical_key": "manorina-melanocephala",
+      "common_name": "Noisy Miner",
+      "status": "must-fix",
+      "finding": "Restore the original perch wood beneath the forward claw. The mask cuts into the wood and leaves the claw hanging above it.",
+      "candidate_sha256": "67f72ff8b42ad416173773c3c68ee6ebb2c58d31acfb76c5f5405246b06420f3",
+      "evidence": [
+        "a/manorina-melanocephala-feet-source-mask.png",
+        "a/manorina-melanocephala-feet-final-render.png"
+      ]
+    },
+    {
+      "canonical_key": "petroica-rosea",
+      "common_name": "Rose Robin",
+      "status": "must-fix",
+      "finding": "Restore the small original claw projecting below the perch, immediately left of the right-hand foot.",
+      "candidate_sha256": "4a9bf0fbb900b111b083c9398ed40e3c4ac87381b968143234ac2ff70a7e2165",
+      "evidence": [
+        "b/petroica-rosea-right-foot.jpg"
+      ]
+    },
+    {
+      "canonical_key": "ocyphaps-lophotes",
+      "common_name": "Crested Pigeon",
+      "status": "must-fix",
+      "finding": "Restore the original chest below the bill: a white notch has been carved into continuous plumage. Also remove the retained gray paper strip beneath the left perch.",
+      "candidate_sha256": "2e1f04ec2d5a5c656f40a8f2769e2d7e166db1d1ec793db0e37afb12963ce7ea",
+      "evidence": [
+        "b/ocyphaps-lophotes-bill.jpg",
+        "b/ocyphaps-lophotes-feet-perch.jpg"
+      ]
+    },
+    {
+      "canonical_key": "anthochaera-chrysoptera",
+      "common_name": "Little Wattlebird",
+      "status": "must-fix",
+      "finding": "Match or remove the retained source-paper triangle between the lower wing, gripping leg and branch. It remains slightly gray in the paper render.",
+      "candidate_sha256": "5ecb78770980b9e913217b110497c6d7d9a526dbe6488e2fc6117c1d70ef521b",
+      "evidence": [
+        "b/anthochaera-chrysoptera-foot-gap.jpg"
+      ]
+    },
+    {
+      "canonical_key": "grallina-cyanoleuca",
+      "common_name": "Magpie-lark",
+      "status": "must-fix",
+      "finding": "Remove the small brown background-trunk wedge beneath the belly beside the leg. It is scenery left over from the source, not plumage.",
+      "candidate_sha256": "e77093afdcaede01ba0984f519c86851f8593e6ce4b856c01f5aa6a3cb867d1c",
+      "evidence": [
+        "b/grallina-cyanoleuca-belly-wedge.jpg"
+      ]
+    },
+    {
+      "canonical_key": "trichoglossus-moluccanus",
+      "common_name": "Rainbow Lorikeet",
+      "status": "must-fix",
+      "finding": "Remove the tiny detached gray leaf-tip remnant between the rear bird belly and its right foot/perch. The larger leaf was removed, but this small tip remains visible.",
+      "candidate_sha256": "b094299b73c1962d6ac3b24a3cf2452a52f458354cff5e4b26219f6c3eef704d",
+      "evidence": [
+        "root/trichoglossus-moluccanus-belly-fragment.jpg"
+      ]
+    },
+    {
+      "canonical_key": "eolophus-roseicapilla",
+      "common_name": "Galah",
+      "status": "must-fix",
+      "finding": "Refine the broad gray background-paper wedge beneath the lower bird tail. Its cut boundary remains visible in the paper render; retain the fine original feather strokes above it.",
+      "candidate_sha256": "491dbe8e3a9eeab0dda2fc71eda63f8bacf79dd7b9bdfeb1f639fbd31143e659",
+      "evidence": [
+        "root/eolophus-roseicapilla-lower-tail-wash.jpg"
+      ]
+    },
+    {
+      "canonical_key": "caligavis-chrysops",
+      "common_name": "Yellow-faced Honeyeater",
+      "status": "uncertain",
+      "finding": "Trace the small dark pointed detail behind the twig to determine the full rear claw boundary. It appears to be original foot detail omitted by the mask, but needs closer source adjudication before correction.",
+      "candidate_sha256": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+      "evidence": [
+        "a/caligavis-chrysops-feet-source-mask.png",
+        "a/caligavis-chrysops-feet-final-render.png"
+      ]
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "common_name": "Common Myna",
+      "status": "uncertain",
+      "finding": "Identify the tan, veined shape between wing and tail. It resembles a background leaf, but keep it intact until that identification is secure.",
+      "candidate_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+      "evidence": [
+        "b/acridotheres-tristis-wing-gap-tail.jpg"
+      ]
+    },
+    {
+      "canonical_key": "dacelo-novaeguineae",
+      "common_name": "Laughing Kookaburra",
+      "status": "no-additional-defect-observed",
+      "finding": "The corrected upper-perch paper ribbon is absent; original bark, toes and curved claw remain.",
+      "candidate_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+      "evidence": []
+    },
+    {
+      "canonical_key": "malurus-cyaneus",
+      "common_name": "Superb Fairywren",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite contour defect observed. Complete wing tips, tail and carried food match the source.",
+      "candidate_sha256": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb",
+      "evidence": []
+    },
+    {
+      "canonical_key": "platycercus-elegans",
+      "common_name": "Crimson Rosella",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite contour defect observed in the bird, gripping foot, rounded perch end or tail tips.",
+      "candidate_sha256": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f",
+      "evidence": []
+    },
+    {
+      "canonical_key": "podargus-strigoides",
+      "common_name": "Tawny Frogmouth",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite defect observed. The tiny hook beside the belly is a genuine original claw; the visible toes and tail remain.",
+      "candidate_sha256": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e",
+      "evidence": []
+    },
+    {
+      "canonical_key": "threskiornis-molucca",
+      "common_name": "Australian Ibis",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite defect observed. Original reeds and faded ground are intentional scene context protecting overlapping breast plumes.",
+      "candidate_sha256": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+      "evidence": []
+    },
+    {
+      "canonical_key": "cacatua-galerita",
+      "common_name": "Sulphur-crested Cockatoo",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite defect observed. The complete original pair and connected tree remain intentional.",
+      "candidate_sha256": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+      "evidence": []
+    },
+    {
+      "canonical_key": "zanda-funerea",
+      "common_name": "Yellow-tailed Black-Cockatoo",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite defect observed. The original connected plant scene is retained; the previously disclosed lower-resolution source remains a limitation.",
+      "candidate_sha256": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5",
+      "evidence": []
+    }
+  ],
+  "supporting_reviews": [
+    "a/findings.json",
+    "b/findings.json",
+    "root/findings.json"
+  ],
+  "repair_order": [
+    "Restore original anatomy and broken perch contacts on the seven affected birds.",
+    "Trace the two uncertain original details before deciding whether to retain or remove them.",
+    "Remove or match confirmed residual background, preserving fine source strokes.",
+    "Regenerate candidate files and previews; recheck the exact corrected regions against originals before reconsidering publication."
+  ],
+  "limitations": [
+    "Closeup boxes locate defects; they are not surgical replacement-mask polygons.",
+    "Original illustration details must be restored from source scans, never invented.",
+    "A visual review cannot guarantee no smaller defect remains."
+  ]
+}

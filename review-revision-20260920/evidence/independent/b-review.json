@@ -1,0 +1,184 @@
+{
+  "reviewer": "revision_cutouts_c",
+  "review_date": "2026-09-20",
+  "scope": "Read-only independent source and final bird geometry review; candidate hashes pinned below. Geometry is fully reviewed; source RGB byte-level preservation assertions belong to producer records.",
+  "records": [
+    {
+      "canonical_key": "dacelo-novaeguineae",
+      "candidate_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+      "source_sha256": "54f7fbaa89ec5b823392de09ddeb2f271bd4473a9b14007e4b3e579711a1ac63",
+      "geometry": {
+        "box": [
+          0.010447,
+          0.013348,
+          0.990064,
+          0.987531
+        ],
+        "cut": [
+          1145,
+          1115
+        ]
+      },
+      "hash_matches_record": true,
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "renderer_visual_status": "pass",
+      "notes": "Targeted repeat review confirms upper-perch paper ribbon and two tiny paper remnants removed; original uneven bark, gripping foot/scales and curved claw preserved. Native master RGB equals original crop byte-for-byte. Frame1600 and its native perch region inspected. Prior general pass on bdd7471 missed the ribbon and is superseded.",
+      "viewed_artifacts": [
+        "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\kookaburra-perch-review\\source.png",
+        "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\kookaburra-perch-review\\rendered-detail.png",
+        "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\kookaburra-second-review\\original-region.png",
+        "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\kookaburra-second-review\\removed-alpha-source.png",
+        "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\kookaburra-second-review\\final-native-dark.png",
+        "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\kookaburra-second-review\\final-frame-region.png",
+        "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\frame1600.png"
+      ],
+      "final_visual_status": "pass",
+      "prior_review_candidate_sha256": "bdd7471badc377b9c80d40642a24e170e109738c9e07ab7949876943b00bd722",
+      "targeted_review_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\kookaburra-perch-review\\independent-review.json",
+      "renderer_sha256": "6b4848f83ae23b42a28912d18c75a8989838d0095aa9e88d0380898ee9c6cf19"
+    },
+    {
+      "canonical_key": "anthochaera-chrysoptera",
+      "candidate_sha256": "5ecb78770980b9e913217b110497c6d7d9a526dbe6488e2fc6117c1d70ef521b",
+      "source_sha256": "aa2eb3711c497be444ece2e88c7c48bcbd92001bd7d9360e984d701b891b315b",
+      "geometry": {
+        "box": [
+          0.01286,
+          0.018318,
+          0.821365,
+          0.885997
+        ],
+        "cut": [
+          1144,
+          726
+        ]
+      },
+      "hash_matches_record": true,
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "renderer_visual_status": "pass",
+      "notes": "Complete source bird including open bill, fine feet and tail enclosed; projecting right branch and lower perch excluded.",
+      "viewed_artifacts": [
+        "source crop of original",
+        "final WebP with independent box overlay",
+        "frame1600.png"
+      ]
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "candidate_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+      "source_sha256": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+      "geometry": {
+        "box": [
+          0.019715,
+          0.009779,
+          0.982055,
+          0.98772
+        ],
+        "cut": [
+          743,
+          1148
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass after targeted patch: broad green-paper crescent between tucked foot, belly and standing leg and green lower-perch rim resolved. Original cream belly fringe, both feet/toes and complete pale tail preserved. Source comparison, current checker, frame1600 and current bird-box overlay inspected; geometry still accurate.",
+      "viewed_artifacts": [
+        "source crop",
+        "final WebP with independent box overlay",
+        "checker.png",
+        "frame1600.png"
+      ],
+      "prior_review_candidate_sha256": "8fa26bd6c918da78e3d08f32368222a5d450cb08d47558fc9e01ec535d571f43"
+    },
+    {
+      "canonical_key": "petroica-rosea",
+      "candidate_sha256": "4a9bf0fbb900b111b083c9398ed40e3c4ac87381b968143234ac2ff70a7e2165",
+      "source_sha256": "b17584ec9c34727ede4b617adc3d190bf89bf3e6a683cc751cae34dc73560f2d",
+      "geometry": {
+        "box": [
+          0.017637,
+          0.006311,
+          0.978814,
+          0.994244
+        ],
+        "cut": [
+          479,
+          1080
+        ]
+      },
+      "hash_matches_record": true,
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "renderer_visual_status": "pass",
+      "notes": "Whole source bird including fine bill, both feet and full tail enclosed; white forehead marking preserved.",
+      "viewed_artifacts": [
+        "source crop of original",
+        "final WebP with independent box overlay",
+        "frame1600.png"
+      ]
+    },
+    {
+      "canonical_key": "grallina-cyanoleuca",
+      "candidate_sha256": "e77093afdcaede01ba0984f519c86851f8593e6ce4b856c01f5aa6a3cb867d1c",
+      "source_sha256": "72f419e09dc676cb6a991f68c1e76ab0798a50d145fd94ecc59739fe3c40fc11",
+      "geometry": {
+        "box": [
+          0.012236,
+          0.017127,
+          0.989429,
+          0.916012
+        ],
+        "cut": [
+          1145,
+          876
+        ]
+      },
+      "hash_matches_record": true,
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "renderer_visual_status": "pass",
+      "notes": "Whole bird including bill, pale face/belly, tail and both feet enclosed; projecting lower branch excluded; former breast leaf removed without removing original plumage.",
+      "viewed_artifacts": [
+        "source crop of original",
+        "final WebP with independent box overlay",
+        "frame1600.png"
+      ]
+    },
+    {
+      "canonical_key": "ocyphaps-lophotes",
+      "candidate_sha256": "2e1f04ec2d5a5c656f40a8f2769e2d7e166db1d1ec793db0e37afb12963ce7ea",
+      "source_sha256": "6d70228b08b54aaf2b9b10766acc8f69548ea764c03fce58be23df9197d91893",
+      "geometry": {
+        "box": [
+          0.153677,
+          0.013322,
+          0.982911,
+          0.987021
+        ],
+        "cut": [
+          674,
+          1148
+        ]
+      },
+      "hash_matches_record": true,
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "renderer_visual_status": "pass",
+      "notes": "Whole bird including authentic long narrow crest, feet, full tail and adjacent thin original feather enclosed; projecting left perch excluded.",
+      "viewed_artifacts": [
+        "source crop of original",
+        "final WebP with independent box overlay",
+        "frame1600.png"
+      ]
+    }
+  ]
+}

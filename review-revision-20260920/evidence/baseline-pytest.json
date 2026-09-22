@@ -1,0 +1,42 @@
+{
+  "exit": 1,
+  "failed_tests": [
+    "FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[sci]",
+    "FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[]",
+    "FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[zz]",
+    "FAILED tests/test_languages.py::test_a_missing_babel_falls_back_rather_than_crashing",
+    "FAILED tests/test_modes.py::test_every_mode_draws_something[latest]",
+    "FAILED tests/test_modes.py::test_every_mode_draws_something[arrival]",
+    "FAILED tests/test_modes.py::test_the_margin_reaches_the_plate_modes[latest]",
+    "FAILED tests/test_modes.py::test_the_margin_reaches_the_plate_modes[arrival]",
+    "FAILED tests/test_modes.py::test_a_render_is_cached_until_its_key_moves",
+    "FAILED tests/test_server.py::test_the_preview_reads_an_unsaved_form_without_saving_it",
+    "FAILED tests/test_service.py::test_the_loop_holds_its_last_page_when_the_detector_goes_away",
+    "FAILED tests/test_service.py::test_the_loop_names_the_species_it_has_no_artwork_for",
+    "FAILED tests/test_service.py::test_the_refresh_floor_paces_the_birds_but_never_a_saved_setting",
+    "FAILED tests/test_service.py::test_signal_runs_the_shutdown_handler[2]",
+    "FAILED tests/test_service.py::test_signal_runs_the_shutdown_handler[15]"
+  ],
+  "tail": [
+    "E       AttributeError: module 'faulthandler' has no attribute 'register'",
+    "",
+    "src\\fugleramme\\service.py:110: AttributeError",
+    "=========================== short test summary info ===========================",
+    "FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[sci]",
+    "FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[] - V...",
+    "FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[zz]",
+    "FAILED tests/test_languages.py::test_a_missing_babel_falls_back_rather_than_crashing",
+    "FAILED tests/test_modes.py::test_every_mode_draws_something[latest] - ValueEr...",
+    "FAILED tests/test_modes.py::test_every_mode_draws_something[arrival] - ValueE...",
+    "FAILED tests/test_modes.py::test_the_margin_reaches_the_plate_modes[latest]",
+    "FAILED tests/test_modes.py::test_the_margin_reaches_the_plate_modes[arrival]",
+    "FAILED tests/test_modes.py::test_a_render_is_cached_until_its_key_moves - Val...",
+    "FAILED tests/test_server.py::test_the_preview_reads_an_unsaved_form_without_saving_it",
+    "FAILED tests/test_service.py::test_the_loop_holds_its_last_page_when_the_detector_goes_away",
+    "FAILED tests/test_service.py::test_the_loop_names_the_species_it_has_no_artwork_for",
+    "FAILED tests/test_service.py::test_the_refresh_floor_paces_the_birds_but_never_a_saved_setting",
+    "FAILED tests/test_service.py::test_signal_runs_the_shutdown_handler[2] - Attr...",
+    "FAILED tests/test_service.py::test_signal_runs_the_shutdown_handler[15] - Att...",
+    "15 failed, 386 passed in 137.12s (0:02:17)"
+  ]
+}

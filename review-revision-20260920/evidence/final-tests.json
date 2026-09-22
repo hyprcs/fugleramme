@@ -1,0 +1,97 @@
+{
+  "upstream_commit": "882151876883908915b93ed174cd8df1f5e0bd59",
+  "platform": "Windows",
+  "full_suite": {
+    "baseline": "15 failed, 386 passed in 137.12s (0:02:17)",
+    "revision": "15 failed, 386 passed in 170.69s (0:02:50)",
+    "same_failed_tests": true,
+    "failed_tests": [
+      "FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[sci]",
+      "FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[]",
+      "FAILED tests/test_languages.py::test_a_date_with_no_language_is_numeric[zz]",
+      "FAILED tests/test_languages.py::test_a_missing_babel_falls_back_rather_than_crashing",
+      "FAILED tests/test_modes.py::test_every_mode_draws_something[latest]",
+      "FAILED tests/test_modes.py::test_every_mode_draws_something[arrival]",
+      "FAILED tests/test_modes.py::test_the_margin_reaches_the_plate_modes[latest]",
+      "FAILED tests/test_modes.py::test_the_margin_reaches_the_plate_modes[arrival]",
+      "FAILED tests/test_modes.py::test_a_render_is_cached_until_its_key_moves",
+      "FAILED tests/test_server.py::test_the_preview_reads_an_unsaved_form_without_saving_it",
+      "FAILED tests/test_service.py::test_the_loop_holds_its_last_page_when_the_detector_goes_away",
+      "FAILED tests/test_service.py::test_the_loop_names_the_species_it_has_no_artwork_for",
+      "FAILED tests/test_service.py::test_the_refresh_floor_paces_the_birds_but_never_a_saved_setting",
+      "FAILED tests/test_service.py::test_signal_runs_the_shutdown_handler[2]",
+      "FAILED tests/test_service.py::test_signal_runs_the_shutdown_handler[15]"
+    ],
+    "note": "Unchanged Unix date-formatting and faulthandler.register limitations on Windows.",
+    "scope": "Prior full-suite run retained; not rerun for these image-only repairs. Current targeted tests and all-twenty source/alpha integrity checks are recorded separately."
+  },
+  "ruff_format": true,
+  "ruff_check": true,
+  "mypy_linux_target": true,
+  "targeted_artwork_tests": {
+    "checked_at_utc": "2026-09-20T03:06:07.218448+00:00",
+    "exit_code": 0,
+    "tests": [
+      "tests/test_add_bird.py",
+      "tests/test_sizes.py",
+      "tests/test_artwork_names.py"
+    ],
+    "command": [
+      "[local project]\\contribution-prep\\fugleramme\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_add_bird.py",
+      "tests/test_sizes.py",
+      "tests/test_artwork_names.py"
+    ],
+    "working_directory": "[local project]\\contribution-prep\\fugleramme",
+    "summary": "21 passed in 3.80s",
+    "output": ".....................                                                    [100%]\n21 passed in 3.80s\n",
+    "count_passed": 21,
+    "full_suite_rerun": false
+  },
+  "locked_dependency_sync": true,
+  "git_diff_check": true,
+  "physical_panel_tested": false,
+  "local_linux_runtime_ci": false,
+  "local_shellcheck": false,
+  "first_full_run": {
+    "result": "16 failed, 385 passed in 198.69s (0:03:18)",
+    "additional_failure": "tests/test_settings.py::test_reload_picks_up_external_edit",
+    "investigation": "Reproduced unchanged isolated test failure on clean upstream in 2 of 10 runs. Timestamp probes confirm consecutive file writes can share the same modification timestamp. Application and test files are identical between checkouts. No changes or skipped tests.",
+    "evidence": "settings-investigation.md"
+  },
+  "latest_image_correction": {
+    "eleven_and_only_eleven_candidates_changed": true,
+    "nine_other_candidates_unchanged": true,
+    "all_twenty_source_and_alpha_integrity_pass": true,
+    "targeted_tests": {
+      "checked_at_utc": "2026-09-20T03:06:07.218448+00:00",
+      "exit_code": 0,
+      "tests": [
+        "tests/test_add_bird.py",
+        "tests/test_sizes.py",
+        "tests/test_artwork_names.py"
+      ],
+      "command": [
+        "[local project]\\contribution-prep\\fugleramme\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "tests/test_add_bird.py",
+        "tests/test_sizes.py",
+        "tests/test_artwork_names.py"
+      ],
+      "working_directory": "[local project]\\contribution-prep\\fugleramme",
+      "summary": "21 passed in 3.80s",
+      "output": ".....................                                                    [100%]\n21 passed in 3.80s\n",
+      "count_passed": 21,
+      "full_suite_rerun": false
+    }
+  }
+}

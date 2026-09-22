@@ -1,0 +1,459 @@
+{
+  "review_date": "2026-09-20",
+  "reviewer": "fresh_edge_audit_a",
+  "read_only": true,
+  "prior_approvals_relied_on": false,
+  "coordinate_convention": "Zero-based [left,top,right,bottom] half-open pixels. Boxes are exact reproducible closeup regions, not surgical tracing polygons. Source boxes refer to original full-resolution source; candidate boxes to shipped WebP; rendered boxes to exported paper1800.",
+  "result": "hold_for_correction_and_independent_recheck",
+  "counts": {
+    "must-fix_birds": 5,
+    "uncertain_birds": 1,
+    "pass_birds": 0
+  },
+  "scope": "Six assigned birds; no asset or provenance edits. Analysis crops only. Software inspection, no physical-panel test.",
+  "birds": [
+    {
+      "canonical_key": "acanthiza-pusilla",
+      "status": "must-fix",
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\acanthiza-pusilla.webp",
+      "candidate_sha256": "1079cdb12466fb3a11224393b78ddf8be8e0e22f7640833fa1ef9bcbd67b7b43",
+      "candidate_dimensions": [
+        1043,
+        720
+      ],
+      "candidate_matches_collected_record": true,
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-sources\\next-manual-acanthiza-pusilla-bhl48285944.webp",
+      "source_sha256": "447859a23c7faceac197d4c0f1fbb820f5acf6b585001a0ac623828205431aea",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\acanthiza-pusilla-source-mask.png",
+      "mask_sha256": "c9a9cba31732f1a531fbf51d12fc719786a4fc68ae348e203cc46cfd449c2818",
+      "findings": [
+        {
+          "status": "must-fix",
+          "title": "Inner rear toe/claw removed; outer hook detached",
+          "finding": "Immediately below the long forward toe, the original has a curled rear toe/claw adjoining the twig. The current hole removes its inner painted material and connection, leaving a separate curved sliver in the stock paper renderer. Restore the source toe/claw and its original relation to the twig; do not invent a connection.",
+          "confidence": "high",
+          "source_bbox": [
+            1611,
+            2054,
+            1866,
+            2299
+          ],
+          "candidate_bbox": [
+            350,
+            430,
+            620,
+            720
+          ],
+          "paper1800_bbox": [
+            654,
+            1000,
+            1041,
+            1415
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\acanthiza-pusilla-feet-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\acanthiza-pusilla-feet-final-render.png"
+        },
+        {
+          "status": "optional",
+          "title": "Some original facial bristles clipped",
+          "finding": "The fine original bristles ahead of the forehead/bill join and along the underside of the bill are partly excluded by the smoothed contour. Small detail at final scale; secondary to the foot correction.",
+          "confidence": "high",
+          "source_bbox": [
+            1271,
+            1724,
+            1551,
+            1944
+          ],
+          "candidate_bbox": [
+            0,
+            90,
+            335,
+            325
+          ],
+          "paper1800_bbox": [
+            153,
+            513,
+            633,
+            850
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\acanthiza-pusilla-head-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\acanthiza-pusilla-head-final-render.png"
+        }
+      ],
+      "reviewed": [
+        "Current exported native checker and full original-source overview",
+        "Current paper1800 composition",
+        "Enlarged original source versus actual current source alpha around feet/perch, head/bill and tail or raised wings",
+        "Enlarged current exported dark and stock-paper-render feet/perch"
+      ],
+      "non_findings": [
+        "Narrow matching backing halo and source grain are not treated as defects."
+      ]
+    },
+    {
+      "canonical_key": "anthochaera-carunculata",
+      "status": "must-fix",
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\anthochaera-carunculata.webp",
+      "candidate_sha256": "f86ad389fd3f75cefb0fee647699cf8c4fead357cb1d2c31f712a2ae7f8a5311",
+      "candidate_dimensions": [
+        1200,
+        578
+      ],
+      "candidate_matches_collected_record": true,
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-taxonomy\\ai-replacements-a\\red-ku14110-original.tif",
+      "source_sha256": "b8402f1f067443254c8f0637098c97dcd651b6c1a0ba35d58bbda75a95e74937",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata-source-mask.png",
+      "mask_sha256": "b0000505f72b6255d6d19be3a32e6497c004771ed032eed66ab16e348ff461cf",
+      "findings": [
+        {
+          "status": "must-fix",
+          "title": "Inner curved claw removed by angular hole",
+          "finding": "The smaller dark curved claw directly beside the right edge of the twig is present in the original and mostly removed by the current interior polygon. The same hole leaves sharp notches through the twig/claw junction. This remains plainly angular and missing in stock paper1800. Some green botanical pixels also remain beneath the sloping toe; preserve actual claw strokes while removing only the background.",
+          "confidence": "high",
+          "source_bbox": [
+            1561,
+            3289,
+            2105,
+            3640
+          ],
+          "candidate_bbox": [
+            425,
+            295,
+            640,
+            500
+          ],
+          "paper1800_bbox": [
+            682,
+            907,
+            950,
+            1162
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\anthochaera-carunculata-feet-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\anthochaera-carunculata-feet-final-render.png"
+        },
+        {
+          "status": "must-fix",
+          "title": "Pale tail-feather tips chopped off",
+          "finding": "Multiple pale terminal feather tips, visibly bounded by original feather strokes, are cut off into angular steps. They are genuine plumage, not blank paper. The stock renderer shows shortened dark stepped ends; restore the complete original pale tips using source alpha.",
+          "confidence": "high",
+          "source_bbox": [
+            2988,
+            3471,
+            3848,
+            4105
+          ],
+          "candidate_bbox": [
+            825,
+            370,
+            1200,
+            578
+          ],
+          "paper1800_bbox": [
+            1180,
+            1001,
+            1647,
+            1260
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\anthochaera-carunculata-tail-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\anthochaera-carunculata-tail-final-render.png"
+        },
+        {
+          "status": "optional",
+          "title": "Tongue-tip fringe and lower-bill bristles shortened",
+          "finding": "The fine divided tongue tip is simplified to a point and some lower-bill bristles are cropped by the current smooth contour. These are smaller source-detail losses than the foot and tail defects.",
+          "confidence": "high",
+          "source_bbox": [
+            271,
+            2406,
+            1131,
+            2904
+          ],
+          "candidate_bbox": [
+            0,
+            0,
+            335,
+            200
+          ],
+          "paper1800_bbox": [
+            153,
+            540,
+            570,
+            789
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\anthochaera-carunculata-head-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\anthochaera-carunculata-head-final-render.png"
+        }
+      ],
+      "reviewed": [
+        "Current exported native checker and full original-source overview",
+        "Current paper1800 composition",
+        "Enlarged original source versus actual current source alpha around feet/perch, head/bill and tail or raised wings",
+        "Enlarged current exported dark and stock-paper-render feet/perch"
+      ],
+      "non_findings": [
+        "Narrow matching backing halo and source grain are not treated as defects."
+      ]
+    },
+    {
+      "canonical_key": "caligavis-chrysops",
+      "status": "uncertain",
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\caligavis-chrysops.webp",
+      "candidate_sha256": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+      "candidate_dimensions": [
+        1200,
+        988
+      ],
+      "candidate_matches_collected_record": true,
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-taxonomy\\next20-curation\\gould-v4-p45-full.webp",
+      "source_sha256": "c6d1a5cfaebe159991df0e37f36ae6062b07d20ccbc9d3b76a0546f842ed6f6d",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops-source-mask.png",
+      "mask_sha256": "8c2599d41a8f69b661a4327ca1e8dec48d9035490b46191a218b16171de42706",
+      "findings": [
+        {
+          "status": "uncertain",
+          "title": "Possible lower rear claw omitted",
+          "finding": "At the lower-left side of the twig, the original appears to contain a dark pointed toe/claw extension below the prominent loop. The current mask removes it and leaves the twig bare there. Foot overlaps a gray leaf in the source, so this requires independent anatomy/source confirmation before editing; this bird is not cleared as a pass.",
+          "confidence": "medium",
+          "source_bbox": [
+            1605,
+            2436,
+            1865,
+            2746
+          ],
+          "candidate_bbox": [
+            515,
+            695,
+            730,
+            988
+          ],
+          "paper1800_bbox": [
+            794,
+            1150,
+            1062,
+            1515
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\caligavis-chrysops-feet-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\caligavis-chrysops-feet-final-render.png"
+        },
+        {
+          "status": "optional",
+          "title": "Chin feather fringe clipped",
+          "finding": "Fine dark feather tips immediately below the bill/white chin are removed by a smooth, relatively high contour. The broad head/bill anatomy is intact; this is a small source-detail restoration opportunity.",
+          "confidence": "high",
+          "source_bbox": [
+            2095,
+            2466,
+            2435,
+            2716
+          ],
+          "candidate_bbox": [
+            865,
+            715,
+            1200,
+            970
+          ],
+          "paper1800_bbox": [
+            1230,
+            1175,
+            1647,
+            1493
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\caligavis-chrysops-head-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\caligavis-chrysops-head-final-render.png"
+        }
+      ],
+      "reviewed": [
+        "Current exported native checker and full original-source overview",
+        "Current paper1800 composition",
+        "Enlarged original source versus actual current source alpha around feet/perch, head/bill and tail or raised wings",
+        "Enlarged current exported dark and stock-paper-render feet/perch"
+      ],
+      "non_findings": [
+        "Narrow matching backing halo and source grain are not treated as defects."
+      ]
+    },
+    {
+      "canonical_key": "oriolus-sagittatus",
+      "status": "must-fix",
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\oriolus-sagittatus.webp",
+      "candidate_sha256": "54bb6508ed982c4724ed5a977394a3e30eda6d42a6ca434474d824453b5c948a",
+      "candidate_dimensions": [
+        1200,
+        726
+      ],
+      "candidate_matches_collected_record": true,
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-sources\\next-manual-oriolus-sagittatus-bhl48702814.webp",
+      "source_sha256": "b43c6bb7cbe07af030d0f5a1744dfa01cc934508dcd0f89b65ba62e44cbbe553",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\oriolus-sagittatus-source-mask.png",
+      "mask_sha256": "29db285b0013aaabfb55e80bb4dcd8ebd90872cc7ada83ea3eb746fa35983fa3",
+      "findings": [
+        {
+          "status": "must-fix",
+          "title": "Smaller hooked claw strokes removed",
+          "finding": "Between the twig and the large forward claw, the source has smaller hooked toe/claw strokes. The polygon hole removes these completely. The stock paper renderer shows an empty triangular gap and only one large claw, unlike the original. Restore the original dark anatomy while separating green leaf background.",
+          "confidence": "high",
+          "source_bbox": [
+            1192,
+            3987,
+            1525,
+            4247
+          ],
+          "candidate_bbox": [
+            450,
+            510,
+            665,
+            690
+          ],
+          "paper1800_bbox": [
+            713,
+            1083,
+            981,
+            1307
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\oriolus-sagittatus-feet-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\oriolus-sagittatus-feet-final-render.png"
+        },
+        {
+          "status": "optional",
+          "title": "Outer tail-tip contour slightly squared",
+          "finding": "The pale terminal tips are mostly retained, but the uppermost tiny tip and several rounded end contours are clipped to angular edges. Visible in enlarged source comparison; lower severity than the missing toe/claw strokes.",
+          "confidence": "high",
+          "source_bbox": [
+            2362,
+            4085,
+            2768,
+            4426
+          ],
+          "candidate_bbox": [
+            950,
+            530,
+            1200,
+            726
+          ],
+          "paper1800_bbox": [
+            1336,
+            1108,
+            1647,
+            1352
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\oriolus-sagittatus-tail-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\oriolus-sagittatus-tail-final-render.png"
+        }
+      ],
+      "reviewed": [
+        "Current exported native checker and full original-source overview",
+        "Current paper1800 composition",
+        "Enlarged original source versus actual current source alpha around feet/perch, head/bill and tail or raised wings",
+        "Enlarged current exported dark and stock-paper-render feet/perch"
+      ],
+      "non_findings": [
+        "Narrow matching backing halo and source grain are not treated as defects."
+      ]
+    },
+    {
+      "canonical_key": "manorina-melanocephala",
+      "status": "must-fix",
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\manorina-melanocephala.webp",
+      "candidate_sha256": "67f72ff8b42ad416173773c3c68ee6ebb2c58d31acfb76c5f5405246b06420f3",
+      "candidate_dimensions": [
+        1200,
+        492
+      ],
+      "candidate_matches_collected_record": true,
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-sources\\next-manual-manorina-melanocephala-bhl48703119.webp",
+      "source_sha256": "e891488a8e0e467d491ffa8807844301b0f23ae0464e28000c8eb5fa481cdbd6",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala-source-mask.png",
+      "mask_sha256": "d199668ef8159b0b2d256d2cef63bfdfedf6da78198b090b6dde687577dbeecc",
+      "findings": [
+        {
+          "status": "must-fix",
+          "title": "Perch shaved back beneath forward claw",
+          "finding": "The current source mask takes an angular wedge out of the original wood underneath the extended yellow toe and black forward claw. In the source the claw meets the perch; in the stock renderer it floats over a large clean gap. Restore original wood and original contact, without adding anatomy.",
+          "confidence": "high",
+          "source_bbox": [
+            1324,
+            1906,
+            1909,
+            2336
+          ],
+          "candidate_bbox": [
+            395,
+            300,
+            655,
+            492
+          ],
+          "paper1800_bbox": [
+            645,
+            966,
+            968,
+            1206
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\manorina-melanocephala-feet-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\manorina-melanocephala-feet-final-render.png"
+        }
+      ],
+      "reviewed": [
+        "Current exported native checker and full original-source overview",
+        "Current paper1800 composition",
+        "Enlarged original source versus actual current source alpha around feet/perch, head/bill and tail or raised wings",
+        "Enlarged current exported dark and stock-paper-render feet/perch"
+      ],
+      "non_findings": [
+        "Narrow matching backing halo and source grain are not treated as defects."
+      ]
+    },
+    {
+      "canonical_key": "gymnorhina-tibicen",
+      "status": "must-fix",
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\gymnorhina-tibicen.webp",
+      "candidate_sha256": "c59ccce49a07e2968df968565b02d91ef5aa216ca443a930efff8c24bc0b8a2d",
+      "candidate_dimensions": [
+        1200,
+        1186
+      ],
+      "candidate_matches_collected_record": true,
+      "source_path": "[local project]\\artwork-sydney\\research\\contribution-20-20260919\\magpie\\ku14990-original.tif",
+      "source_sha256": "6859b61312ea6d9ccdb3fe0f5daa357938cf875f3b0737e9809246fc7be78832",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\gymnorhina-tibicen\\mask-source.png",
+      "mask_sha256": "43a6f6888e0b36b0f99ca5b8713b9cf5f94bf6567facbd13f1ec6d69ea3ea2ab",
+      "findings": [
+        {
+          "status": "must-fix",
+          "title": "Angular hole cut through front toe",
+          "finding": "At the toe immediately before the large downward-curving foreground claw, current alpha removes a dark piece of the original toe. It becomes a conspicuous white triangular nick in the stock paper renderer. This is separate from the genuine diagonal pale tail-feather stripe under the wing, which must remain.",
+          "confidence": "high",
+          "source_bbox": [
+            1262,
+            2729,
+            2650,
+            3528
+          ],
+          "candidate_bbox": [
+            335,
+            720,
+            835,
+            1000
+          ],
+          "paper1800_bbox": [
+            570,
+            1057,
+            1193,
+            1406
+          ],
+          "source_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\gymnorhina-tibicen-feet-source-mask.png",
+          "render_evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\a\\gymnorhina-tibicen-feet-final-render.png"
+        }
+      ],
+      "reviewed": [
+        "Current exported native checker and full original-source overview",
+        "Current paper1800 composition",
+        "Enlarged original source versus actual current source alpha around feet/perch, head/bill and tail or raised wings",
+        "Enlarged current exported dark and stock-paper-render feet/perch"
+      ],
+      "non_findings": [
+        "Narrow matching backing halo and source grain are not treated as defects.",
+        "Large matched-paper backing blends into stock paper; not classified as a visual defect. Original diagonal white/dark tail-feather edge is confirmed genuine anatomy."
+      ]
+    }
+  ]
+}

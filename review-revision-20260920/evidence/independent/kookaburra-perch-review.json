@@ -1,0 +1,70 @@
+{
+  "canonical_key": "dacelo-novaeguineae",
+  "candidate_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+  "result": "pass",
+  "reviewer": "revision_cutouts_c",
+  "reviewed_on": "2026-09-20",
+  "scope": "Independent source-referenced visual review of the explicitly authorized upper-perch paper-ribbon correction; no candidate edits by this reviewer. Full frame1600 also inspected for regression.",
+  "supersedes_candidate_sha256": "bdd7471badc377b9c80d40642a24e170e109738c9e07ab7949876943b00bd722",
+  "prior_review_correction": "The earlier general review missed the retained paper ribbon. That pass is superseded for this candidate by this targeted source-coordinate review.",
+  "target_source_region": [
+    800,
+    3800,
+    1080,
+    4055
+  ],
+  "observations": {
+    "source_branch": "The revised source-alpha boundary follows the original painted upper wood edge. The uneven dark bark strokes, small natural splinters, branch curve and pointed broken left end remain. The former broad pale paper ribbon rising toward the foot is removed.",
+    "foot_and_claws": "The complete original gripping toes, scale markings and long curved dark claw remain. The tiny isolated retained-paper dot near source 1048,3830 and paper spur near 1100,3693 are now absent. No visible clipping of the foot or painted claw was found.",
+    "native_alpha": "Compared the original source region with a dark composite at native source resolution, and inspected removed-alpha overlays. Only a very narrow source-paper allowance remains at fine boundary pixels; no broad ribbon or disconnected paper fragment remains in the target area.",
+    "renderer": "Current stock frame1600 and its native-pixel perch crop show the paper ribbon resolved. The branch rises naturally into the gripping foot without a pale diagonal strip. Full-bird head, bill, feather fringe, wing, tail and pose remain unchanged visually.",
+    "geometry": "1145 by 1115 final cut and normalized whole-bird box are unchanged from the previously source-referenced geometry; projecting perch is not used as the bird bound."
+  },
+  "checks": {
+    "candidate_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+    "source_sha256": "54f7fbaa89ec5b823392de09ddeb2f271bd4473a9b14007e4b3e579711a1ac63",
+    "source_hash_matches_record": true,
+    "master_rgb_exact_source_crop": true,
+    "source_mask_change_bounds": [
+      456,
+      3655,
+      1211,
+      4169
+    ],
+    "geometry_unchanged": true,
+    "dimensions": [
+      1145,
+      1115
+    ],
+    "geometry": {
+      "box": [
+        0.010447,
+        0.013348,
+        0.990064,
+        0.987531
+      ],
+      "cut": [
+        1145,
+        1115
+      ]
+    },
+    "renderer_sha256": "6b4848f83ae23b42a28912d18c75a8989838d0095aa9e88d0380898ee9c6cf19",
+    "source_mask_sha256": "7537086233bc5d812ff6a89ffc1a03a9b1a81898d64fe64a194ef42b5bf3e189",
+    "master_sha256": "d254e9b7e601deb260f83791a107e83b99ab0959115e095659ee35733efa17eb"
+  },
+  "viewed_artifacts": [
+    "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\kookaburra-perch-review\\source.png",
+    "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\kookaburra-perch-review\\rendered-detail.png",
+    "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\kookaburra-second-review\\original-region.png",
+    "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\kookaburra-second-review\\removed-alpha-source.png",
+    "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\kookaburra-second-review\\final-native-dark.png",
+    "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\kookaburra-second-review\\final-frame-region.png",
+    "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\frame1600.png"
+  ],
+  "generative_pixel_editing": false,
+  "candidate_source_rgb_preserved": true,
+  "physical_panel_tested": false,
+  "remaining_limitations": [
+    "Historical paper grain and pigment texture remain intentionally. Assessment is software visual review; no physical panel certification."
+  ]
+}

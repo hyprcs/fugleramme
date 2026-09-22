@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-20",
+  "reviewer": "root",
+  "candidate_assets_modified": false,
+  "method": "Each of eight assigned birds compared individually with original source context, native checker and actual 1800px stock paper render. Targeted source/cutout/render closeups used for the two confirmed findings. All material A/B findings independently viewed by root before inclusion.",
+  "birds": [
+    {
+      "canonical_key": "trichoglossus-moluccanus",
+      "common_name": "Rainbow Lorikeet",
+      "status": "must-fix",
+      "finding": "Remove the tiny detached gray leaf-tip remnant between the rear bird belly and its right foot/perch. The larger leaf was removed, but this small tip remains visible.",
+      "candidate_sha256": "b094299b73c1962d6ac3b24a3cf2452a52f458354cff5e4b26219f6c3eef704d",
+      "evidence": [
+        "root/trichoglossus-moluccanus-belly-fragment.jpg"
+      ]
+    },
+    {
+      "canonical_key": "eolophus-roseicapilla",
+      "common_name": "Galah",
+      "status": "must-fix",
+      "finding": "Refine the broad gray background-paper wedge beneath the lower bird tail. Its cut boundary remains visible in the paper render; retain the fine original feather strokes above it.",
+      "candidate_sha256": "491dbe8e3a9eeab0dda2fc71eda63f8bacf79dd7b9bdfeb1f639fbd31143e659",
+      "evidence": [
+        "root/eolophus-roseicapilla-lower-tail-wash.jpg"
+      ]
+    },
+    {
+      "canonical_key": "malurus-cyaneus",
+      "common_name": "Superb Fairywren",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite contour defect observed. Complete wing tips, tail and carried food match the source.",
+      "candidate_sha256": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb",
+      "evidence": []
+    },
+    {
+      "canonical_key": "platycercus-elegans",
+      "common_name": "Crimson Rosella",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite contour defect observed in the bird, gripping foot, rounded perch end or tail tips.",
+      "candidate_sha256": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f",
+      "evidence": []
+    },
+    {
+      "canonical_key": "podargus-strigoides",
+      "common_name": "Tawny Frogmouth",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite defect observed. The tiny hook beside the belly is a genuine original claw; the visible toes and tail remain.",
+      "candidate_sha256": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e",
+      "evidence": []
+    },
+    {
+      "canonical_key": "threskiornis-molucca",
+      "common_name": "Australian Ibis",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite defect observed. Original reeds and faded ground are intentional scene context protecting overlapping breast plumes.",
+      "candidate_sha256": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+      "evidence": []
+    },
+    {
+      "canonical_key": "cacatua-galerita",
+      "common_name": "Sulphur-crested Cockatoo",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite defect observed. The complete original pair and connected tree remain intentional.",
+      "candidate_sha256": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+      "evidence": []
+    },
+    {
+      "canonical_key": "zanda-funerea",
+      "common_name": "Yellow-tailed Black-Cockatoo",
+      "status": "no-additional-defect-observed",
+      "finding": "No additional definite defect observed. The original connected plant scene is retained; the previously disclosed lower-resolution source remains a limitation.",
+      "candidate_sha256": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5",
+      "evidence": []
+    }
+  ],
+  "finding_crop_regions": [
+    {
+      "canonical_key": "trichoglossus-moluccanus",
+      "original_source_crop": [
+        1990,
+        2760,
+        2350,
+        3180
+      ],
+      "candidate_checker_crop": [
+        475,
+        315,
+        650,
+        525
+      ],
+      "paper1800_crop": [
+        1090,
+        555,
+        1340,
+        825
+      ]
+    },
+    {
+      "canonical_key": "eolophus-roseicapilla",
+      "original_source_crop": [
+        80,
+        2970,
+        1530,
+        3900
+      ],
+      "candidate_checker_crop": [
+        0,
+        640,
+        370,
+        885
+      ],
+      "paper1800_crop": [
+        360,
+        880,
+        935,
+        1220
+      ]
+    }
+  ],
+  "limitations": [
+    "Software inspection only; no physical panel test.",
+    "No additional defect observed is a scoped visual result, not a guarantee of perfect segmentation."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "reviewer": "revision_cutouts_c",
+  "review_date": "2026-09-20",
+  "scope": "Read-only independent source, geometry and final cutout review of all six group A birds; exact inspected hashes are pinned. Final follow-up report: group-c/final-independent/review.json.",
+  "records": [
+    {
+      "canonical_key": "acanthiza-pusilla",
+      "candidate_sha256": "1079cdb12466fb3a11224393b78ddf8be8e0e22f7640833fa1ef9bcbd67b7b43",
+      "source_sha256": "447859a23c7faceac197d4c0f1fbb820f5acf6b585001a0ac623828205431aea",
+      "geometry": {
+        "box": [
+          0.011505,
+          0.018056,
+          0.988495,
+          0.865278
+        ],
+        "cut": [
+          1043,
+          720
+        ]
+      },
+      "hash_matches_record_at_review": true,
+      "candidate_unchanged_at_audit_write": true,
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "checker_visual_status": "pass",
+      "notes": "Source comparison confirms full bill, thin bill bristles, tail, pale belly and both feet/claws. Box excludes projecting lower perch. Smooth margins and no disconnected leaves observed.",
+      "viewed_artifacts": [
+        "source-crop.png",
+        "final WebP with independent bird-box overlay",
+        "checker.png"
+      ],
+      "renderer_review": "Root reviewed renderer; this independent audit focuses source anatomy and geometry."
+    },
+    {
+      "canonical_key": "anthochaera-carunculata",
+      "candidate_sha256": "f86ad389fd3f75cefb0fee647699cf8c4fead357cb1d2c31f712a2ae7f8a5311",
+      "source_sha256": "b8402f1f067443254c8f0637098c97dcd651b6c1a0ba35d58bbda75a95e74937",
+      "geometry": {
+        "box": [
+          0.008987,
+          0.022003,
+          0.992738,
+          0.982478
+        ],
+        "cut": [
+          1200,
+          578
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass after final patch: small upright two-pronged background stem at final WebP about x704,y150 removed. Authentic long pointed feather near final x790,y215 is preserved. Full tongue, pale belly, gripping foot/claw and tail fan intact; current frame1600 and enlarged former-defect crop inspected. Bird geometry unchanged and accurate.",
+      "renderer_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata-renderer.png",
+      "renderer_sha256": "30de235ee6fb0953249d7a24e0e02abd8f34c046f1cb5e9480a4a4ce6387f6a5",
+      "viewed_artifacts": [
+        "source-derived selected scene crop",
+        "final WebP with independent box overlay",
+        "stock frame1600"
+      ],
+      "prior_review_candidate_sha256": "8be802c523bbdd1fd11b38defb5841f360860b82efd4ec6ae936dcc93e202e00"
+    },
+    {
+      "canonical_key": "caligavis-chrysops",
+      "candidate_sha256": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+      "source_sha256": "c6d1a5cfaebe159991df0e37f36ae6062b07d20ccbc9d3b76a0546f842ed6f6d",
+      "geometry": {
+        "box": [
+          0.010356,
+          0.011908,
+          0.989379,
+          0.964016
+        ],
+        "cut": [
+          1200,
+          988
+        ]
+      },
+      "hash_matches_record_at_review": true,
+      "candidate_unchanged_at_audit_write": true,
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "checker_visual_status": "pass",
+      "notes": "Source comparison confirms both raised wings, complete tail, bill, body and gripping toes. Box excludes lower twig tip. No interior body gap or stray leaf remains.",
+      "viewed_artifacts": [
+        "source-crop.png",
+        "final WebP with independent bird-box overlay",
+        "checker.png"
+      ],
+      "renderer_review": "Root reviewed renderer; this independent audit focuses source anatomy and geometry."
+    },
+    {
+      "canonical_key": "manorina-melanocephala",
+      "candidate_sha256": "67f72ff8b42ad416173773c3c68ee6ebb2c58d31acfb76c5f5405246b06420f3",
+      "source_sha256": "e891488a8e0e467d491ffa8807844301b0f23ae0464e28000c8eb5fa481cdbd6",
+      "geometry": {
+        "box": [
+          0.008638,
+          0.02989,
+          0.990427,
+          0.898488
+        ],
+        "cut": [
+          1200,
+          492
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass: prior tiny gray fleck near claw removed. Complete pale lower body, yellow leg and curled toes/claw agree with source; bird box excludes projecting perch. Native frame1600 reviewed; no meaningful residual cutout artifact.",
+      "renderer_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala-renderer.png",
+      "renderer_sha256": "e13168586a907c0efc1859de20d60ee411d7f00226dda251a15b9fa6840ccc62",
+      "viewed_artifacts": [
+        "source-derived selected scene crop",
+        "final WebP with independent box overlay",
+        "stock frame1600"
+      ],
+      "prior_review_candidate_sha256": "67f72ff8b42ad416173773c3c68ee6ebb2c58d31acfb76c5f5405246b06420f3"
+    },
+    {
+      "canonical_key": "oriolus-sagittatus",
+      "candidate_sha256": "54bb6508ed982c4724ed5a977394a3e30eda6d42a6ca434474d824453b5c948a",
+      "source_sha256": "b43c6bb7cbe07af030d0f5a1744dfa01cc934508dcd0f89b65ba62e44cbbe553",
+      "geometry": {
+        "box": [
+          0.009796,
+          0.018237,
+          0.989388,
+          0.980593
+        ],
+        "cut": [
+          1200,
+          726
+        ]
+      },
+      "hash_matches_record_at_review": true,
+      "candidate_unchanged_at_audit_write": true,
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "checker_visual_status": "pass",
+      "notes": "Source comparison confirms complete bill, crown, wing tips, light tail tips and visible claws. Box covers bird and excludes bottom perch. Previously clipped leaves/background fragments are absent.",
+      "viewed_artifacts": [
+        "source-crop.png",
+        "final WebP with independent bird-box overlay",
+        "checker.png"
+      ],
+      "renderer_review": "Root reviewed renderer; this independent audit focuses source anatomy and geometry."
+    },
+    {
+      "canonical_key": "threskiornis-molucca",
+      "candidate_sha256": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+      "source_sha256": "1b00697df21aec1d4df0b2d67f111090372f129399e429c4ec706e37cb722aa2",
+      "geometry": {
+        "box": [
+          0.161992,
+          0.012043,
+          0.988496,
+          0.951286
+        ],
+        "cut": [
+          1200,
+          1079
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass: full curved bill, crown, white feather contours and fine breast plumes, black tail and both legs/toes agree with original. Retained coherent original reeds/ground preserve authentic plume overlaps. Bird box excludes projecting reed/ground context. Frame1600 has no abrupt seam or missing anatomy; faint original ground/paper texture is intentional.",
+      "renderer_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca-renderer.png",
+      "renderer_sha256": "f53d52be9d604ded66a4e8abf19d23995f04a3f4b7b1a09b699bb89659cd7163",
+      "viewed_artifacts": [
+        "source-derived selected scene crop",
+        "final WebP with independent box overlay",
+        "stock frame1600"
+      ]
+    }
+  ]
+}

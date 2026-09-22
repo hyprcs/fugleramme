@@ -1,0 +1,326 @@
+{
+  "checked_at_utc": "2026-09-20T02:54:17.886690+00:00",
+  "read_only_asset_verification": true,
+  "candidate_basis": "Fresh read of each authoritative per-bird group/root record, followed by SHA256 of that record's actual candidate file. No exported candidate or rendered export used.",
+  "baseline": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\repairs\\baseline.json",
+  "count": 9,
+  "all_nine_candidate_files_and_geometry_unchanged": true,
+  "untouched_candidates": [
+    {
+      "canonical_key": "dacelo-novaeguineae",
+      "review_status": "no-additional-defect-observed",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\record.json",
+      "candidate_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\dacelo-novaeguineae.webp",
+      "baseline_candidate_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+      "live_candidate_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+      "candidate_matches_baseline": true,
+      "candidate_matches_live_record": true,
+      "geometry_unchanged": true,
+      "geometry": {
+        "box": [
+          0.010447,
+          0.013348,
+          0.990064,
+          0.987531
+        ],
+        "cut": [
+          1145,
+          1115
+        ]
+      }
+    },
+    {
+      "canonical_key": "malurus-cyaneus",
+      "review_status": "no-additional-defect-observed",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\malurus-cyaneus\\record.json",
+      "candidate_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\malurus-cyaneus\\malurus-cyaneus.webp",
+      "baseline_candidate_sha256": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb",
+      "live_candidate_sha256": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb",
+      "candidate_matches_baseline": true,
+      "candidate_matches_live_record": true,
+      "geometry_unchanged": true,
+      "geometry": {
+        "box": [
+          0.018333,
+          0.021287,
+          0.968333,
+          0.974958
+        ],
+        "cut": [
+          1164,
+          684
+        ]
+      }
+    },
+    {
+      "canonical_key": "caligavis-chrysops",
+      "review_status": "uncertain",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops-record.json",
+      "candidate_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops.webp",
+      "baseline_candidate_sha256": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+      "live_candidate_sha256": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+      "candidate_matches_baseline": true,
+      "candidate_matches_live_record": true,
+      "geometry_unchanged": true,
+      "geometry": {
+        "box": [
+          0.010356,
+          0.011908,
+          0.989379,
+          0.964016
+        ],
+        "cut": [
+          1200,
+          988
+        ]
+      }
+    },
+    {
+      "canonical_key": "platycercus-elegans",
+      "review_status": "no-additional-defect-observed",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\platycercus-elegans\\record.json",
+      "candidate_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\platycercus-elegans\\platycercus-elegans.webp",
+      "baseline_candidate_sha256": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f",
+      "live_candidate_sha256": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f",
+      "candidate_matches_baseline": true,
+      "candidate_matches_live_record": true,
+      "geometry_unchanged": true,
+      "geometry": {
+        "box": [
+          0.013736,
+          0.015541,
+          0.983804,
+          0.983842
+        ],
+        "cut": [
+          1200,
+          1124
+        ]
+      }
+    },
+    {
+      "canonical_key": "cacatua-galerita",
+      "review_status": "no-additional-defect-observed",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\record.json",
+      "candidate_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\cacatua-galerita.webp",
+      "baseline_candidate_sha256": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+      "live_candidate_sha256": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+      "candidate_matches_baseline": true,
+      "candidate_matches_live_record": true,
+      "geometry_unchanged": true,
+      "geometry": {
+        "box": [
+          0.245461,
+          0.10378,
+          0.913305,
+          0.854388
+        ],
+        "cut": [
+          783,
+          1200
+        ]
+      }
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "review_status": "uncertain",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\record.json",
+      "candidate_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\acridotheres-tristis.webp",
+      "baseline_candidate_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+      "live_candidate_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+      "candidate_matches_baseline": true,
+      "candidate_matches_live_record": true,
+      "geometry_unchanged": true,
+      "geometry": {
+        "box": [
+          0.019715,
+          0.009779,
+          0.982055,
+          0.98772
+        ],
+        "cut": [
+          743,
+          1148
+        ]
+      }
+    },
+    {
+      "canonical_key": "threskiornis-molucca",
+      "review_status": "no-additional-defect-observed",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca-record.json",
+      "candidate_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca.webp",
+      "baseline_candidate_sha256": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+      "live_candidate_sha256": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+      "candidate_matches_baseline": true,
+      "candidate_matches_live_record": true,
+      "geometry_unchanged": true,
+      "geometry": {
+        "box": [
+          0.161992,
+          0.012043,
+          0.988496,
+          0.951286
+        ],
+        "cut": [
+          1200,
+          1079
+        ]
+      }
+    },
+    {
+      "canonical_key": "podargus-strigoides",
+      "review_status": "no-additional-defect-observed",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\podargus-strigoides\\record.json",
+      "candidate_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\podargus-strigoides\\podargus-strigoides.webp",
+      "baseline_candidate_sha256": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e",
+      "live_candidate_sha256": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e",
+      "candidate_matches_baseline": true,
+      "candidate_matches_live_record": true,
+      "geometry_unchanged": true,
+      "geometry": {
+        "box": [
+          0.028165,
+          0.015426,
+          0.97192,
+          0.983759
+        ],
+        "cut": [
+          692,
+          1200
+        ]
+      }
+    },
+    {
+      "canonical_key": "zanda-funerea",
+      "review_status": "no-additional-defect-observed",
+      "record_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\zanda-funerea\\record.json",
+      "candidate_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-c\\zanda-funerea\\zanda-funerea.webp",
+      "baseline_candidate_sha256": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5",
+      "live_candidate_sha256": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5",
+      "candidate_matches_baseline": true,
+      "candidate_matches_live_record": true,
+      "geometry_unchanged": true,
+      "geometry": {
+        "box": [
+          0.021936,
+          0.064386,
+          0.947946,
+          0.986829
+        ],
+        "cut": [
+          764,
+          1200
+        ]
+      }
+    }
+  ],
+  "uncertain_preservation_checks": [
+    {
+      "canonical_key": "caligavis-chrysops",
+      "status": "uncertain_deferred_unchanged_not_cleared",
+      "source_master_mask": {
+        "source": {
+          "path": "[local project]\\artwork-sydney\\research\\historical-taxonomy\\next20-curation\\gould-v4-p45-full.webp",
+          "expected_sha256": "c6d1a5cfaebe159991df0e37f36ae6062b07d20ccbc9d3b76a0546f842ed6f6d",
+          "live_sha256": "c6d1a5cfaebe159991df0e37f36ae6062b07d20ccbc9d3b76a0546f842ed6f6d",
+          "unchanged": true,
+          "expected_hash_source": "fresh-edge-audit/a/findings.json"
+        },
+        "mask": {
+          "path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops-source-mask.png",
+          "expected_sha256": "8c2599d41a8f69b661a4327ca1e8dec48d9035490b46191a218b16171de42706",
+          "live_sha256": "8c2599d41a8f69b661a4327ca1e8dec48d9035490b46191a218b16171de42706",
+          "unchanged": true,
+          "expected_hash_source": "fresh-edge-audit/a/findings.json"
+        },
+        "master": {
+          "path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\caligavis-chrysops-source-master.png",
+          "expected_sha256": "99028fd33378e0043a786b01c9f6bd9253f85c3a364c2ac2994a08782ac44278",
+          "live_sha256": "99028fd33378e0043a786b01c9f6bd9253f85c3a364c2ac2994a08782ac44278",
+          "unchanged": true,
+          "expected_hash_source": "collected-records.json snapshot (a/findings.json records no master hash)"
+        }
+      },
+      "geometry_unchanged": true,
+      "baseline_geometry": {
+        "box": [
+          0.010356,
+          0.011908,
+          0.989379,
+          0.964016
+        ],
+        "cut": [
+          1200,
+          988
+        ]
+      },
+      "live_geometry": {
+        "box": [
+          0.010356,
+          0.011908,
+          0.989379,
+          0.964016
+        ],
+        "cut": [
+          1200,
+          988
+        ]
+      }
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "status": "uncertain_deferred_unchanged_not_cleared",
+      "source_master_mask": {
+        "source": {
+          "path": "[local project]\\artwork-sydney\\research\\contribution-20-20260919\\myna\\legge-full-page-n59.jpg",
+          "expected_sha256": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+          "live_sha256": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+          "unchanged": true,
+          "expected_hash_source": "fresh-edge-audit/b/findings.json"
+        },
+        "mask": {
+          "path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\mask-source.png",
+          "expected_sha256": "70fbf6f90140072453f58c491f8bca16dcc8c3c5cdf7d8a2228f5ccb24ccce68",
+          "live_sha256": "70fbf6f90140072453f58c491f8bca16dcc8c3c5cdf7d8a2228f5ccb24ccce68",
+          "unchanged": true,
+          "expected_hash_source": "fresh-edge-audit/b/findings.json"
+        },
+        "master": {
+          "path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\master-source-rgb.png",
+          "expected_sha256": "43506fcac5d1f49d382054f9fb75fc0dbeed8007d371a44947c7fb84c034228f",
+          "live_sha256": "43506fcac5d1f49d382054f9fb75fc0dbeed8007d371a44947c7fb84c034228f",
+          "unchanged": true,
+          "expected_hash_source": "fresh-edge-audit/b/findings.json"
+        }
+      },
+      "geometry_unchanged": true,
+      "baseline_geometry": {
+        "box": [
+          0.019715,
+          0.009779,
+          0.982055,
+          0.98772
+        ],
+        "cut": [
+          743,
+          1148
+        ]
+      },
+      "live_geometry": {
+        "box": [
+          0.019715,
+          0.009779,
+          0.982055,
+          0.98772
+        ],
+        "cut": [
+          743,
+          1148
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Hash identity proves preservation during this repair batch; it does not clear the two deferred uncertain visual findings."
+  ]
+}

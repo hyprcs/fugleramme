@@ -1,0 +1,839 @@
+{
+  "audit": "fresh-edge-audit-b",
+  "date": "2026-09-20",
+  "method": "Fresh read-only visual comparison; prior approvals not relied upon. Actual rendered paper images used for severity. Candidate/source/mask hashes pinned. Source and actual-render coordinates are approximate mapped crop bounds, not pixel-precise segmentation.",
+  "summary": {
+    "pass": 1,
+    "must-fix": 4,
+    "uncertain": 1
+  },
+  "limitations": [
+    "Software visual inspection only; no physical panel testing.",
+    "Myna tan element remains uncertain for independent anatomy/context adjudication.",
+    "Deliberate narrow matching backing and natural source grain were not treated as errors."
+  ],
+  "birds": {
+    "dacelo-novaeguineae": {
+      "status": "pass",
+      "observations": [
+        {
+          "severity": "pass",
+          "summary": "The previously reported paper ribbon above the perch is absent. Foot hook, curved perch pigment, lower-belly feather fringes, crown, bill and full tail remain visible. No new meaningful cutout defect found in source/native/render comparison.",
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\dacelo-novaeguineae-foot-perch.jpg",
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\dacelo-novaeguineae-bill-crown.jpg",
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\dacelo-novaeguineae-tail-fringe.jpg"
+          ]
+        }
+      ],
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\dacelo-novaeguineae.webp",
+      "candidate_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+      "candidate_dimensions": [
+        1145,
+        1115
+      ],
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-sources\\gould-v2-plate18-bhl48200560-source.webp",
+      "source_sha256": "54f7fbaa89ec5b823392de09ddeb2f271bd4473a9b14007e4b3e579711a1ac63",
+      "master_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\master-source-rgb.png",
+      "master_sha256": "d254e9b7e601deb260f83791a107e83b99ab0959115e095659ee35733efa17eb",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\dacelo-novaeguineae\\mask-source.png",
+      "mask_sha256": "7537086233bc5d812ff6a89ffc1a03a9b1a81898d64fe64a194ef42b5bf3e189",
+      "renderer_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\birds\\dacelo-novaeguineae\\paper1800.png",
+      "renderer_sha256": "6f5947375905910b354530eac094a1f53f35f6e85b12aa9981a957330800fa22",
+      "reviewed_views": [
+        "original source crop",
+        "full native dark composite",
+        "full actual paper1800 renderer",
+        "enlarged source/native/actual-render triptychs"
+      ],
+      "all_analysis_crops": [
+        {
+          "key": "dacelo-novaeguineae",
+          "region": "foot-perch",
+          "candidate_box": [
+            5,
+            725,
+            615,
+            990
+          ],
+          "source_box": [
+            9,
+            3583,
+            1806,
+            4364
+          ],
+          "renderer_box": [
+            160,
+            1118,
+            955,
+            1464
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\dacelo-novaeguineae-foot-perch.jpg"
+        },
+        {
+          "key": "dacelo-novaeguineae",
+          "region": "bill-crown",
+          "candidate_box": [
+            0,
+            0,
+            590,
+            390
+          ],
+          "source_box": [
+            -5,
+            1448,
+            1732,
+            2597
+          ],
+          "renderer_box": [
+            153,
+            172,
+            923,
+            681
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\dacelo-novaeguineae-bill-crown.jpg"
+        },
+        {
+          "key": "dacelo-novaeguineae",
+          "region": "tail-fringe",
+          "candidate_box": [
+            685,
+            790,
+            1145,
+            1115
+          ],
+          "source_box": [
+            2012,
+            3775,
+            3367,
+            4732
+          ],
+          "renderer_box": [
+            1047,
+            1203,
+            1647,
+            1627
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\dacelo-novaeguineae-tail-fringe.jpg"
+        }
+      ]
+    },
+    "petroica-rosea": {
+      "status": "must-fix",
+      "observations": [
+        {
+          "severity": "must-fix",
+          "summary": "Small original hooked claw beneath perch immediately left of the right-hand foot has been masked away. It is visible in original source and absent in native cutout and actual renderer. Restore source anatomy with alpha only.",
+          "candidate_pixels": [
+            376,
+            562,
+            405,
+            612
+          ],
+          "source_full_pixels": [
+            1873,
+            3493,
+            1902,
+            3543
+          ],
+          "renderer1800_pixels": [
+            1088,
+            930,
+            1128,
+            1000
+          ],
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\petroica-rosea-right-foot.jpg"
+          ]
+        },
+        {
+          "severity": "optional",
+          "summary": "Several fine original bristles above and below bill were clipped by the smoother silhouette. Less prominent at normal size than missing claw, but recover while correcting source fidelity.",
+          "candidate_pixels": [
+            32,
+            124,
+            100,
+            205
+          ],
+          "source_full_pixels": [
+            1529,
+            3055,
+            1597,
+            3136
+          ],
+          "renderer1800_pixels": [
+            612,
+            325,
+            706,
+            437
+          ],
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\petroica-rosea-bill.jpg"
+          ]
+        }
+      ],
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\petroica-rosea.webp",
+      "candidate_sha256": "4a9bf0fbb900b111b083c9398ed40e3c4ac87381b968143234ac2ff70a7e2165",
+      "candidate_dimensions": [
+        479,
+        1080
+      ],
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-taxonomy\\completion3-c\\petroica-rosea-original.webp",
+      "source_sha256": "b17584ec9c34727ede4b617adc3d190bf89bf3e6a683cc751cae34dc73560f2d",
+      "master_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\petroica-rosea\\master-source-rgb.png",
+      "master_sha256": "3be1c04ed2911566df3cb93463f35ef45e8701bd23c274705507e71ef1ba4cf9",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\petroica-rosea\\mask-source.png",
+      "mask_sha256": "85b0edbfd2bbf4553726cbde544a0257812cbcb009601393346fe4f895449747",
+      "renderer_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\birds\\petroica-rosea\\paper1800.png",
+      "renderer_sha256": "99261cda4beae2de16cfa85b3b1fea4d1ca63f164c4648c56ba7c8932e478ca8",
+      "reviewed_views": [
+        "original source crop",
+        "full native dark composite",
+        "full actual paper1800 renderer",
+        "enlarged source/native/actual-render triptychs"
+      ],
+      "all_analysis_crops": [
+        {
+          "key": "petroica-rosea",
+          "region": "right-foot",
+          "candidate_box": [
+            350,
+            465,
+            479,
+            630
+          ],
+          "source_box": [
+            1847,
+            3396,
+            1976,
+            3561
+          ],
+          "renderer_box": [
+            1052,
+            796,
+            1231,
+            1024
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\petroica-rosea-right-foot.jpg"
+        },
+        {
+          "key": "petroica-rosea",
+          "region": "bill",
+          "candidate_box": [
+            0,
+            70,
+            150,
+            230
+          ],
+          "source_box": [
+            1497,
+            3001,
+            1647,
+            3161
+          ],
+          "renderer_box": [
+            568,
+            250,
+            776,
+            471
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\petroica-rosea-bill.jpg"
+        },
+        {
+          "key": "petroica-rosea",
+          "region": "tail",
+          "candidate_box": [
+            125,
+            700,
+            345,
+            1080
+          ],
+          "source_box": [
+            1622,
+            3631,
+            1842,
+            4011
+          ],
+          "renderer_box": [
+            741,
+            1121,
+            1045,
+            1647
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\petroica-rosea-tail.jpg"
+        }
+      ]
+    },
+    "anthochaera-chrysoptera": {
+      "status": "must-fix",
+      "observations": [
+        {
+          "severity": "must-fix",
+          "summary": "Closed triangular space between lower wing, slanting leg and perch still retains opaque source paper. The actual paper render shows a flat grey triangle, not the underlying frame paper. The original confirms the area is unpainted paper rather than pale bird anatomy.",
+          "candidate_pixels": [
+            540,
+            548,
+            686,
+            596
+          ],
+          "source_full_pixels": [
+            1998,
+            1415,
+            2340,
+            1528
+          ],
+          "renderer1800_pixels": [
+            858,
+            1142,
+            1049,
+            1204
+          ],
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\anthochaera-chrysoptera-foot-gap.jpg"
+          ]
+        },
+        {
+          "severity": "optional",
+          "summary": "A smaller angular grey source-paper sliver is visible just below the lower bill tip. It can be refined while the enclosed foot gap is corrected; distinguish the open mandible gap from the surplus below the lower mandible.",
+          "candidate_pixels": [
+            901,
+            83,
+            938,
+            123
+          ],
+          "source_full_pixels": [
+            2844,
+            325,
+            2931,
+            419
+          ],
+          "renderer1800_pixels": [
+            1330,
+            534,
+            1378,
+            587
+          ],
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\anthochaera-chrysoptera-bill-branch.jpg"
+          ]
+        }
+      ],
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\anthochaera-chrysoptera.webp",
+      "candidate_sha256": "5ecb78770980b9e913217b110497c6d7d9a526dbe6488e2fc6117c1d70ef521b",
+      "candidate_dimensions": [
+        1144,
+        726
+      ],
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-sources\\next-manual-anthochaera-chrysoptera-bhl48703039.webp",
+      "source_sha256": "aa2eb3711c497be444ece2e88c7c48bcbd92001bd7d9360e984d701b891b315b",
+      "master_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\anthochaera-chrysoptera\\master-source-rgb.png",
+      "master_sha256": "2c8fe09c5d31380f7d0ee47ad118244fe8607ae85222aefa369986e06ca1b909",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\anthochaera-chrysoptera\\mask-source.png",
+      "mask_sha256": "4322a9795fda910d715bbf925ea587efa383e03f3d86be95e02988c3d221c021",
+      "renderer_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\birds\\anthochaera-chrysoptera\\paper1800.png",
+      "renderer_sha256": "99c9ffae1fa787d13f0c315697401fc4c00b58a087a46dddeaf2dcbf5e85f902",
+      "reviewed_views": [
+        "original source crop",
+        "full native dark composite",
+        "full actual paper1800 renderer",
+        "enlarged source/native/actual-render triptychs"
+      ],
+      "all_analysis_crops": [
+        {
+          "key": "anthochaera-chrysoptera",
+          "region": "foot-gap",
+          "candidate_box": [
+            460,
+            510,
+            735,
+            726
+          ],
+          "source_box": [
+            1811,
+            1326,
+            2455,
+            1832
+          ],
+          "renderer_box": [
+            754,
+            1092,
+            1113,
+            1374
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\anthochaera-chrysoptera-foot-gap.jpg"
+        },
+        {
+          "key": "anthochaera-chrysoptera",
+          "region": "bill-branch",
+          "candidate_box": [
+            780,
+            65,
+            1144,
+            355
+          ],
+          "source_box": [
+            2561,
+            283,
+            3414,
+            963
+          ],
+          "renderer_box": [
+            1172,
+            511,
+            1647,
+            890
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\anthochaera-chrysoptera-bill-branch.jpg"
+        },
+        {
+          "key": "anthochaera-chrysoptera",
+          "region": "tail-wing",
+          "candidate_box": [
+            0,
+            0,
+            510,
+            565
+          ],
+          "source_box": [
+            733,
+            131,
+            1928,
+            1455
+          ],
+          "renderer_box": [
+            153,
+            426,
+            819,
+            1164
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\anthochaera-chrysoptera-tail-wing.jpg"
+        }
+      ]
+    },
+    "grallina-cyanoleuca": {
+      "status": "must-fix",
+      "observations": [
+        {
+          "severity": "must-fix",
+          "summary": "Small triangular brown fragment under belly, right of leg attachment, is retained background trunk. Source comparison shows its continuity with original large trunk behind bird; in isolated actual renderer it is an unrelated dark wedge attached to pale belly. Remove only trunk fragment and surplus surrounding source paper while preserving belly feather lines.",
+          "candidate_pixels": [
+            548,
+            467,
+            617,
+            500
+          ],
+          "source_full_pixels": [
+            2002,
+            1775,
+            2157,
+            1849
+          ],
+          "renderer1800_pixels": [
+            868,
+            937,
+            958,
+            980
+          ],
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\grallina-cyanoleuca-belly-wedge.jpg"
+          ]
+        }
+      ],
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\grallina-cyanoleuca.webp",
+      "candidate_sha256": "e77093afdcaede01ba0984f519c86851f8593e6ce4b856c01f5aa6a3cb867d1c",
+      "candidate_dimensions": [
+        1145,
+        876
+      ],
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-sources\\root-grallina-cyanoleuca-bhl48200704.webp",
+      "source_sha256": "72f419e09dc676cb6a991f68c1e76ab0798a50d145fd94ecc59739fe3c40fc11",
+      "master_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\grallina-cyanoleuca\\master-source-rgb.png",
+      "master_sha256": "30128abcd178804f5af86780d3e24a135f96c525a2a79df246ac53df10398f3d",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\grallina-cyanoleuca\\mask-source.png",
+      "mask_sha256": "aef8b89039a3cf2aee15e0dbed074513fb5be3f72d8261e197310564886b3460",
+      "renderer_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\birds\\grallina-cyanoleuca\\paper1800.png",
+      "renderer_sha256": "02415ad93d0b505b543511f66c185d0b0c597f9b6ead030c28fe9dbedb510b91",
+      "reviewed_views": [
+        "original source crop",
+        "full native dark composite",
+        "full actual paper1800 renderer",
+        "enlarged source/native/actual-render triptychs"
+      ],
+      "all_analysis_crops": [
+        {
+          "key": "grallina-cyanoleuca",
+          "region": "belly-wedge",
+          "candidate_box": [
+            440,
+            450,
+            670,
+            600
+          ],
+          "source_box": [
+            1760,
+            1736,
+            2275,
+            2073
+          ],
+          "renderer_box": [
+            727,
+            915,
+            1027,
+            1111
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\grallina-cyanoleuca-belly-wedge.jpg"
+        },
+        {
+          "key": "grallina-cyanoleuca",
+          "region": "feet-legs",
+          "candidate_box": [
+            330,
+            490,
+            600,
+            876
+          ],
+          "source_box": [
+            1513,
+            1826,
+            2119,
+            2692
+          ],
+          "renderer_box": [
+            584,
+            967,
+            936,
+            1471
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\grallina-cyanoleuca-feet-legs.jpg"
+        },
+        {
+          "key": "grallina-cyanoleuca",
+          "region": "bill-crown",
+          "candidate_box": [
+            0,
+            0,
+            340,
+            220
+          ],
+          "source_box": [
+            773,
+            728,
+            1536,
+            1221
+          ],
+          "renderer_box": [
+            153,
+            328,
+            597,
+            615
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\grallina-cyanoleuca-bill-crown.jpg"
+        }
+      ]
+    },
+    "ocyphaps-lophotes": {
+      "status": "must-fix",
+      "observations": [
+        {
+          "severity": "must-fix",
+          "summary": "Angular broad strip of retained source paper runs below the short left perch. It is visible as a flat grey band in the actual paper renderer; the dark pigment branch occupies the upper part of that silhouette. Refine source alpha along the actual lower bark boundary, preserving the toes.",
+          "candidate_pixels": [
+            10,
+            931,
+            168,
+            1034
+          ],
+          "source_full_pixels": [
+            767,
+            2335,
+            1101,
+            2553
+          ],
+          "renderer1800_pixels": [
+            474,
+            1365,
+            680,
+            1499
+          ],
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\ocyphaps-lophotes-feet-perch.jpg"
+          ]
+        },
+        {
+          "severity": "must-fix",
+          "summary": "White cut-in below bill removes original grey chest and leaves a pale grey nub at bill tip. Original source continues grey breast around bill, while final silhouette creates an artificial sharp diagonal notch. Root independently reviewed the triptych and confirmed clipped chest. Restore original breast pixels with source alpha, preserving bill and excluding actual background branch.",
+          "candidate_pixels": [
+            621,
+            928,
+            674,
+            1003
+          ],
+          "source_full_pixels": [
+            2061,
+            2329,
+            2174,
+            2488
+          ],
+          "renderer1800_pixels": [
+            1269,
+            1361,
+            1338,
+            1458
+          ],
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\ocyphaps-lophotes-bill.jpg"
+          ],
+          "independent_confirmation": "root reviewed source/native/actual renderer triptych and confirmed clipped original chest"
+        },
+        {
+          "severity": "optional",
+          "summary": "Long faint grey source-paper allowance alongside crest remains visible when enlarged. It is much narrower and lower contrast than the perch strip; crest pigment itself is preserved.",
+          "candidate_pixels": [
+            440,
+            435,
+            525,
+            635
+          ],
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\ocyphaps-lophotes-crest.jpg"
+          ]
+        }
+      ],
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\ocyphaps-lophotes.webp",
+      "candidate_sha256": "2e1f04ec2d5a5c656f40a8f2769e2d7e166db1d1ec793db0e37afb12963ce7ea",
+      "candidate_dimensions": [
+        674,
+        1148
+      ],
+      "source_path": "[local project]\\artwork-sydney\\research\\historical-sources\\partition1-ocyphaps-lophotes-bhl48401210.webp",
+      "source_sha256": "6d70228b08b54aaf2b9b10766acc8f69548ea764c03fce58be23df9197d91893",
+      "master_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\ocyphaps-lophotes\\master-source-rgb.png",
+      "master_sha256": "b471fdfe740567e5799dbf43708ded20324029d09a1e1a4a1af8f61ae101d108",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\ocyphaps-lophotes\\mask-source.png",
+      "mask_sha256": "776a6a07e328ed5c9614fac5b2f97219793b25f113d52951649cbd907b0e436b",
+      "renderer_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\birds\\ocyphaps-lophotes\\paper1800.png",
+      "renderer_sha256": "2dab4a3cc70defbc2b8fabd302bcbeef276e8f8d088750f402988f1e57f10752",
+      "reviewed_views": [
+        "original source crop",
+        "full native dark composite",
+        "full actual paper1800 renderer",
+        "enlarged source/native/actual-render triptychs"
+      ],
+      "all_analysis_crops": [
+        {
+          "key": "ocyphaps-lophotes",
+          "region": "crest",
+          "candidate_box": [
+            400,
+            410,
+            560,
+            805
+          ],
+          "source_box": [
+            1593,
+            1231,
+            1932,
+            2068
+          ],
+          "renderer_box": [
+            982,
+            687,
+            1190,
+            1201
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\ocyphaps-lophotes-crest.jpg"
+        },
+        {
+          "key": "ocyphaps-lophotes",
+          "region": "feet-perch",
+          "candidate_box": [
+            0,
+            900,
+            260,
+            1090
+          ],
+          "source_box": [
+            745,
+            2269,
+            1296,
+            2672
+          ],
+          "renderer_box": [
+            461,
+            1324,
+            799,
+            1572
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\ocyphaps-lophotes-feet-perch.jpg"
+        },
+        {
+          "key": "ocyphaps-lophotes",
+          "region": "tail-tips",
+          "candidate_box": [
+            150,
+            0,
+            640,
+            575
+          ],
+          "source_box": [
+            1063,
+            362,
+            2102,
+            1581
+          ],
+          "renderer_box": [
+            656,
+            153,
+            1294,
+            901
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\ocyphaps-lophotes-tail-tips.jpg"
+        },
+        {
+          "key": "ocyphaps-lophotes",
+          "region": "bill",
+          "candidate_box": [
+            545,
+            780,
+            674,
+            1050
+          ],
+          "source_box": [
+            1900,
+            2015,
+            2174,
+            2587
+          ],
+          "renderer_box": [
+            1170,
+            1168,
+            1338,
+            1519
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\ocyphaps-lophotes-bill.jpg"
+        }
+      ]
+    },
+    "acridotheres-tristis": {
+      "status": "uncertain",
+      "observations": [
+        {
+          "severity": "uncertain",
+          "summary": "Tan lance-shaped element in space between hanging wing and tail has leaf-like internal lines. It is present in original source and visible in renderer. It could be a far feather or background leaf and should receive independent anatomy/context adjudication before removal. No confirmed missing toes, body holes, broad paper ribbons or angular contour defects otherwise found.",
+          "candidate_pixels": [
+            646,
+            745,
+            691,
+            873
+          ],
+          "source_full_pixels": [
+            2421,
+            2612,
+            2494,
+            2821
+          ],
+          "renderer1800_pixels": [
+            1257,
+            1123,
+            1315,
+            1289
+          ],
+          "evidence": [
+            "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\acridotheres-tristis-wing-gap-tail.jpg"
+          ]
+        }
+      ],
+      "candidate_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\payload\\assets\\artwork\\classic\\birds\\acridotheres-tristis.webp",
+      "candidate_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+      "candidate_dimensions": [
+        743,
+        1148
+      ],
+      "source_path": "[local project]\\artwork-sydney\\research\\contribution-20-20260919\\myna\\legge-full-page-n59.jpg",
+      "source_sha256": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+      "master_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\master-source-rgb.png",
+      "master_sha256": "43506fcac5d1f49d382054f9fb75fc0dbeed8007d371a44947c7fb84c034228f",
+      "mask_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\mask-source.png",
+      "mask_sha256": "70fbf6f90140072453f58c491f8bca16dcc8c3c5cdf7d8a2228f5ccb24ccce68",
+      "renderer_path": "[local project]\\exports\\fugleramme-pr124-revision-20260920\\birds\\acridotheres-tristis\\paper1800.png",
+      "renderer_sha256": "5fb4a485088186ddabcd52a073127c22a889ab0086593278816adad82b09596a",
+      "reviewed_views": [
+        "original source crop",
+        "full native dark composite",
+        "full actual paper1800 renderer",
+        "enlarged source/native/actual-render triptychs"
+      ],
+      "all_analysis_crops": [
+        {
+          "key": "acridotheres-tristis",
+          "region": "feet",
+          "candidate_box": [
+            225,
+            610,
+            565,
+            935
+          ],
+          "source_box": [
+            1733,
+            2391,
+            2289,
+            2922
+          ],
+          "renderer_box": [
+            709,
+            947,
+            1151,
+            1370
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\acridotheres-tristis-feet.jpg"
+        },
+        {
+          "key": "acridotheres-tristis",
+          "region": "wing-gap-tail",
+          "candidate_box": [
+            475,
+            670,
+            743,
+            1148
+          ],
+          "source_box": [
+            2142,
+            2489,
+            2579,
+            3270
+          ],
+          "renderer_box": [
+            1034,
+            1025,
+            1383,
+            1647
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\acridotheres-tristis-wing-gap-tail.jpg"
+        },
+        {
+          "key": "acridotheres-tristis",
+          "region": "bill-crown",
+          "candidate_box": [
+            0,
+            0,
+            480,
+            205
+          ],
+          "source_box": [
+            1366,
+            1395,
+            2150,
+            1730
+          ],
+          "renderer_box": [
+            416,
+            153,
+            1041,
+            420
+          ],
+          "evidence": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\fresh-edge-audit\\b\\acridotheres-tristis-bill-crown.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "reviewer": "revision_cutouts_c",
+  "review_date": "2026-09-20",
+  "scope": "Final independent review with candidate hashes pinned. Software visual assessment, not physical display certification. Candidates were not modified by this reviewer.",
+  "final_conclusion": "All six final follow-up reviews pass; prior reported defects resolved while original anatomy and bird sizing bounds preserved.",
+  "records": [
+    {
+      "canonical_key": "threskiornis-molucca",
+      "candidate_sha256": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+      "source_sha256": "1b00697df21aec1d4df0b2d67f111090372f129399e429c4ec706e37cb722aa2",
+      "geometry": {
+        "box": [
+          0.161992,
+          0.012043,
+          0.988496,
+          0.951286
+        ],
+        "cut": [
+          1200,
+          1079
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass: full curved bill, crown, white feather contours and fine breast plumes, black tail and both legs/toes agree with original. Retained coherent original reeds/ground preserve authentic plume overlaps. Bird box excludes projecting reed/ground context. Frame1600 has no abrupt seam or missing anatomy; faint original ground/paper texture is intentional.",
+      "renderer_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca-renderer.png",
+      "renderer_sha256": "f53d52be9d604ded66a4e8abf19d23995f04a3f4b7b1a09b699bb89659cd7163",
+      "viewed_artifacts": [
+        "source-derived selected scene crop",
+        "final WebP with independent box overlay",
+        "stock frame1600"
+      ],
+      "source_record": {
+        "canonical_key": "threskiornis-molucca",
+        "source_sha256": "1b00697df21aec1d4df0b2d67f111090372f129399e429c4ec706e37cb722aa2",
+        "source_oriented_dimensions": [
+          5754,
+          3660
+        ],
+        "rotation_clockwise": 90,
+        "source_mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca-source-mask.png",
+        "source_master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca-source-master.png",
+        "png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca.png",
+        "webp": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca.webp",
+        "file_sha256": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+        "dimensions": [
+          1200,
+          1079
+        ],
+        "bird_box_pixels": [
+          194.3906695243659,
+          12.994141215674267,
+          1186.1951337715057,
+          1026.4379755918426
+        ],
+        "geometry": {
+          "box": [
+            0.161992,
+            0.012043,
+            0.988496,
+            0.951286
+          ],
+          "cut": [
+            1200,
+            1079
+          ]
+        },
+        "generative_pixel_editing": false,
+        "source_rgb_exact_before_resize": true,
+        "background_underlay_rgb": [
+          242,
+          237,
+          226
+        ],
+        "sampled_original_background_rgb": [
+          218,
+          201,
+          182
+        ],
+        "background_only_underlay": true,
+        "method": "Hand-traced contour masks in source coordinate space; Gaussian subpixel alpha antialias; no source RGB changes; current upstream prepare/write_plate. Smooth narrow flat TARGET_PAPER backing under original pixels prevents the renderer bleaching pale original plumage.",
+        "changes": "Foreground Ibis retained with coherent original reed clump and softly faded original ground patch. This preserves all fine breast plumes at their authentic grass overlaps. The rear Ibis is excluded. No generated anatomy, pigment repaint, or invented scenery.",
+        "source_page_url": "https://www.biodiversitylibrary.org/page/48400770",
+        "visual_review_status": "candidate_individually_checked_pending_root_review",
+        "checks": {
+          "unchanged_original_source": true,
+          "png_webp_alpha_exact": true,
+          "at_most_1200": true,
+          "geometry_cut_matches_webp": true,
+          "geometry_in_bounds": true,
+          "source_rgb_exact_before_resize": true
+        },
+        "source_mask_sha256": "1b2615ec8edf106c56ed9c277efca3c62e15f435ad9556c4a7c7ae42f96683e3",
+        "source_master_sha256": "912a999288bfd63fc7bd357cae2b08077797104938a4e9ebd53966b093dc1c52",
+        "review_scope": "Original source, submitted dark composite, final native checker/dark and current stock renderer at 760 and 1600 pixels individually compared. Software visual review only; no physical panel certification.",
+        "limitations": [
+          "Historical source grain and original pigment remain. No generated pixels or anatomical repaint. Final integration and independent review remain with parent task.",
+          "Foreground Ibis now includes coherent original reeds and ground to preserve fine plume overlaps; source context is deliberate. Rear bird excluded."
+        ],
+        "renderer760_sha256": "d4f34248b632db921afec73a142112f2290b75db05d6f539e1956a5da58e54d0",
+        "renderer1600_sha256": "f53d52be9d604ded66a4e8abf19d23995f04a3f4b7b1a09b699bb89659cd7163",
+        "geometry_preview": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\threskiornis-molucca-geometry.png"
+      }
+    },
+    {
+      "canonical_key": "anthochaera-carunculata",
+      "candidate_sha256": "f86ad389fd3f75cefb0fee647699cf8c4fead357cb1d2c31f712a2ae7f8a5311",
+      "source_sha256": "b8402f1f067443254c8f0637098c97dcd651b6c1a0ba35d58bbda75a95e74937",
+      "geometry": {
+        "box": [
+          0.008987,
+          0.022003,
+          0.992738,
+          0.982478
+        ],
+        "cut": [
+          1200,
+          578
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass after final patch: small upright two-pronged background stem at final WebP about x704,y150 removed. Authentic long pointed feather near final x790,y215 is preserved. Full tongue, pale belly, gripping foot/claw and tail fan intact; current frame1600 and enlarged former-defect crop inspected. Bird geometry unchanged and accurate.",
+      "renderer_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata-renderer.png",
+      "renderer_sha256": "30de235ee6fb0953249d7a24e0e02abd8f34c046f1cb5e9480a4a4ce6387f6a5",
+      "viewed_artifacts": [
+        "source-derived selected scene crop",
+        "final WebP with independent box overlay",
+        "stock frame1600"
+      ],
+      "source_record": {
+        "canonical_key": "anthochaera-carunculata",
+        "source_sha256": "b8402f1f067443254c8f0637098c97dcd651b6c1a0ba35d58bbda75a95e74937",
+        "source_oriented_dimensions": [
+          4872,
+          6496
+        ],
+        "rotation_clockwise": 0,
+        "source_mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata-source-mask.png",
+        "source_master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata-source-master.png",
+        "png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata.png",
+        "webp": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata.webp",
+        "file_sha256": "f86ad389fd3f75cefb0fee647699cf8c4fead357cb1d2c31f712a2ae7f8a5311",
+        "dimensions": [
+          1200,
+          578
+        ],
+        "bird_box_pixels": [
+          10.784313725490195,
+          12.7179504402389,
+          1191.2850609841423,
+          567.8723559078213
+        ],
+        "geometry": {
+          "box": [
+            0.008987,
+            0.022003,
+            0.992738,
+            0.982478
+          ],
+          "cut": [
+            1200,
+            578
+          ]
+        },
+        "generative_pixel_editing": false,
+        "source_rgb_exact_before_resize": true,
+        "background_underlay_rgb": [
+          242,
+          237,
+          226
+        ],
+        "sampled_original_background_rgb": [
+          226,
+          223,
+          217
+        ],
+        "background_only_underlay": true,
+        "method": "Hand-traced contour masks in source coordinate space; Gaussian subpixel alpha antialias; no source RGB changes; current upstream prepare/write_plate. Smooth narrow flat TARGET_PAPER backing under original pixels prevents the renderer bleaching pale original plumage.",
+        "changes": "Rebuilt complete body mask from original, restoring all prior accidental interior gaps. Traced tongue, tail fans, belly and upper back to remove hanging leaf fragments. Original claw restored and coherent short perch retained. Removed the final two upright background stem ends at upper back source-reference x824-830, preserving the adjacent original feather contour.",
+        "source_page_url": "https://digital.lib.ku.edu/ku-gould/14110",
+        "visual_review_status": "candidate_individually_checked_final_local_stem_removed_pending_independent_recheck",
+        "review_scope": "Original source, submitted dark composite, final native checker/dark and current stock renderer at 760 and 1600 pixels individually compared. Software visual review only; no physical panel certification.",
+        "limitations": [
+          "Historical source grain and original pigment remain. No generated pixels or anatomical repaint. Final integration and independent review remain with parent task."
+        ],
+        "geometry_preview": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\anthochaera-carunculata-geometry.png",
+        "source_mask_sha256": "b0000505f72b6255d6d19be3a32e6497c004771ed032eed66ab16e348ff461cf",
+        "source_master_sha256": "644c719cfb1ece9f2b05dc5d86e897405ebda753121c0dc50529308fb7f61a39",
+        "renderer760_sha256": "3e5e5542a185e3a0be77fb53becba12a6dd5947c9bb6a0e78de91d8bb5697c65",
+        "renderer1600_sha256": "30de235ee6fb0953249d7a24e0e02abd8f34c046f1cb5e9480a4a4ce6387f6a5",
+        "checks": {
+          "unchanged_original_source": true,
+          "png_webp_alpha_exact": true,
+          "at_most_1200": true,
+          "geometry_cut_matches_webp": true,
+          "geometry_in_bounds": true,
+          "source_rgb_exact_before_resize": true
+        }
+      }
+    },
+    {
+      "canonical_key": "manorina-melanocephala",
+      "candidate_sha256": "67f72ff8b42ad416173773c3c68ee6ebb2c58d31acfb76c5f5405246b06420f3",
+      "source_sha256": "e891488a8e0e467d491ffa8807844301b0f23ae0464e28000c8eb5fa481cdbd6",
+      "geometry": {
+        "box": [
+          0.008638,
+          0.02989,
+          0.990427,
+          0.898488
+        ],
+        "cut": [
+          1200,
+          492
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass: prior tiny gray fleck near claw removed. Complete pale lower body, yellow leg and curled toes/claw agree with source; bird box excludes projecting perch. Native frame1600 reviewed; no meaningful residual cutout artifact.",
+      "renderer_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala-renderer.png",
+      "renderer_sha256": "e13168586a907c0efc1859de20d60ee411d7f00226dda251a15b9fa6840ccc62",
+      "viewed_artifacts": [
+        "source-derived selected scene crop",
+        "final WebP with independent box overlay",
+        "stock frame1600"
+      ],
+      "source_record": {
+        "canonical_key": "manorina-melanocephala",
+        "source_sha256": "e891488a8e0e467d491ffa8807844301b0f23ae0464e28000c8eb5fa481cdbd6",
+        "source_oriented_dimensions": [
+          3566,
+          5709
+        ],
+        "rotation_clockwise": 0,
+        "source_mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala-source-mask.png",
+        "source_master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala-source-master.png",
+        "png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala.png",
+        "webp": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala.webp",
+        "file_sha256": "67f72ff8b42ad416173773c3c68ee6ebb2c58d31acfb76c5f5405246b06420f3",
+        "dimensions": [
+          1200,
+          492
+        ],
+        "bird_box_pixels": [
+          10.365342718283896,
+          14.705882352941176,
+          1188.5118149824032,
+          442.05630970336847
+        ],
+        "geometry": {
+          "box": [
+            0.008638,
+            0.02989,
+            0.990427,
+            0.898488
+          ],
+          "cut": [
+            1200,
+            492
+          ]
+        },
+        "generative_pixel_editing": false,
+        "source_rgb_exact_before_resize": true,
+        "background_underlay_rgb": [
+          242,
+          237,
+          226
+        ],
+        "sampled_original_background_rgb": [
+          213,
+          208,
+          197
+        ],
+        "background_only_underlay": true,
+        "method": "Hand-traced contour masks in source coordinate space; Gaussian subpixel alpha antialias; no source RGB changes; current upstream prepare/write_plate. Smooth narrow flat TARGET_PAPER backing under original pixels prevents the renderer bleaching pale original plumage.",
+        "changes": "Re-traced full pale breast and back, restored original curled toes and rear claw rather than cropping to the branch. Retained coherent branch with rounded end.",
+        "source_page_url": "https://www.biodiversitylibrary.org/page/48703119",
+        "visual_review_status": "candidate_individually_checked_pending_root_review",
+        "checks": {
+          "unchanged_original_source": true,
+          "png_webp_alpha_exact": true,
+          "at_most_1200": true,
+          "geometry_cut_matches_webp": true,
+          "geometry_in_bounds": true,
+          "source_rgb_exact_before_resize": true
+        },
+        "source_mask_sha256": "d199668ef8159b0b2d256d2cef63bfdfedf6da78198b090b6dde687577dbeecc",
+        "source_master_sha256": "2b6c174adce3cb4334d330c48cd8e85694277547c12aab0cbf56f06125a6bb29",
+        "review_scope": "Original source, submitted dark composite, final native checker/dark and current stock renderer at 760 and 1600 pixels individually compared. Software visual review only; no physical panel certification.",
+        "limitations": [
+          "Historical source grain and original pigment remain. No generated pixels or anatomical repaint. Final integration and independent review remain with parent task."
+        ],
+        "renderer760_sha256": "d73c48711c8c8b6592fc4aa67a297992636ba5efa7b6ea9f59b274c7e7b0c6d5",
+        "renderer1600_sha256": "e13168586a907c0efc1859de20d60ee411d7f00226dda251a15b9fa6840ccc62",
+        "geometry_preview": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-a\\manorina-melanocephala-geometry.png"
+      }
+    },
+    {
+      "canonical_key": "cacatua-galerita",
+      "candidate_sha256": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+      "source_sha256": "acbb171a1a989f32b57336497d48ea97a665beb1246c1edb817be369d8f374d1",
+      "geometry": {
+        "box": [
+          0.245461,
+          0.10378,
+          0.913305,
+          0.854388
+        ],
+        "cut": [
+          783,
+          1200
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass: complete two-bird tree scene with original crests, bills, visible gripping foot, foreground tail and connected leaves preserved. Box selects the larger foreground adult. Former upper-right tree background step has disappeared in full frame1800 and a native-pixel detail crop. Natural scan grain remains.",
+      "renderer_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\frame1800.png",
+      "renderer_sha256": "10c302e535a80670916fc75f1fde7d77a0f9ae9b3988c54f4cbb2ef915aefa87",
+      "viewed_artifacts": [
+        "source-derived selected scene crop",
+        "final WebP with independent box overlay",
+        "stock frame1800 with native-pixel former-defect crop"
+      ],
+      "source_record": {
+        "canonical_key": "cacatua-galerita",
+        "source_sha256": "acbb171a1a989f32b57336497d48ea97a665beb1246c1edb817be369d8f374d1",
+        "source_mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\source-mask.png",
+        "source_mask_sha256": "32799d3a8dcfe95eade69be596a38fef031edf4375f08122bd62a9ab28e0863c",
+        "source_master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\source-master.png",
+        "source_master_sha256": "873e2b1bfd0e92b231ed084fc5cffce792eed2f5a53c7673f6449c911d3ac2c6",
+        "prepared_input": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\prepared.png",
+        "candidate_webp": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\cacatua-galerita.webp",
+        "candidate_sha256": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+        "dimensions": [
+          783,
+          1200
+        ],
+        "geometry": {
+          "box": [
+            0.245461,
+            0.10378,
+            0.913305,
+            0.854388
+          ],
+          "cut": [
+            783,
+            1200
+          ]
+        },
+        "selected_individual": "Complete original composition with both cockatoos, connected tree and leaves; sizing box on the larger foreground adult.",
+        "changes": "Restored both original cockatoos with connected tree and leaves. Removed page margins and caption with a smooth alpha boundary. Source RGB master preserved; explicitly exterior paper is conventionally matched in renderer input. The former abrupt upper-tree and lower-tree paper fade switches now blend continuously.",
+        "background_adjustment": "Exterior paper matched to #F0ECE5 using the saved protected-illustration mask. Galah foliage-region paper matte is confined below the birds. Cockatoo tree ends feather into the paper. Source-RGB master retained independently.",
+        "protected_illustration_mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\cacatua-galerita\\protected-illustration-mask.png",
+        "source_master_rgb_preserved": true,
+        "protected_illustration_rgb_preserved": true,
+        "generative_pixel_editing": false,
+        "visual_review_status": "individually_checked_complete_original_checker_dark_and_stock_frame1800_pending_root_integration",
+        "reviewed_on": "2026-09-20",
+        "reviewer": "revision_cutouts_b",
+        "physical_panel_tested": false,
+        "background_refinement": {
+          "source_rgb_master_unchanged": true,
+          "source_alpha_mask_unchanged": true,
+          "geometry_unchanged": true,
+          "generative_pixel_editing": false,
+          "checked_against_complete_original": true,
+          "change": "Continuous 60-reference-pixel smoothstep weights remove the former upper-tree paper transition step without modifying scene alpha or historical RGB master."
+        },
+        "remaining_limitations": [
+          "Historical scan texture remains within the preserved illustration; physical panel not tested."
+        ]
+      }
+    },
+    {
+      "canonical_key": "eolophus-roseicapilla",
+      "candidate_sha256": "491dbe8e3a9eeab0dda2fc71eda63f8bacf79dd7b9bdfeb1f639fbd31143e659",
+      "source_sha256": "950cbafce0891980a41baa4b7ba6ea2c110ea3abf54d5929fb00a167f5c0e95a",
+      "geometry": {
+        "box": [
+          0.391683,
+          0.020832,
+          0.980794,
+          0.611286
+        ],
+        "cut": [
+          803,
+          1200
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass: both complete original birds, all visible feet, crests, tail tips and connected branch/foliage preserved. Box selects upper adult including raised crest and long tail. Former broad gray rim along upper bird back/tail has been narrowed and no longer reads as a separate outline in full frame1800/native detail. Faint original paper wash and foxing among lower foliage remain; no uncertain illustration erased.",
+      "renderer_path": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\frame1800.png",
+      "renderer_sha256": "94fd2006ab9acb7f3094c5700501a257860cdc1ee44577b1750ef09a2283c8a7",
+      "viewed_artifacts": [
+        "source-derived selected scene crop",
+        "final WebP with independent box overlay",
+        "stock frame1800 with native-pixel former-defect crop"
+      ],
+      "source_record": {
+        "canonical_key": "eolophus-roseicapilla",
+        "source_sha256": "950cbafce0891980a41baa4b7ba6ea2c110ea3abf54d5929fb00a167f5c0e95a",
+        "source_mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\source-mask.png",
+        "source_mask_sha256": "1f7e80e7a6b06be215fc7a44dd30aabffe5677544f95fbd92c5226e813779e2f",
+        "source_master": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\source-master.png",
+        "source_master_sha256": "4f27aeae6c87e520c8d4bf5495983484aade82d0a0ab8ae999093ea9b09b266b",
+        "prepared_input": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\prepared.png",
+        "candidate_webp": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\eolophus-roseicapilla.webp",
+        "candidate_sha256": "491dbe8e3a9eeab0dda2fc71eda63f8bacf79dd7b9bdfeb1f639fbd31143e659",
+        "dimensions": [
+          803,
+          1200
+        ],
+        "geometry": {
+          "box": [
+            0.391683,
+            0.020832,
+            0.980794,
+            0.611286
+          ],
+          "cut": [
+            803,
+            1200
+          ]
+        },
+        "selected_individual": "Both original Galahs with connected perches and foliage, keeping the branch crossing the upper bird tail in its authentic context. Sizing box on the raised-crest upper adult.",
+        "changes": "Restored the complete connected historical composition so the branch crossing the tail is no longer an isolated fragment. Removed caption and page margins without inventing hidden feathers.",
+        "background_adjustment": "Exterior paper matched to #F0ECE5 using the saved protected-illustration mask. Galah foliage-region paper matte is confined below the birds. Cockatoo tree ends feather into the paper. Source-RGB master retained independently.",
+        "protected_illustration_mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\root\\eolophus-roseicapilla\\protected-illustration-mask.png",
+        "source_master_rgb_preserved": true,
+        "protected_illustration_rgb_preserved": true,
+        "generative_pixel_editing": false,
+        "visual_review_status": "individually_checked_complete_original_checker_dark_and_stock_frame1800_pending_root_integration",
+        "reviewed_on": "2026-09-20",
+        "reviewer": "revision_cutouts_b",
+        "physical_panel_tested": false,
+        "background_refinement": {
+          "source_rgb_master_unchanged": true,
+          "source_alpha_mask_unchanged": true,
+          "geometry_unchanged": true,
+          "generative_pixel_editing": false,
+          "checked_against_complete_original": true,
+          "change": "Tightened the explicitly traced exterior-paper boundary along upper Galah back and tail. Local protection at that edge avoids the previous wide gray-paper rim. Lower foliage and its existing paper-only matte below reference y1390 remain preserved."
+        },
+        "remaining_limitations": [
+          "Small original foxing speckles and faint paper wash remain around some lower-scene foliage and below the lower bird tail; no uncertain leaf or feather detail was removed.",
+          "Physical panel not tested."
+        ]
+      }
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "candidate_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+      "source_sha256": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+      "geometry": {
+        "box": [
+          0.019715,
+          0.009779,
+          0.982055,
+          0.98772
+        ],
+        "cut": [
+          743,
+          1148
+        ]
+      },
+      "geometry_dimensions_verified": true,
+      "bird_geometry_source_referenced_pass": true,
+      "source_anatomy_visual_pass": true,
+      "final_visual_status": "pass",
+      "conclusion": "Pass after targeted patch: broad green-paper crescent between tucked foot, belly and standing leg and green lower-perch rim resolved. Original cream belly fringe, both feet/toes and complete pale tail preserved. Source comparison, current checker, frame1600 and current bird-box overlay inspected; geometry still accurate.",
+      "viewed_artifacts": [
+        "source crop",
+        "final WebP with independent box overlay",
+        "checker.png",
+        "frame1600.png"
+      ],
+      "source_record": {
+        "canonical_key": "acridotheres-tristis",
+        "source": "[local project]\\artwork-sydney\\research\\contribution-20-20260919\\myna\\legge-full-page-n59.jpg",
+        "source_sha256": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+        "source_dimensions": [
+          2642,
+          3648
+        ],
+        "source_crop": [
+          1387,
+          1418,
+          2558,
+          3246
+        ],
+        "renderer_input": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\renderer-input.png",
+        "candidate_png": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\prepared.png",
+        "candidate_webp": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\acridotheres-tristis.webp",
+        "source_rgb_preserved_before_resize": true,
+        "source_unchanged": true,
+        "generative_pixel_editing": false,
+        "bird_box_pixels": [
+          14.648304013663541,
+          11.226293766011974,
+          729.6669103330487,
+          1133.9025670367207
+        ],
+        "geometry": {
+          "box": [
+            0.019715,
+            0.009779,
+            0.982055,
+            0.98772
+          ],
+          "cut": [
+            743,
+            1148
+          ]
+        },
+        "halo_colour": [
+          242,
+          237,
+          226
+        ],
+        "preparation": "Conventional source alpha mask, proportional premultiplied-alpha resize, background-only paper margin, upstream prepare/write_plate; no bird RGB repaint.",
+        "visual_review_status": "individually_checked_complete_original_paper_mask_overlay_dark_checker_and_stock_frame1600_pending_root_review",
+        "sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+        "background_rgb_repainting": true,
+        "background_adjustment": {
+          "mask": "[local project]\\artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\paper-normalization-mask.png",
+          "mask_sha256": "661559d82cc212e0b650409b07d1ce2121e391e63b0f05b58d67d594c906188c",
+          "regions": "Explicit scan-paper polygons only; original bird, feet and perch pigments excluded.",
+          "colour": [
+            242,
+            237,
+            226
+          ],
+          "unmasked_rgb_preserved": true,
+          "master_source_rgb_preserved": true,
+          "source_mask_unchanged": true,
+          "source_master_unchanged": true,
+          "geometry_unchanged": true,
+          "visual_mask_overlay": "artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\paper-mask-review.png",
+          "stock_render_detail": "artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\paper-refinement-detail.png"
+        },
+        "changes": [
+          "Rounded the source perch left end through alpha-only curved trimming, with no invented wood or pigments.",
+          "Both visible feet, pale belly, wing and tail tips preserved from the same submitted Legge scan.",
+          "Matched the explicitly traced source-paper wedge between raised foot, belly and standing leg, plus the paper strip under the left perch, to the neutral halo. No feet, belly or perch pigments were painted. The independently retained source-RGB master and alpha mask remain byte-identical to the preceding revision."
+        ],
+        "reviewed_on": "2026-09-20",
+        "reviewer": "revision_cutouts_b",
+        "physical_panel_tested": false,
+        "remaining_limitations": [
+          "The original Ceylon subspecies illustration is unchanged.",
+          "Very narrow source tint around some fine feather strokes and intricate claw gaps is retained to avoid damaging the historical drawing.",
+          "Physical panel not tested."
+        ],
+        "encoding_checks": {
+          "max_side_le_1200": true,
+          "trimmed_alpha_dimensions_match": true,
+          "lossless_alpha_webp": true,
+          "finite_geometry_within_unit_square": true
+        },
+        "mask_sha256": "70fbf6f90140072453f58c491f8bca16dcc8c3c5cdf7d8a2228f5ccb24ccce68",
+        "master_sha256": "43506fcac5d1f49d382054f9fb75fc0dbeed8007d371a44947c7fb84c034228f",
+        "reproduction_script": "artwork-sydney\\research\\pr124-revision-20260920\\group-b\\build.py",
+        "mask_specification": "artwork-sydney\\research\\pr124-revision-20260920\\group-b\\mask-specs.json"
+      }
+    }
+  ]
+}

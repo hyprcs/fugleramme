@@ -1,0 +1,1490 @@
+{
+  "scope": "Twenty historical Australian additions revised for PR124",
+  "upstream_commit": "882151876883908915b93ed174cd8df1f5e0bd59",
+  "status": "revision prepared for maintainer re-review; eleven confirmed repairs completed and checked; two source uncertainties retained unchanged",
+  "physical_panel_tested": false,
+  "species": [
+    {
+      "canonical_key": "trichoglossus-moluccanus",
+      "scientific_name": "Trichoglossus moluccanus",
+      "common_name": "Rainbow Lorikeet",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48401122",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48401122",
+      "work": "The Birds of Australia",
+      "volume": 5,
+      "plate": 48,
+      "historical_scientific_name": "Trichoglossus swainsonii",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 48 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/741877faf7-ia-birdsAustraliav5Goul-metadata.json",
+      "rights_evidence_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "rights_record_original_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "ce7f53aaa69af930f0814d6f82d692f9e400ce2e1729aa31bf2a76a7c43e95ff",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Trichoglossus swainsonii",
+          "identity_notes": "Gould cites Trichoglossus Swainsonii, Jardine and Selby, Illustrations of Ornithology plate112. AFD explicitly lists Trichoglossus swainsoni Jardine & Selby1831, text to plate112, for the nominate eastern Rainbow Lorikeet. The single/double terminal i spelling difference is documented here, not generalized as a fuzzy rule. Gould explicitly describes southeastern Australia, Moreton Bay, Hunter and New South Wales.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#TRICHOGLOSSUS-SWAINSONII",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F79196f37-309e-41e3-993a-43ffb5ae0be3.json",
+            "https://australian.museum/learn/animals/birds/rainbow-lorikeet/",
+            "https://birdlife.org.au/bird-profiles/rainbow-lorikeet/"
+          ]
+        }
+      ],
+      "body_mass_g": 113.3,
+      "birdnet_label": {
+        "key": "trichoglossus-moluccanus",
+        "sci": "Trichoglossus moluccanus",
+        "common": "Rainbow Lorikeet"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/trichoglossus-moluccanus.webp",
+      "file_sha256": "3c75f9e3583af42e883861aef93e6968459867c9b5828dba856a2b1fc781f69c",
+      "dimensions": [
+        656,
+        1200
+      ],
+      "preview": "birds/trichoglossus-moluccanus/paper760.png",
+      "geometry": {
+        "box": [
+          0.120041,
+          0.015288,
+          0.647293,
+          0.984712
+        ],
+        "cut": [
+          656,
+          1200
+        ]
+      },
+      "changes": "Retain complete original overlapping pair. Round the two clipped perch ends using alpha only. Replace 48px angular backing with 18px rounded backing sampled from original paper. Source-space alpha removal of retained leaf tip behind right breast; supporting branch remains connected. Fresh-audit repair: removed the remaining detached leaf tip above the right-hand perch using source alpha only; original feet, plumage and bark untouched.",
+      "selected_individual": "larger complete left adult",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "backing_rgb": [
+        220,
+        216,
+        204
+      ],
+      "confirmed_repair": "Residual leaf tip removed; source toes and supporting bark preserved. Independently checked by fresh_edge_audit_b."
+    },
+    {
+      "canonical_key": "petroica-rosea",
+      "scientific_name": "Petroica rosea",
+      "common_name": "Rose Robin",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48285795",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48285795",
+      "work": "The Birds of Australia",
+      "volume": 3,
+      "plate": 2,
+      "historical_scientific_name": "Erythrodryas rosea",
+      "original_credit": "John Gould and Henry Constantine Richter, drawing (printed J. Gould and H. C. Richter delt.); lithographer not individually credited on this plate; John Gould, The Birds of Australia, volume 3, plate 2. Scan: Smithsonian Libraries / Biodiversity Heritage Library.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/31fb712575-ia-birdsAustraliav3Goul-metadata.json",
+      "rights_evidence_sha256": "31fb712575f53bf6649d7e6ca88d9ddef1bb40c8e91997b8d80f0501830dd0c1",
+      "rights_record_original_sha256": "31fb712575f53bf6649d7e6ca88d9ddef1bb40c8e91997b8d80f0501830dd0c1",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "b17584ec9c34727ede4b617adc3d190bf89bf3e6a683cc751cae34dc73560f2d",
+      "identity_evidence": [
+        {
+          "status": "historical_source_verified_scoped_prepared",
+          "historical_scientific_name": "Erythrodryas rosea",
+          "identity_notes": "Gould V3 plate2 original account names Petroica rosea Gould, PZS PartVII p142, as its own earlier combination and Erythrodryas rosea as 1842 genus change. Current AFD accepts Petroica rosea Gould1840. Original account specifies NSW Illawarra, Hunter and Liverpool Range, describes male dark slate upperparts, rose breast and white abdomen; selected lower male matches.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48285795",
+            "https://www.biodiversitylibrary.org/page/48285794",
+            "https://biodiversity.org.au/afd/taxa/aa399177-6ca4-4d34-8381-3e5e011a8889"
+          ]
+        }
+      ],
+      "body_mass_g": 8.2,
+      "birdnet_label": {
+        "key": "petroica-rosea",
+        "sci": "Petroica rosea",
+        "common": "Rose Robin"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/petroica-rosea.webp",
+      "file_sha256": "ab8b3250a942c08861f25957a414b2ea9a51a354c7b3c99d38eb10696d995610",
+      "dimensions": [
+        479,
+        1080
+      ],
+      "preview": "birds/petroica-rosea/paper760.png",
+      "geometry": {
+        "box": [
+          0.017637,
+          0.006311,
+          0.978814,
+          0.994244
+        ],
+        "cut": [
+          479,
+          1080
+        ]
+      },
+      "changes": "Re-traced the complete male with smooth tighter crown, body and tail outline. Replaced angular paper margin with a rounded background-only halo and rounded the short retained vine end. Original white forehead marking, bill, belly, full tail and visible claws preserved. Restored the original small hooked claw below the perch, left of the right-hand foot; source-alpha addition only.",
+      "selected_individual": "Lower adult male Rose Robin facing left; complete tail, toes and short original vine segment retained.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "halo_colour": [
+        242,
+        237,
+        226
+      ],
+      "confirmed_repair": "Missing original claw below the perch restored; matches source and remains connected."
+    },
+    {
+      "canonical_key": "dacelo-novaeguineae",
+      "scientific_name": "Dacelo novaeguineae",
+      "common_name": "Laughing Kookaburra",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48200560",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48200560",
+      "work": "The Birds of Australia",
+      "volume": 2,
+      "plate": 18,
+      "historical_scientific_name": "Dacelo gigantea",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume II, plate 18 (1848); C. Hullmandel, printer; digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/41a94ac43d-ia-birdsAustraliav2Goul-metadata.json",
+      "rights_evidence_sha256": "41a94ac43d7c297c09074f8fbfb28402eff24cb176dc5680899acd78df4111cd",
+      "rights_record_original_sha256": "41a94ac43d7c297c09074f8fbfb28402eff24cb176dc5680899acd78df4111cd",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "54f7fbaa89ec5b823392de09ddeb2f271bd4473a9b14007e4b3e579711a1ac63",
+      "identity_evidence": [
+        {
+          "identity_notes": "Historical Dacelo gigantea is joined through Alcedo gigantea Latham to southern Dacelo novaeguineae in the saved original-account/AFD evidence; source plate II/18 depicts adult and two young. Selected foreground adult is complete."
+        }
+      ],
+      "body_mass_g": 333.8,
+      "birdnet_label": {
+        "key": "dacelo-novaeguineae",
+        "sci": "Dacelo novaeguineae",
+        "common": "Laughing Kookaburra"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/dacelo-novaeguineae.webp",
+      "file_sha256": "ba0071c761dc3824e4bb4dc56ec2920ef507f3ea54015f006f4c534e20349e45",
+      "dimensions": [
+        1145,
+        1115
+      ],
+      "preview": "birds/dacelo-novaeguineae/paper760.png",
+      "geometry": {
+        "box": [
+          0.010447,
+          0.013348,
+          0.990064,
+          0.987531
+        ],
+        "cut": [
+          1145,
+          1115
+        ]
+      },
+      "changes": "Re-traced bill underside, crown, neck, back and breast at source resolution using rounded contour interpolation. Restored original fine lower-belly feather fringes that the previous coarse polygon omitted. Kept the original complete tail, gripping foot and connected natural branch end. Narrow original paper remains beside fine feather/perch drawing; no background colour threshold was applied to pale anatomy. Corrected the scan-paper ribbon above the curved perch with a dense source-resolution alpha contour following the naturally irregular bark into the gripping foot. Source pigments are unchanged; original edge strokes are protected at curve joins. Removed two small scan-paper remnants beside the foot.",
+      "selected_individual": "Large foreground adult facing left; original wing, blue rump, barred tail, visible foot and short branch retained.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "unchanged; no additional definite defect observed in prior fresh audit",
+      "halo_colour": [
+        242,
+        237,
+        226
+      ]
+    },
+    {
+      "canonical_key": "grallina-cyanoleuca",
+      "scientific_name": "Grallina cyanoleuca",
+      "common_name": "Magpie-lark",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48200704",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48200704",
+      "work": "The Birds of Australia",
+      "volume": 2,
+      "plate": 54,
+      "historical_scientific_name": "Grallina australis",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 2, plate 54 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/41a94ac43d-ia-birdsAustraliav2Goul-metadata.json",
+      "rights_evidence_sha256": "41a94ac43d7c297c09074f8fbfb28402eff24cb176dc5680899acd78df4111cd",
+      "rights_record_original_sha256": "41a94ac43d7c297c09074f8fbfb28402eff24cb176dc5680899acd78df4111cd",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "72f419e09dc676cb6a991f68c1e76ab0798a50d145fd94ecc59739fe3c40fc11",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Grallina australis",
+          "identity_notes": "Gould Grallina australis lists Tanypus australis Oppel and Grallina melanoleuca Vieillot, Analyse pp42,68. AFD nominate profile lists Tanypus australis Oppel1812 and Grallina melanoleuca Vieillot1816, Analyse p68. The matching author/work/page and the explicit NSW Magpie Lark name, mud nest and sex-specific plumage support this plate.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/60302/60302-h/60302-h.htm#Page_54",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F99dab839-3cef-4c8a-9390-119d75f1ebf1.json",
+            "https://www.birdsinbackyards.net/species/Grallina-cyanoleuca"
+          ]
+        }
+      ],
+      "body_mass_g": 82.6,
+      "birdnet_label": {
+        "key": "grallina-cyanoleuca",
+        "sci": "Grallina cyanoleuca",
+        "common": "Magpie-lark"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/grallina-cyanoleuca.webp",
+      "file_sha256": "d950e2d679e986435f41b0b1dae6912b1704538354f2a2fe76d48d70dce95454",
+      "dimensions": [
+        1145,
+        876
+      ],
+      "preview": "birds/grallina-cyanoleuca/paper760.png",
+      "geometry": {
+        "box": [
+          0.012236,
+          0.017127,
+          0.989429,
+          0.916012
+        ],
+        "cut": [
+          1145,
+          876
+        ]
+      },
+      "changes": "Removed the incorrectly retained green leaf strip along the left breast by tracing the illustrated bird contour. Rounded the selected connected branch ends and outer paper margin. Preserved both legs, feet, white plumage and original printed feather drawing; original negative space between legs is open in the source mask. Removed the isolated background-trunk wedge under the belly; original pale belly and thigh preserved.",
+      "selected_individual": "Upper standing bird with both feet and a short piece of its original branch; nesting bird excluded.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "halo_colour": [
+        242,
+        237,
+        226
+      ],
+      "confirmed_repair": "Background trunk wedge removed while belly and leg junction remain source faithful."
+    },
+    {
+      "canonical_key": "malurus-cyaneus",
+      "scientific_name": "Malurus cyaneus",
+      "common_name": "Superb Fairywren",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48285751",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48285751",
+      "work": "The Birds of Australia",
+      "volume": 3,
+      "plate": 18,
+      "historical_scientific_name": "Malurus cyaneus",
+      "original_credit": "John Gould and Elizabeth Gould; The Birds of Australia, volume 3, plate 18 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/31fb712575-ia-birdsAustraliav3Goul-metadata.json",
+      "rights_evidence_sha256": "31fb712575f53bf6649d7e6ca88d9ddef1bb40c8e91997b8d80f0501830dd0c1",
+      "rights_record_original_sha256": "31fb712575f53bf6649d7e6ca88d9ddef1bb40c8e91997b8d80f0501830dd0c1",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "4c7c78a99b74877963a2b26b4545c1368d4e8bc9680980c7e699b9b2ab13a89e",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Malurus cyaneus",
+          "identity_notes": "Gould's exact-name account explicitly describes the NSW form and even breeding in Sydney Botanic Garden. He contrasts the larger, longer-tailed Tasmanian Malurus longicaudus in the next plate. The NSW bird matches modern Museum/BirdLife diagnosis.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/60646/60646-h/60646-h.htm#Page_18",
+            "https://www.gutenberg.org/files/60646/60646-h/60646-h.htm#Page_19",
+            "https://australian.museum/learn/animals/birds/superb-fairy-wren/",
+            "https://birdlife.org.au/bird-profiles/superb-fairy-wren/"
+          ]
+        }
+      ],
+      "body_mass_g": 10.3,
+      "birdnet_label": {
+        "key": "malurus-cyaneus",
+        "sci": "Malurus cyaneus",
+        "common": "Superb Fairywren"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/malurus-cyaneus.webp",
+      "file_sha256": "848266612cd7b7e39165e6bd59d52dedf451db12282552d0f0f06c856d65a2eb",
+      "dimensions": [
+        1164,
+        684
+      ],
+      "preview": "birds/malurus-cyaneus/paper760.png",
+      "geometry": {
+        "box": [
+          0.018333,
+          0.021287,
+          0.968333,
+          0.974958
+        ],
+        "cut": [
+          1164,
+          684
+        ]
+      },
+      "changes": "Preserve bird, complete spread wings, tail, bill and carried food. Expand original source paper smoothly to form a narrow allowance, avoiding synthetic backing.",
+      "selected_individual": "whole visible bird including bill tail feet; exclude scenery",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "unchanged; no additional definite defect observed in prior fresh audit",
+      "backing_rgb": null
+    },
+    {
+      "canonical_key": "caligavis-chrysops",
+      "scientific_name": "Caligavis chrysops",
+      "common_name": "Yellow-faced Honeyeater",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48702995",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48702995",
+      "work": "The Birds of Australia",
+      "volume": 4,
+      "plate": 45,
+      "historical_scientific_name": "Ptilotis chrysops",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 4, plate 45 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/3c367057c5-ia-birdsAustraliav4Goul-metadata.json",
+      "rights_evidence_sha256": "3c367057c50c0522e2cf94bf9375158233847f4cad505edbeca8ad9df36f423a",
+      "rights_record_original_sha256": "3c367057c50c0522e2cf94bf9375158233847f4cad505edbeca8ad9df36f423a",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "c6d1a5cfaebe159991df0e37f36ae6062b07d20ccbc9d3b76a0546f842ed6f6d",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Ptilotis chrysops",
+          "identity_notes": "Gould Ptilotis chrysops cites Sylvia chrysops Latham supplementp.liv; AFD nominate Caligavis chrysops lists Sylvia chrysops Latham1801 atliv. Original account explicitly includes Sydney gardens, Hunter and Liverpool Range.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/60833/60833-h/60833-h.htm#Page_45",
+            "https://www.biodiversitylibrary.org/page/48702995",
+            "https://australian.museum/learn/animals/birds/yellow-faced-honeyeater/",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F12026cf6-7285-4ef8-baa6-259e6aaf428c.json"
+          ]
+        }
+      ],
+      "body_mass_g": 17.3,
+      "birdnet_label": {
+        "key": "caligavis-chrysops",
+        "sci": "Caligavis chrysops",
+        "common": "Yellow-faced Honeyeater"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/caligavis-chrysops.webp",
+      "file_sha256": "1e1458554f3df14ac3479d77e06ed6bf5c9e6a11b8c7e016d7fe4b41155f8afe",
+      "dimensions": [
+        1200,
+        988
+      ],
+      "preview": "birds/caligavis-chrysops/paper760.png",
+      "geometry": {
+        "box": [
+          0.010356,
+          0.011908,
+          0.989379,
+          0.964016
+        ],
+        "cut": [
+          1200,
+          988
+        ]
+      },
+      "changes": "Closely re-traced raised wings, tail, belly and original gripping toes; removed broad mismatched paper strips and leaf scraps. Retained a short original twig beneath the toes.",
+      "selected_individual": "Upper bird with raised wings and its original gripping feet; lower bird excluded.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "source uncertainty retained unchanged; disclosed for maintainer re-review",
+      "background_underlay_rgb": [
+        242,
+        237,
+        226
+      ],
+      "deferred_finding": "Trace the small dark pointed detail behind the twig to determine the full rear claw boundary. It appears to be original foot detail omitted by the mask, but needs closer source adjudication before correction."
+    },
+    {
+      "canonical_key": "platycercus-elegans",
+      "scientific_name": "Platycercus elegans",
+      "common_name": "Crimson Rosella",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48401022",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48401022",
+      "work": "The Birds of Australia",
+      "volume": 5,
+      "plate": 23,
+      "historical_scientific_name": "Platycercus pennantii",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 23 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/741877faf7-ia-birdsAustraliav5Goul-metadata.json",
+      "rights_evidence_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "rights_record_original_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "752e392871647ee0b1f73210d16de0f18cd8c149758bf01221ecd1dd1f96974d",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Platycercus pennantii",
+          "identity_notes": "Gould Platycercus pennantii account explicitly cites Psittacus elegans Gmelin, Systema Naturae1p318; current AFD accepted Platycercus elegans has authorship Gmelin1788. The account places the bird in NSW/Liverpool Range and distinguishes Adelaide form. The adult red form agrees with modern Museum/BirdLife references.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#PENNANTII",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F5e0f496f-5045-41ff-8c03-f3c8fd4f8ccd.json",
+            "https://australian.museum/learn/animals/birds/crimson-rosella/",
+            "https://birdlife.org.au/bird-profiles/crimson-rosella/"
+          ]
+        }
+      ],
+      "body_mass_g": 123.9,
+      "birdnet_label": {
+        "key": "platycercus-elegans",
+        "sci": "Platycercus elegans",
+        "common": "Crimson Rosella"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/platycercus-elegans.webp",
+      "file_sha256": "7c29ad19700a9b90373d14c5e3e1c0dc28481a47dbbee451fc8c9b5871ab705f",
+      "dimensions": [
+        1200,
+        1124
+      ],
+      "preview": "birds/platycercus-elegans/paper760.png",
+      "geometry": {
+        "box": [
+          0.013736,
+          0.015541,
+          0.983804,
+          0.983842
+        ],
+        "cut": [
+          1200,
+          1124
+        ]
+      },
+      "changes": "Preserve full foreground adult and its own gripping foot. Round the short perch end using alpha only and remove a disconnected green sprig immediately below the claw. Replace angular backing with 18px rounded backing matched to source paper. Removed parent-review-confirmed branch spur under throat; rounded remaining perch bottom after trimming sprig.",
+      "selected_individual": "whole visible bird including bill tail feet; exclude scenery",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "unchanged; no additional definite defect observed in prior fresh audit",
+      "backing_rgb": [
+        229,
+        221,
+        209
+      ]
+    },
+    {
+      "canonical_key": "acanthiza-pusilla",
+      "scientific_name": "Acanthiza pusilla",
+      "common_name": "Brown Thornbill",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48285944",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48285944",
+      "work": "The Birds of Australia",
+      "volume": 3,
+      "plate": 53,
+      "historical_scientific_name": "Acanthiza pusilla",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 3, plate 53 (1840-1848); BHL / Smithsonian Libraries; Project Gutenberg reference copy where noted.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/31fb712575-ia-birdsAustraliav3Goul-metadata.json",
+      "rights_evidence_sha256": "31fb712575f53bf6649d7e6ca88d9ddef1bb40c8e91997b8d80f0501830dd0c1",
+      "rights_record_original_sha256": "31fb712575f53bf6649d7e6ca88d9ddef1bb40c8e91997b8d80f0501830dd0c1",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "447859a23c7faceac197d4c0f1fbb820f5acf6b585001a0ac623828205431aea",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Acanthiza pusilla",
+          "identity_notes": "Exact title with explicit NSW source account; Gould contrasts the larger long-billed Tasmanian diemenensis in3/54. Present-day Museum plumage description/photo agrees with3/53. Approval is of the NSW plate, not every name in the historical species concept.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/60646/60646-h/60646-h.htm#Page_53",
+            "https://www.biodiversitylibrary.org/page/48285944",
+            "https://australian.museum/learn/animals/birds/brown-thornbill/",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F62f6a29a-7b0c-4e5c-83ea-0074f99d133b.json"
+          ]
+        }
+      ],
+      "body_mass_g": 7.6,
+      "birdnet_label": {
+        "key": "acanthiza-pusilla",
+        "sci": "Acanthiza pusilla",
+        "common": "Brown Thornbill"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/acanthiza-pusilla.webp",
+      "file_sha256": "c23aa658f70763b4908e9ccccbefed275b8b94a07359cf77cd1139311eb01a18",
+      "dimensions": [
+        1043,
+        720
+      ],
+      "preview": "birds/acanthiza-pusilla/paper760.png",
+      "geometry": {
+        "box": [
+          0.011505,
+          0.018056,
+          0.988495,
+          0.865278
+        ],
+        "cut": [
+          1043,
+          720
+        ]
+      },
+      "changes": "Re-traced original crown to remove branch stump; restored original toes and fine hooked foretoe; retained coherent short twig with rounded end; no erased body interiors. Restored the source-backed missing claw/toe material identified by the fresh edge audit.",
+      "selected_individual": "Upper side-on bird, original legs, toes and small twig.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "background_underlay_rgb": [
+        242,
+        237,
+        226
+      ],
+      "confirmed_repair": "Original curled rear toe and twig contact restored; no detached hook remains."
+    },
+    {
+      "canonical_key": "oriolus-sagittatus",
+      "scientific_name": "Oriolus sagittatus",
+      "common_name": "Olive-backed Oriole",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48702814",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48702814",
+      "work": "The Birds of Australia",
+      "volume": 4,
+      "plate": 13,
+      "historical_scientific_name": "Oriolus viridis",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 4, plate 13 (1840-1848); BHL / Smithsonian Libraries; Project Gutenberg reference copy where noted.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/3c367057c5-ia-birdsAustraliav4Goul-metadata.json",
+      "rights_evidence_sha256": "3c367057c50c0522e2cf94bf9375158233847f4cad505edbeca8ad9df36f423a",
+      "rights_record_original_sha256": "3c367057c50c0522e2cf94bf9375158233847f4cad505edbeca8ad9df36f423a",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "b43c6bb7cbe07af030d0f5a1744dfa01cc934508dcd0f89b65ba62e44cbbe553",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Oriolus viridis",
+          "identity_notes": "Gould Oriolus viridis cites Gracula viridis Latham supplementxxviii and Coracias sagittata Lathamxxvi. AFD nominate lists both same pages. Gould explicitly says Sydney Botanic Garden/NSW and distinguishes Port Essington affinis. Institutional photo/description agree.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/60833/60833-h/60833-h.htm#Page_13",
+            "https://www.biodiversitylibrary.org/page/48702814",
+            "https://www.birdsinbackyards.net/species/Oriolus-sagittatus",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F19235433-65b7-4063-a921-c8e0307d378c.json"
+          ]
+        }
+      ],
+      "body_mass_g": 95.2,
+      "birdnet_label": {
+        "key": "oriolus-sagittatus",
+        "sci": "Oriolus sagittatus",
+        "common": "Olive-backed Oriole"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/oriolus-sagittatus.webp",
+      "file_sha256": "4ef80cdb2f429019cdec467e56c29b4963fe4a8c666244dedd1fc704bcffabdd",
+      "dimensions": [
+        1200,
+        726
+      ],
+      "preview": "birds/oriolus-sagittatus/paper760.png",
+      "geometry": {
+        "box": [
+          0.009796,
+          0.018237,
+          0.989388,
+          0.980593
+        ],
+        "cut": [
+          1200,
+          726
+        ]
+      },
+      "changes": "Rebuilt full body contour to restore original lower belly and remove upper-neck leaf scraps. Restored complete gripping foot/claw from original and retained a rounded short perch. Restored the source-backed missing claw/toe material identified by the fresh edge audit.",
+      "selected_individual": "Lower side-on bird with complete streaked throat, original wing margins and short twig.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "background_underlay_rgb": [
+        242,
+        237,
+        226
+      ],
+      "confirmed_repair": "Both smaller hooked original claw strokes restored beside the twig."
+    },
+    {
+      "canonical_key": "anthochaera-chrysoptera",
+      "scientific_name": "Anthochaera chrysoptera",
+      "common_name": "Little Wattlebird",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48703039",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48703039",
+      "work": "The Birds of Australia",
+      "volume": 4,
+      "plate": 56,
+      "historical_scientific_name": "Anthochaera mellivora",
+      "original_credit": "John Gould and Elizabeth Gould; The Birds of Australia, volume 4, plate 56 (1840-1848); BHL / Smithsonian Libraries; Project Gutenberg reference copy where noted.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/3c367057c5-ia-birdsAustraliav4Goul-metadata.json",
+      "rights_evidence_sha256": "3c367057c50c0522e2cf94bf9375158233847f4cad505edbeca8ad9df36f423a",
+      "rights_record_original_sha256": "3c367057c50c0522e2cf94bf9375158233847f4cad505edbeca8ad9df36f423a",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "aa2eb3711c497be444ece2e88c7c48bcbd92001bd7d9360e984d701b891b315b",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Anthochaera mellivora",
+          "identity_notes": "Gould Anthochaera mellivora cites Certhia mellivora Latham supplementxxxvii and Merops chrysopterus Lathamxxxiii. AFD nominate lists both at the same pages. Account explicitly names Sydney Botanic Garden and distinguishes western Anthochaera lunulata. Modern BirdLife separates western and eastern species.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/60833/60833-h/60833-h.htm#Page_56",
+            "https://www.biodiversitylibrary.org/page/48703039",
+            "https://www.birdsinbackyards.net/species/Anthochaera-chrysoptera",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2Fe2d84ebd-14d7-4456-a646-75bc686c6b83.json",
+            "https://birdlife.org.au/news/what-bird-is-that-wattlebirds/",
+            "https://hanzab.birdlife.org.au/treatment-and-presentation/"
+          ]
+        }
+      ],
+      "body_mass_g": 67.8,
+      "birdnet_label": {
+        "key": "anthochaera-chrysoptera",
+        "sci": "Anthochaera chrysoptera",
+        "common": "Little Wattlebird"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional mask preparation, metadata and review; no generated or repainted bird pixels in the selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/anthochaera-chrysoptera.webp",
+      "file_sha256": "62d38e2266db29f1e4a49013afbad11f3d57e0ca4cbf1d76930a7704dc8f1187",
+      "dimensions": [
+        1144,
+        726
+      ],
+      "preview": "birds/anthochaera-chrysoptera/paper760.png",
+      "geometry": {
+        "box": [
+          0.01286,
+          0.018318,
+          0.821365,
+          0.885997
+        ],
+        "cut": [
+          1144,
+          726
+        ]
+      },
+      "changes": "Restored the original upper supporting branch through to its natural split tip, so the former diagonal sliver now has coherent context. Rounded the paper margin and refined the visible toe contour; pale tail tips and original open bill remain. Small source-paper negative spaces around foot and wing remain conservatively retained. Removed retained source paper inside the wing/leg/perch gap, preserving original lower-wing and leg pigments.",
+      "selected_individual": "Upper bird with full raised tail, slight open bill, original toes and short perch.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "halo_colour": [
+        242,
+        237,
+        226
+      ],
+      "confirmed_repair": "Retained paper triangle removed; lower wing, leg and supporting branch preserved."
+    },
+    {
+      "canonical_key": "gymnorhina-tibicen",
+      "scientific_name": "Gymnorhina tibicen",
+      "common_name": "Australian Magpie",
+      "source_page_url": "https://digital.lib.ku.edu/ku-gould/14990",
+      "source_image_url": "https://digital.lib.ku.edu/islandora/object/ku-gould%3A14990/datastream/OBJ/download",
+      "work": "The Birds of Australia",
+      "volume": 2,
+      "plate": 46,
+      "historical_scientific_name": "Gymnorhina tibicen",
+      "original_credit": "John Gould and Henry Constantine Richter, drawing and lithography; C. Hullmandel, printer. The Birds of Australia, volume 2, plate 46 (1848). Scan: University of Kansas, Kenneth Spencer Research Library, Ellis Aves H141.",
+      "source_rights_statement": "Public domain. KU item metadata: This work is free of known copyright restrictions. Public Domain Mark 1.0.",
+      "holding_library": "University of Kansas, Kenneth Spencer Research Library",
+      "rights_evidence": "evidence/source-rights/c6f1822357-ku14990-mods.xml",
+      "rights_evidence_sha256": "c6f1822357ae924a02a056c5133ade9d51e219e922450cfa38e0d8e6fbfb4cac",
+      "rights_record_original_sha256": "c6f1822357ae924a02a056c5133ade9d51e219e922450cfa38e0d8e6fbfb4cac",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "6859b61312ea6d9ccdb3fe0f5daa357938cf875f3b0737e9809246fc7be78832",
+      "identity_evidence": [
+        {
+          "status": "species_identity_and_black_backed_nsw_form_supported",
+          "identity_notes": "Gould II/46 is explicitly Gymnorhina tibicen, its account restricts the described form to New South Wales and explicitly describes a black back. The selected foreground bird has a black back and white nape, shoulder and basal tail markings. This is consistent with the eastern/NSW form rather than Gould's separately figured White-backed Crow-Shrike.",
+          "source_urls": [
+            "https://www.avilist.org/checklist/v2025b/",
+            "https://explore.avilist.org/data/avilist-2025b.json",
+            "https://australian.museum/learn/animals/birds/australian-magpie/"
+          ],
+          "scope": "Australian Magpie (Gymnorhina tibicen), black-backed form, from Gould's The Birds of Australia, volume II, plate 46. Original account describes the NSW form; exact pictured specimen locality unrecorded.",
+          "current_taxonomy": "AviList v2025b sequence17940 accepts Gymnorhina tibicen; nominate tibicen at17943 spans eastern Australia from northeastern Queensland to northern Victoria. Australian Museum describes regional black/white back differences within this single species."
+        },
+        {
+          "status": "independent_same_plate_catalogue_confirmation",
+          "identity_notes": "KU item metadata explicitly identifies Australian Magpie, Gymnorhina tibicen, Birds of Australia volume 2 plate 46 (1848). Its full image and footer match the previously verified Gould II/46 composition; this changes the scan, not the species mapping.",
+          "source_urls": [
+            "https://digital.lib.ku.edu/ku-gould/14990"
+          ]
+        }
+      ],
+      "body_mass_g": 284.9,
+      "birdnet_label": {
+        "key": "gymnorhina-tibicen",
+        "sci": "Gymnorhina tibicen",
+        "common": "Australian Magpie"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, conventional polygon masking, cropping, resizing, metadata and review. No generated or repainted bird pixels. Separate flat paper backing is a conventional background-only underlay.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/gymnorhina-tibicen.webp",
+      "file_sha256": "d6b40e19350fce3e44a02f1cc18a700ea82f25df0d785e644f1ca6317dfab0a9",
+      "dimensions": [
+        1200,
+        1186
+      ],
+      "preview": "birds/gymnorhina-tibicen/paper760.png",
+      "geometry": {
+        "box": [
+          0.060576,
+          0.01327,
+          0.985249,
+          0.96097
+        ],
+        "cut": [
+          1200,
+          1186
+        ]
+      },
+      "changes": "Use the submitted complete-tail KU scan and v4 source mask, not the older cropped BHL selection. Preserve full adult, both legs and toes, original ragged perch. Remove a sliver of the larger background branch beside the tail. Replace angular backing with 18px rounded paper-matched backing. Filled pinholes in separate paper underlay between legs. Original white/black diagonal tail-feather edge under wing retained as anatomy; adjacent background branch sliver removed. Restored the original dark front toe material removed by the accidental angular hole, using original-source alpha only. The genuine pale diagonal tail stripe is unchanged.",
+      "selected_individual": "whole visible bird including bill tail feet; exclude scenery",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "backing_rgb": [
+        223,
+        220,
+        214
+      ],
+      "confirmed_repair": "Foreground toe white notch replaced with exact original toe pixels; gap closed in paper render."
+    },
+    {
+      "canonical_key": "cacatua-galerita",
+      "scientific_name": "Cacatua galerita",
+      "common_name": "Sulphur-crested Cockatoo",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48400934",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48400934",
+      "work": "The Birds of Australia",
+      "volume": 5,
+      "plate": 1,
+      "historical_scientific_name": "Cacatua galerita",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 1 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/741877faf7-ia-birdsAustraliav5Goul-metadata.json",
+      "rights_evidence_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "rights_record_original_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "acbb171a1a989f32b57336497d48ea97a665beb1246c1edb817be369d8f374d1",
+      "identity_evidence": [
+        {
+          "status": "species_level_identity_supported_with_disclosed_regional_notes",
+          "historical_scientific_name": "Cacatua galerita",
+          "identity_notes": "Species-level identity supported by current consensus taxonomy. Exact illustrated locality and subspecies unspecified; no Sydney-specimen claim. Requiring exact illustrated specimen locality was more restrictive than the species-level artwork label needs. The original plate and account name Cacatua galerita; the current official AviList v2025b still includes triton, eleonora, fitzroyi and nominate galerita as subspecies. A regional-form uncertainty is not evidence of a different currently accepted species.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48400934",
+            "https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#GALERITA",
+            "https://www.avilist.org/checklist/v2025b/",
+            "https://explore.avilist.org/data/avilist-2025b.json",
+            "https://australian.museum/learn/animals/birds/sulphur-crested-cockatoo/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11586666/",
+            "https://www.biodiversitylibrary.org/page/48400935"
+          ]
+        }
+      ],
+      "body_mass_g": 720.4,
+      "birdnet_label": {
+        "key": "cacatua-galerita",
+        "sci": "Cacatua galerita",
+        "common": "Sulphur-crested Cockatoo"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted research, conventional masks, metadata and review. No generated or repainted bird pixels in these eight selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/cacatua-galerita.webp",
+      "file_sha256": "60fe4e54cb1cd6e6de2baca3091dcd2e55e5f369bb4ea96b223a8ef08e063153",
+      "dimensions": [
+        783,
+        1200
+      ],
+      "preview": "birds/cacatua-galerita/paper760.png",
+      "geometry": {
+        "box": [
+          0.245461,
+          0.10378,
+          0.913305,
+          0.854388
+        ],
+        "cut": [
+          783,
+          1200
+        ]
+      },
+      "changes": "Restored both original cockatoos with connected tree and leaves. Removed page margins and caption with a smooth alpha boundary. Source RGB master preserved; explicitly exterior paper is conventionally matched in renderer input. The former abrupt upper-tree and lower-tree paper fade switches now blend continuously.",
+      "selected_individual": "Complete original composition with both cockatoos, connected tree and leaves; sizing box on the larger foreground adult.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "unchanged; no additional definite defect observed in prior fresh audit",
+      "background_adjustment": "Exterior paper matched to #F0ECE5 using the saved protected-illustration mask. Galah foliage-region paper matte is confined below the birds. Cockatoo tree ends feather into the paper. Source-RGB master retained independently."
+    },
+    {
+      "canonical_key": "eolophus-roseicapilla",
+      "scientific_name": "Eolophus roseicapilla",
+      "common_name": "Galah",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48400946",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48400946",
+      "work": "The Birds of Australia",
+      "volume": 5,
+      "plate": 4,
+      "historical_scientific_name": "Cacatua eos",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 4 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/741877faf7-ia-birdsAustraliav5Goul-metadata.json",
+      "rights_evidence_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "rights_record_original_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "950cbafce0891980a41baa4b7ba6ea2c110ea3abf54d5929fb00a167f5c0e95a",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Cacatua eos",
+          "identity_notes": "MNHN specimen MO-1991-930 directly links historical determination Cacatua eos to current Eolophus roseicapilla. Gould account cites Psittacus Eos Kuhl and Cacatua roseicapilla Wagler, describes the Namoi/NSW birds and notes northern variation. Original plate and current Museum/BirdLife references agree at species level.",
+          "source_urls": [
+            "https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1991-930",
+            "https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#EOS",
+            "https://australian.museum/learn/animals/birds/galah/",
+            "https://birdlife.org.au/bird-profiles/galah/"
+          ]
+        },
+        {
+          "status": "species_level_identity_supported_with_disclosed_regional_notes",
+          "historical_scientific_name": "Cacatua eos",
+          "identity_notes": "Gould Cacatua eos is linked to Eolophus roseicapilla by the retained institutional/manual review. No exact locality, age, sex or regional-form assignment.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48400946",
+            "https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1991-930",
+            "https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#EOS",
+            "https://australian.museum/learn/animals/birds/galah/",
+            "https://birdlife.org.au/bird-profiles/galah/"
+          ]
+        }
+      ],
+      "body_mass_g": 328.0,
+      "birdnet_label": {
+        "key": "eolophus-roseicapilla",
+        "sci": "Eolophus roseicapilla",
+        "common": "Galah"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted research, conventional masks, metadata and review. No generated or repainted bird pixels in these eight selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/eolophus-roseicapilla.webp",
+      "file_sha256": "9865f4ca7029539cc12c23a20ede207b44a301635a73ec2705a78946c3b4cd69",
+      "dimensions": [
+        803,
+        1200
+      ],
+      "preview": "birds/eolophus-roseicapilla/paper760.png",
+      "geometry": {
+        "box": [
+          0.391683,
+          0.020832,
+          0.980794,
+          0.611286
+        ],
+        "cut": [
+          803,
+          1200
+        ]
+      },
+      "changes": "Restored the complete connected historical composition so the branch crossing the tail is no longer an isolated fragment. Removed caption and page margins without inventing hidden feathers. Fresh-audit repair: source-paper-only matching beneath lower tail and around heel, with both fine original twig tips explicitly protected at remeasured source coordinates.",
+      "selected_individual": "Both original Galahs with connected perches and foliage, keeping the branch crossing the upper bird tail in its authentic context. Sizing box on the raised-crest upper adult.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "background_adjustment": "Exterior paper matched to #F0ECE5 using the saved protected-illustration mask. Galah foliage-region paper matte is confined below the birds. Cockatoo tree ends feather into the paper. Source-RGB master retained independently.",
+      "confirmed_repair": "Broad gray paper wedge removed up to original lower feather and heel strokes; both original twig tips remain continuous. Original source master and alpha preserved."
+    },
+    {
+      "canonical_key": "manorina-melanocephala",
+      "scientific_name": "Manorina melanocephala",
+      "common_name": "Noisy Miner",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48703119",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48703119",
+      "work": "The Birds of Australia",
+      "volume": 4,
+      "plate": 76,
+      "historical_scientific_name": "Myzantha garrula",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 4, plate 76 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/3c367057c5-ia-birdsAustraliav4Goul-metadata.json",
+      "rights_evidence_sha256": "3c367057c50c0522e2cf94bf9375158233847f4cad505edbeca8ad9df36f423a",
+      "rights_record_original_sha256": "3c367057c50c0522e2cf94bf9375158233847f4cad505edbeca8ad9df36f423a",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "e891488a8e0e467d491ffa8807844301b0f23ae0464e28000c8eb5fa481cdbd6",
+      "identity_evidence": [
+        {
+          "status": "historical_species_identity_accepted_with_explicit_form_scope",
+          "historical_scientific_name": null,
+          "identity_notes": "Current AFD-derived cached taxonomy treats Manorina melanocephala leachi as an accepted subspecies within M. melanocephala, not a separate species. The existing historical-name bridge and original diagnostics therefore establish species identity, while the Tasmanian origin prevents describing this as a verified Sydney nominate form. The former hold combines a valid regional limitation with an unnecessarily strict requirement for species-level use. Accepting this historical representation does not assert that Tasmanian leachi is the local breeding form or a Sydney visitor. Retain a plain Tasmanian-form label. If the library later promises subspecies-accurate local plumage, use a separately verified mainland alternative then.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48703119",
+            "https://www.gutenberg.org/files/60833/60833-h/60833-h.htm#Page_76",
+            "https://biodiversity.org.au/afd/taxa/Manorina_(Myzantha)_melanocephala_leachi",
+            "https://australian.museum/learn/animals/birds/noisy-miner/"
+          ]
+        },
+        {
+          "status": "approved_with_regional_scope",
+          "historical_scientific_name": "Myzantha garrula",
+          "identity_notes": "Gould Myzantha garrula cites Merops garrulus Latham, Index Ornithologicus supplement, and explicitly distinguishes other miners of northern/western Australia. AFD nominate profile lists Merops garrulus Latham1801. The historical printed page is xxiv while AFD gives34; this discrepancy is retained. The image, detailed diagnosis and eastern distribution independently support species identity.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/60833/60833-h/60833-h.htm#Page_76",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F5a081c37-e9c4-4a6e-a32c-828b1d245598.json",
+            "https://australian.museum/learn/animals/birds/noisy-miner/"
+          ]
+        },
+        {
+          "status": "species_level_identity_supported_with_disclosed_regional_notes",
+          "historical_scientific_name": "Myzantha garrula",
+          "identity_notes": "Historical illustration of the Tasmanian form of Noisy Miner; the species also occurs in Sydney. Gould states the pictured specimens came from Van Diemens Land. This does not claim Tasmanian leachi is a Sydney breeding form or visitor.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48703119",
+            "https://www.gutenberg.org/files/60833/60833-h/60833-h.htm#Page_76",
+            "https://biodiversity.org.au/afd/taxa/Manorina_(Myzantha)_melanocephala_leachi",
+            "https://australian.museum/learn/animals/birds/noisy-miner/",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F5a081c37-e9c4-4a6e-a32c-828b1d245598.json"
+          ]
+        }
+      ],
+      "body_mass_g": 60.2,
+      "birdnet_label": {
+        "key": "manorina-melanocephala",
+        "sci": "Manorina melanocephala",
+        "common": "Noisy Miner"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted research, conventional masks, metadata and review. No generated or repainted bird pixels in these eight selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/manorina-melanocephala.webp",
+      "file_sha256": "9efa0106c9950b25d4d3a478d7422664fd45b526ac8ce8f09580017162d96321",
+      "dimensions": [
+        1200,
+        492
+      ],
+      "preview": "birds/manorina-melanocephala/paper760.png",
+      "geometry": {
+        "box": [
+          0.008638,
+          0.02989,
+          0.990427,
+          0.898488
+        ],
+        "cut": [
+          1200,
+          492
+        ]
+      },
+      "changes": "Re-traced full pale breast and back, restored original curled toes and rear claw rather than cropping to the branch. Retained coherent branch with rounded end. Restored original perch wood below the extended front claw, reestablishing original contact through source alpha only.",
+      "selected_individual": "Upper original bird and short branch; original visible feet and complete tail.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "background_underlay_rgb": [
+        242,
+        237,
+        226
+      ],
+      "confirmed_repair": "Original wood reconnected beneath forward claw, retaining source contact and rounded perch end."
+    },
+    {
+      "canonical_key": "acridotheres-tristis",
+      "scientific_name": "Acridotheres tristis",
+      "common_name": "Common Myna",
+      "source_page_url": "https://archive.org/stream/historyofbirdsof02legg#page/n59/mode/1up",
+      "source_image_url": "https://archive.org/download/historyofbirdsof02legg/page/n59.jpg",
+      "work": "A history of the birds of Ceylon",
+      "volume": 2,
+      "plate": null,
+      "historical_scientific_name": "Acridotheres melanosternus",
+      "original_credit": "John Gerrard Keulemans, lithographer, in W. Vincent Legge, A history of the birds of Ceylon, volume2 (issued1878\u20131880; plate dated1880 by Commons). Plates printed by Hanhart. Scan: Smithsonian Libraries / Biodiversity Heritage Library / Internet Archive.",
+      "source_rights_statement": "Public domain; historical1880 plate by John Gerrard Keulemans (d.1912), explicitly PD-old-100 on Commons.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/0a55465023-rights-evidence.json",
+      "rights_evidence_sha256": "fa99d3310e133322948b74ce9e23320c8119eb457be5c6511d5f379698c437eb",
+      "rights_record_original_sha256": "0a554650238cabf8e3e02ce5f71699e10369e0d59c7bcf8f84433f0920e2eae8",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "135d8b3b5a63fa7f3157ecd786a7af447ffb58ad247e7f4958973fd187dab1e8",
+      "identity_evidence": [
+        {
+          "status": "species_level_supported_with_disclosed_ceylon_subspecies",
+          "historical_scientific_name": "Acridotheres melanosternus",
+          "identity_notes": "Legge p.670 describes yellow bill, yellow orbital skin and yellow feet, brown upperparts and white abdomen/tail tips. Page671 explicitly treats this as an island race of A. tristis, with darker back/flanks and black down the central breast. Page672 assigns the drawn specimen to Pasdun Korale. Current AviList v2025b confirms melanosternus under A. tristis, using this exact protonym and Legge1879 authority.",
+          "source_urls": [
+            "https://archive.org/details/historyofbirdsof02legg",
+            "https://explore.avilist.org/data/avilist-2025b.json",
+            "https://australian.museum/learn/animals/birds/common-myna/"
+          ],
+          "pictured_subspecies": "Acridotheres tristis melanosternus",
+          "pictured_specimen_locality": "Pasdun Korale, Ceylon (explicit original account p.672).",
+          "visible_form_limits": "Darker central breast/back/flanks and pale iris of the historical Ceylon figure retained. Its eye patch is yellow as printed; its apparent extent is partly hidden by overlying feathers. This is a disclosed Ceylon subspecies illustration for the generic species, not a nominate Sydney population portrait."
+        }
+      ],
+      "body_mass_g": 116.4,
+      "birdnet_label": {
+        "key": "acridotheres-tristis",
+        "sci": "Acridotheres tristis",
+        "common": "Common Myna"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted source research, hand-traced conventional alpha masking, metadata and review; no generated or repainted bird pixels.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/acridotheres-tristis.webp",
+      "file_sha256": "36ac724a3ab788b4d530a9f3a33a1856861f01fc472e85ee2dba7c5808bf3a4b",
+      "dimensions": [
+        743,
+        1148
+      ],
+      "preview": "birds/acridotheres-tristis/paper760.png",
+      "geometry": {
+        "box": [
+          0.019715,
+          0.009779,
+          0.982055,
+          0.98772
+        ],
+        "cut": [
+          743,
+          1148
+        ]
+      },
+      "changes": "Rounded the source perch left end through alpha-only curved trimming, with no invented wood or pigments. Both visible feet, pale belly, wing and tail tips preserved from the same submitted Legge scan. Matched the explicitly traced source-paper wedge between raised foot, belly and standing leg, plus the paper strip under the left perch, to the neutral halo. No feet, belly or perch pigments were painted. The independently retained source-RGB master and alpha mask remain byte-identical to the preceding revision.",
+      "selected_individual": "Single right-hand Acridotheres melanosternus, now A. tristis melanosternus; curled raised foot and gripping foot retained, with short original perch.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "source uncertainty retained unchanged; disclosed for maintainer re-review",
+      "background_adjustment": {
+        "mask_sha256": "661559d82cc212e0b650409b07d1ce2121e391e63b0f05b58d67d594c906188c",
+        "regions": "Explicit scan-paper polygons only; original bird, feet and perch pigments excluded.",
+        "colour": [
+          242,
+          237,
+          226
+        ],
+        "unmasked_rgb_preserved": true,
+        "master_source_rgb_preserved": true,
+        "source_mask_unchanged": true,
+        "source_master_unchanged": true,
+        "geometry_unchanged": true,
+        "visual_mask_overlay": "artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\paper-mask-review.png",
+        "stock_render_detail": "artwork-sydney\\research\\pr124-revision-20260920\\group-b\\acridotheres-tristis\\paper-refinement-detail.png"
+      },
+      "halo_colour": [
+        242,
+        237,
+        226
+      ],
+      "deferred_finding": "Identify the tan, veined shape between wing and tail. It resembles a background leaf, but keep it intact until that identification is secure."
+    },
+    {
+      "canonical_key": "threskiornis-molucca",
+      "scientific_name": "Threskiornis molucca",
+      "common_name": "Australian Ibis",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48400770",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48400770",
+      "work": "The Birds of Australia",
+      "volume": 6,
+      "plate": 46,
+      "historical_scientific_name": "Threskiornis strictipennis",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 6, plate 46 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/ca7b89ad01-ia-birdsAustraliav6Goul-metadata.json",
+      "rights_evidence_sha256": "ca7b89ad019b4068ec0c9fadc829e16b28c16c1b217b2a7d930747de314c8f9b",
+      "rights_record_original_sha256": "ca7b89ad019b4068ec0c9fadc829e16b28c16c1b217b2a7d930747de314c8f9b",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "1b00697df21aec1d4df0b2d67f111090372f129399e429c4ec706e37cb722aa2",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Threskiornis strictipennis",
+          "identity_notes": "Original account scan read visually: Threskiornis strictipennis cites Ibis strictipennis Gould, Proceedings Zoological Society PartV p106. AFD nominate Threskiornis moluccus profile explicitly lists Ibis strictipennis Gould1838. Account describes NSW visits and distinguishes Egyptian Sacred Ibis and Asian black-headed ibis. Modern Museum photo and diagnostic description match. BirdNET file uses molucca; modern AFD/BirdLife use moluccus.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48400771",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2Fdec9990b-db32-493a-9a85-6beb090ebf01.json",
+            "https://australian.museum/learn/animals/birds/australian-white-ibis/",
+            "https://birdlife.org.au/bird-profiles/australian-white-ibis/"
+          ]
+        },
+        {
+          "status": "species_level_identity_supported_with_disclosed_regional_notes",
+          "historical_scientific_name": "Threskiornis strictipennis",
+          "identity_notes": "Australian identity is supported by the original account and AFD synonym evidence. Preserve upstream BirdNET key Threskiornis molucca; modern AFD spelling moluccus is documented separately. KU corroborating-copy metadata uses an erroneous African Sacred Ibis heading and is not used as modern identity evidence.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48400770",
+            "https://www.biodiversitylibrary.org/page/48400771",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2Fdec9990b-db32-493a-9a85-6beb090ebf01.json",
+            "https://australian.museum/learn/animals/birds/australian-white-ibis/",
+            "https://birdlife.org.au/bird-profiles/australian-white-ibis/"
+          ]
+        }
+      ],
+      "body_mass_g": 1794.9,
+      "birdnet_label": {
+        "key": "threskiornis-molucca",
+        "sci": "Threskiornis molucca",
+        "common": "Australian Ibis"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted research, conventional masks, metadata and review. No generated or repainted bird pixels in these eight selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/threskiornis-molucca.webp",
+      "file_sha256": "38a9c7be685c31289ae1fca2f7ad6fb85fe31a438d5914eb114ccdc1fd4b4222",
+      "dimensions": [
+        1200,
+        1079
+      ],
+      "preview": "birds/threskiornis-molucca/paper760.png",
+      "geometry": {
+        "box": [
+          0.161992,
+          0.012043,
+          0.988496,
+          0.951286
+        ],
+        "cut": [
+          1200,
+          1079
+        ]
+      },
+      "changes": "Foreground Ibis retained with coherent original reed clump and softly faded original ground patch. This preserves all fine breast plumes at their authentic grass overlaps. The rear Ibis is excluded. No generated anatomy, pigment repaint, or invented scenery.",
+      "selected_individual": "Foreground upright adult with original legs, bill and black ornamental feathers; background bird excluded.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "unchanged; no additional definite defect observed in prior fresh audit",
+      "background_underlay_rgb": [
+        242,
+        237,
+        226
+      ]
+    },
+    {
+      "canonical_key": "ocyphaps-lophotes",
+      "scientific_name": "Ocyphaps lophotes",
+      "common_name": "Crested Pigeon",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48401210",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48401210",
+      "work": "The Birds of Australia",
+      "volume": 5,
+      "plate": 70,
+      "historical_scientific_name": "Ocyphaps lophotes",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 5, plate 70 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/741877faf7-ia-birdsAustraliav5Goul-metadata.json",
+      "rights_evidence_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "rights_record_original_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "6d70228b08b54aaf2b9b10766acc8f69548ea764c03fce58be23df9197d91893",
+      "identity_evidence": [
+        {
+          "status": "species_level_identity_supported_with_disclosed_regional_notes",
+          "historical_scientific_name": "Ocyphaps lophotes",
+          "identity_notes": "Original plate caption Ocyphaps lophotes supports species-level use; no subspecies or exact pictured locality claimed.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48401210",
+            "https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#LOPHOTES"
+          ]
+        }
+      ],
+      "body_mass_g": 204.0,
+      "birdnet_label": {
+        "key": "ocyphaps-lophotes",
+        "sci": "Ocyphaps lophotes",
+        "common": "Crested Pigeon"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted research, conventional masks, metadata and review. No generated or repainted bird pixels in these eight selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/ocyphaps-lophotes.webp",
+      "file_sha256": "9c94e29995922ae290c6b477d68ec531287ca708f5935b5f9805c0f5a0393685",
+      "dimensions": [
+        664,
+        1148
+      ],
+      "preview": "birds/ocyphaps-lophotes/paper760.png",
+      "geometry": {
+        "box": [
+          0.141748,
+          0.013321,
+          0.983279,
+          0.986799
+        ],
+        "cut": [
+          664,
+          1148
+        ]
+      },
+      "changes": "Restored the complete original slender crest that lay outside the old mask. Restored adjoining original tail/plumage edge after checking source pixels along the narrow crest corridor. Rounded mask and halo edges; original head-down posture, wing colour, visible foot and perch remain. No new crest pixels were painted or generated: the selected ink is from the archived original scan. Restored continuous original chest beneath the bill; retraced short left perch to actual bark boundaries, removing retained paper strip and restoring omitted upper bark.",
+      "selected_individual": "Original head-down Crested Pigeon with full raised tail, thin crest, coloured wing panel and visible gripping foot on a short original perch; source orientation preserved.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "halo_colour": [
+        242,
+        237,
+        226
+      ],
+      "confirmed_repair": "Chest plumage restored from source; perch wood restored with a rounded source-only endpoint."
+    },
+    {
+      "canonical_key": "anthochaera-carunculata",
+      "scientific_name": "Anthochaera carunculata",
+      "common_name": "Red Wattlebird",
+      "source_page_url": "https://digital.lib.ku.edu/ku-gould/14110",
+      "source_image_url": "https://digital.lib.ku.edu/islandora/object/ku-gould%3A14110/datastream/OBJ/download",
+      "work": "The Birds of Australia",
+      "volume": 4,
+      "plate": 55,
+      "historical_scientific_name": "Anthochaera carunculata",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume 4, plate 55 (1848); digitised via University of Kansas, Kenneth Spencer Research Library, Ellis Aves H141.",
+      "source_rights_statement": "University of Kansas applies Public Domain Mark 1.0: This work is free of known copyright restrictions.",
+      "holding_library": "University of Kansas, Kenneth Spencer Research Library, Ellis Aves H141",
+      "rights_evidence": "evidence/source-rights/93da5c25de-red-ku14110-mods.xml",
+      "rights_evidence_sha256": "93da5c25de5b922c7157ada2a0267e28148ea2a3734607150644e3656077df0b",
+      "rights_record_original_sha256": "93da5c25de5b922c7157ada2a0267e28148ea2a3734607150644e3656077df0b",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "b8402f1f067443254c8f0637098c97dcd651b6c1a0ba35d58bbda75a95e74937",
+      "identity_evidence": [
+        {
+          "status": "historical_replacement_prepared",
+          "historical_scientific_name": "Anthochaera carunculata",
+          "identity_notes": "Gould IV/55 is the mainland red-wattled species. Its own account explicitly separates it from the Tasmanian IV/54 inauris, and describes short blood-red wattles, silvery cheeks, yellow belly and white tail tips. KU MODS for the exact published IV/55 explicitly identifies Anthochaera carunculata (Shaw1790), current Red Wattlebird; current AFD profile and BirdLife diagnostics agree. Do not transfer this mapping to older Synopsis or Vigors/Horsfield carunculata usages, which Gould explicitly warns were misapplied to the Tasmanian bird.",
+          "source_urls": [
+            "https://digital.lib.ku.edu/ku-gould/14110",
+            "research/historical-taxonomy/ai-replacements-a/red-ku14110-mods.xml",
+            "https://www.gutenberg.org/files/60833/60833-h/60833-h.htm#Page_55",
+            "research/historical-taxonomy/ala-profiles/anthochaera-carunculata.json",
+            "https://birdlife.org.au/bird-profiles/red-wattlebird/"
+          ]
+        },
+        {
+          "status": "hold_cropped_source",
+          "historical_scientific_name": "Anthochaera carunculata",
+          "identity_notes": "Red neck wattle, pale cheek, streaked grey-brown body, yellow belly and pale tail tips agree. Several outer tail tips run into the right scan edge; do not invent missing tips.",
+          "source_urls": []
+        },
+        {
+          "status": "species_level_identity_supported_with_disclosed_regional_notes",
+          "historical_scientific_name": "Anthochaera carunculata",
+          "identity_notes": "Mainland Red Wattlebird identity supported; original account excludes Tasmania and discusses NSW/Upper Hunter observations. Exact illustrated specimen locality unspecified.",
+          "source_urls": [
+            "https://digital.lib.ku.edu/ku-gould/14110",
+            "research/historical-taxonomy/ai-replacements-a/red-ku14110-mods.xml",
+            "https://www.gutenberg.org/files/60833/60833-h/60833-h.htm#Page_55",
+            "research/historical-taxonomy/ala-profiles/anthochaera-carunculata.json",
+            "https://birdlife.org.au/bird-profiles/red-wattlebird/"
+          ]
+        }
+      ],
+      "body_mass_g": 106.1,
+      "birdnet_label": {
+        "key": "anthochaera-carunculata",
+        "sci": "Anthochaera carunculata",
+        "common": "Red Wattlebird"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted research, conventional masks, metadata and review. No generated or repainted bird pixels in these eight selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/anthochaera-carunculata.webp",
+      "file_sha256": "bd7ff3e0e12a715319d0f30aae7931a77318e2f3f3cfe336be3f6039842db05c",
+      "dimensions": [
+        1200,
+        580
+      ],
+      "preview": "birds/anthochaera-carunculata/paper760.png",
+      "geometry": {
+        "box": [
+          0.008987,
+          0.021928,
+          0.992738,
+          0.97909
+        ],
+        "cut": [
+          1200,
+          580
+        ]
+      },
+      "changes": "Rebuilt complete body mask from original, restoring all prior accidental interior gaps. Traced tongue, tail fans, belly and upper back to remove hanging leaf fragments. Original claw restored and coherent short perch retained. Removed the final two upright background stem ends at upper back source-reference x824-830, preserving the adjacent original feather contour. Restored the source-backed missing claw/toe material identified by the fresh edge audit. Restored the genuine pale tail-feather terminal tips; original feather strokes and source RGB remain unchanged.",
+      "selected_individual": "The single adult facing left with open bill and tongue, complete tail, original visible foot and short original perch. Sex is not assigned.",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "confirmed repair checked; prepared for maintainer re-review",
+      "background_underlay_rgb": [
+        242,
+        237,
+        226
+      ],
+      "confirmed_repair": "Original inner claw and pale tail-feather tips restored, preserving drawn outlines."
+    },
+    {
+      "canonical_key": "podargus-strigoides",
+      "scientific_name": "Podargus strigoides",
+      "common_name": "Tawny Frogmouth",
+      "source_page_url": "https://www.biodiversitylibrary.org/page/48200500",
+      "source_image_url": "https://www.biodiversitylibrary.org/pageimage/48200500",
+      "work": "The Birds of Australia",
+      "volume": 2,
+      "plate": 3,
+      "historical_scientific_name": "Podargus humeralis",
+      "original_credit": "John and Elizabeth Gould; The Birds of Australia, volume 2, plate 3 (1848); digitised via Biodiversity Heritage Library / Smithsonian Libraries.",
+      "source_rights_statement": "Public domain. The BHL considers that this work is no longer under copyright protection.",
+      "holding_library": "Smithsonian Libraries",
+      "rights_evidence": "evidence/source-rights/41a94ac43d-ia-birdsAustraliav2Goul-metadata.json",
+      "rights_evidence_sha256": "41a94ac43d7c297c09074f8fbfb28402eff24cb176dc5680899acd78df4111cd",
+      "rights_record_original_sha256": "41a94ac43d7c297c09074f8fbfb28402eff24cb176dc5680899acd78df4111cd",
+      "additional_rights_evidence": [],
+      "source_scan_sha256": "66fced7885248aa8c09aa4a3f47316fef86426bbd4d232d064a9ba1b112c6c04",
+      "identity_evidence": [
+        {
+          "status": "species_level_identity_supported_with_disclosed_regional_notes",
+          "historical_scientific_name": "Podargus humeralis",
+          "identity_notes": "Historical Podargus humeralis mapped to Podargus strigoides in retained review. Original account discusses NSW/Hunter/Liverpool Range and a sleeping posture. No precise pictured specimen locality or subspecies certified.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48200500",
+            "https://api.ala.org.au/namematching/api/search?q=Podargus%20strigoides",
+            "https://api.ala.org.au/namematching/api/search?q=Podargus%20humeralis",
+            "https://www.gutenberg.org/files/60302/60302-h/60302-h.htm#Page_3"
+          ]
+        }
+      ],
+      "body_mass_g": 308.0,
+      "birdnet_label": {
+        "key": "podargus-strigoides",
+        "sci": "Podargus strigoides",
+        "common": "Tawny Frogmouth"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted research, conventional masks, metadata and review. No generated or repainted bird pixels in these eight selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/podargus-strigoides.webp",
+      "file_sha256": "abd1e8dec1bbd05c40eadedd2eda6b2bcc9ad33ad2b221b7d61dd5249150067e",
+      "dimensions": [
+        692,
+        1200
+      ],
+      "preview": "birds/podargus-strigoides/paper760.png",
+      "geometry": {
+        "box": [
+          0.028165,
+          0.015426,
+          0.97192,
+          0.983759
+        ],
+        "cut": [
+          692,
+          1200
+        ]
+      },
+      "changes": "Preserve exact source-space feet-v3 toe/claw mask. Trim a narrow residual source-paper wedge on right wing only. Replace angular backing with 18px rounded paper-matched backing.",
+      "selected_individual": "whole visible bird including bill tail feet; exclude scenery",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "unchanged; no additional definite defect observed in prior fresh audit",
+      "backing_rgb": [
+        233,
+        220,
+        209
+      ]
+    },
+    {
+      "canonical_key": "zanda-funerea",
+      "scientific_name": "Zanda funerea",
+      "common_name": "Yellow-tailed Black-Cockatoo",
+      "source_page_url": "https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#FUNEREUS",
+      "source_image_url": "https://www.gutenberg.org/files/62524/62524-h/images/i_011.jpg",
+      "work": "The Birds of Australia",
+      "volume": 5,
+      "plate": 11,
+      "historical_scientific_name": "Calyptorhynchus funereus",
+      "original_credit": "John Gould and Henry Constantine Richter; The Birds of Australia, volume5, plate11 (1848). Selected image: Project Gutenberg ebook62524, from images supplied by Internet Archive; ebook prepared by Richard Tonsing, MWS and the Online Distributed Proofreading Team. Matching Smithsonian/BHL plate used for credit and identity corroboration, not represented as the selected pixel source.",
+      "source_rights_statement": "Project Gutenberg ebook62524 is labelled public domain in the USA. Its credits identify images supplied by Internet Archive. Separate BHL metadata for the same 1848 work also states public domain.",
+      "holding_library": "Exact holding library of the Project Gutenberg image copy is not specified by its ebook credits. Smithsonian Libraries holds the separate BHL corroborating copy.",
+      "rights_evidence": "evidence/source-rights/5488a1aacd-gutenberg-62524-metadata.html",
+      "rights_evidence_sha256": "5488a1aacd250a3f7a64a7b780b5b7733184743004e4b63c5f0b1f4e07ab8c5f",
+      "rights_record_original_sha256": "5488a1aacd250a3f7a64a7b780b5b7733184743004e4b63c5f0b1f4e07ab8c5f",
+      "additional_rights_evidence": [
+        {
+          "path": "evidence/source-rights/741877faf7-ia-birdsAustraliav5Goul-metadata.json",
+          "sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed",
+          "original_archive_sha256": "741877faf78b76bb3b29e8e4c11bafa58ec16f70db4fe7bc410fe417801131ed"
+        }
+      ],
+      "source_scan_sha256": "6d117e07904b65886c6f5aa025dcc1fee394f4544487a772bc4dc9951f8c5411",
+      "identity_evidence": [
+        {
+          "status": "approved_source",
+          "historical_scientific_name": "Calyptorhynchus funereus",
+          "identity_notes": "Gould Calyptorhynchus funereus cites Psittacus funereus Shaw, Naturalists Miscellanypl186. AFD nominate Zanda funerea lists Shaw1794 text to the same plate186. Original explicitly says Sydney/Hunter/NSW. Modern Museum confirms yellow cheek and tail panels.",
+          "source_urls": [
+            "https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#FUNEREUS",
+            "https://www.biodiversitylibrary.org/page/48400974",
+            "https://australian.museum/learn/animals/birds/yellow-tailed-black-cockatoo/",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F8cb17619-1f24-46de-a557-c3a2632913d9.json"
+          ]
+        },
+        {
+          "status": "species_level_identity_supported_with_disclosed_regional_notes",
+          "historical_scientific_name": "Calyptorhynchus funereus",
+          "identity_notes": "Historical Calyptorhynchus funereus linked via Shaw plate186 to modern Zanda funerea; original account discusses Sydney, Hunter and NSW. Current upstream alias maps detector and mass names correctly. Sex/age not assigned.",
+          "source_urls": [
+            "https://www.biodiversitylibrary.org/page/48400974",
+            "https://www.gutenberg.org/files/62524/62524-h/62524-h.htm#FUNEREUS",
+            "https://australian.museum/learn/animals/birds/yellow-tailed-black-cockatoo/",
+            "https://bie.ala.org.au/ws/species/https%3A%2F%2Fbiodiversity.org.au%2Fafd%2Ftaxa%2F8cb17619-1f24-46de-a557-c3a2632913d9.json"
+          ]
+        }
+      ],
+      "body_mass_g": 674.7,
+      "birdnet_label": {
+        "key": "zanda-funerea",
+        "sci": "Zanda funerea",
+        "common": "Yellow-tailed Black-Cockatoo"
+      },
+      "generative_pixel_editing": false,
+      "ai_assistance_disclosure": "Codex assisted research, conventional masks, metadata and review. No generated or repainted bird pixels in these eight selected assets.",
+      "physical_panel_tested": false,
+      "file": "payload/assets/artwork/classic/birds/zanda-funerea.webp",
+      "file_sha256": "9002f35c6597f915ca6867ed0a95291f99a802174f5fd0022c60915662d2c3a5",
+      "dimensions": [
+        764,
+        1200
+      ],
+      "preview": "birds/zanda-funerea/paper760.png",
+      "geometry": {
+        "box": [
+          0.021936,
+          0.064386,
+          0.947946,
+          0.986829
+        ],
+        "cut": [
+          764,
+          1200
+        ]
+      },
+      "changes": "Retain the complete bird and original botanical scene. Use narrow rounded backing matched to source paper: the wider authentic paper trial produced a cyan fringe in the stock renderer. Native Gutenberg scan remains 836x1315; higher-resolution review is separately possible.",
+      "selected_individual": "whole visible bird including bill tail feet; exclude scenery",
+      "method": "Conventional source masking, background-only paper treatment where recorded, proportional resizing and unchanged current upstream q90 WebP encoding. No generated bird pixels.",
+      "review_status": "unchanged; no additional definite defect observed in prior fresh audit",
+      "backing_rgb": [
+        247,
+        252,
+        254
+      ]
+    }
+  ],
+  "review_date": "2026-09-20"
+}
